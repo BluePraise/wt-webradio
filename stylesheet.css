@@ -152,6 +152,8 @@ video {
 
 .wrapper {
     padding: 10px;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 /*************************
@@ -197,4 +199,11 @@ video {
 .main-nav ul li a:hover {
     background-color: #000;
     color: #fff;
+}
+
+#content--container {
+    position: relative;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
 }
