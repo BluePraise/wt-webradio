@@ -60,7 +60,9 @@ footer {
 }
 
 ul {
-
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 ol {
@@ -79,7 +81,8 @@ li {
 *************************/
 
 h1, h2, h3, h4, h5, {
-
+    padding: 0;
+    margin: 0;
 }
 
 h1 {
@@ -104,7 +107,18 @@ h5 {
 
 a {
     color: #000;
+    text-decoration: none;
+    display: block;
+}
 
+a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+a.active {
+    background-color: #000;
+    color: #fff;
 }
 
 blockquote {
@@ -163,9 +177,6 @@ video {
 *************************/
 
 .main-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-wrap: wrap;
 
@@ -196,20 +207,18 @@ video {
     font-weight: 700;
 }
 
-.main-nav ul li a:hover {
-    background-color: #000;
-    color: #fff;
-}
-
-#content--container {
+.content--container {
     position: relative;
     border-left: 1px solid;
     border-right: 1px solid;
     border-bottom: 1px solid;
-    padding: 10px;
 
     display: flex;
     justify-content: center;
+}
+
+#p5js.content--container {
+    padding: 0;
 }
 
 .counter {
@@ -219,4 +228,41 @@ video {
     text-align: center;
     font-size: 48px;
     font-weight: 700;
+}
+
+/* content in content--container */
+.content--left,
+.content--right {
+    width: 50%;
+}
+
+.content--left {
+    border-right: 1px solid;
+    padding: 30px 20px 10px 20px;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.content--left p {
+
+}
+
+.content--right ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.content--right ul li {
+    text-align: center;
+    height: calc(500px/3);
+    border-bottom: 1px solid;
+}
+.content--right ul li:last-child {
+    border-bottom: none;
+}
+
+.content--right ul li a {
+    line-height: 166px;
 }

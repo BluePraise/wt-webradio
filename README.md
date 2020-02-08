@@ -10,3 +10,8 @@ If you like to change the session date, for now, you can go to script.js and cha
 The base template for this is based off my [blank static template](https://github.com/BluePraise/blank-static-html)
 
 We've used [P5.js](https://p5js.org/) from [Lauren Lee McCarthy](https://lauren-mccarthy.com/Info)
+
+
+## Questions:
+
+- What is the minimum height of a content container?

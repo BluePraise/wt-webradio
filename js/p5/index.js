@@ -8,7 +8,7 @@ function preload() {
 
 function setup() {
     let cnv = createCanvas(800, 635);
-    cnv.parent('content--container');
+    cnv.parent('p5js');
 
     img.resize(800, 635);
     background(255);
