@@ -1,4 +1,4 @@
-# wt-webradio
+# wt-webradio An Phantom Voices
 A project for Werkplaats Typografie in Arnhem.
 
 ## Sources
