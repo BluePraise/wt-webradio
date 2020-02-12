@@ -106,6 +106,7 @@ h5 {
 }
 
 a {
+    font-size: 18px;
     color: #000;
     text-decoration: none;
     display: block;
@@ -167,7 +168,7 @@ video {
 .wrapper {
     padding: 10px;
     max-width: 1600px;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
 }
 
 /*************************
@@ -238,7 +239,7 @@ video {
 
 .content--left {
     border-right: 1px solid;
-    padding: 30px 20px 10px 20px;
+    padding: 30px 40px 10px 40px;
     height: 500px;
     overflow-y: scroll;
 }

@@ -2,14 +2,14 @@
 
     <nav class="main-nav">
         <ul>
-            <li><a class="active main-title" href="index.php">An Phantom Voices</a></li>
+            <li><a class="active main-title" href="anphantomvoices.php">An Phantom Voices</a></li>
             <li><a href="december.php">December</a></li>
-            <li><a href="/">January</a></li>
-            <li><a href="/">February</a></li>
-            <li><a href="/">March</a></li>
-            <li><a href="/">April</a></li>
-            <li><a href="/">May</a></li>
-            <li><a href="/">June</a></li>
+            <li><a href="january.php">January</a></li>
+            <li><a href="february.php">February</a></li>
+            <li><a href="march.php">March</a></li>
+            <li><a href="april.php">April</a></li>
+            <li><a href="may.php">May</a></li>
+            <li><a href="june.php">June</a></li>
         </ul>
     </nav>
 </header>
@@ -30,4 +30,12 @@ uses, radio waves are used to carry information across space from a transmitter 
 
 </main>
 
-<?php include "foot.php"; ?>
+</div> <!-- .end of wrapper -->
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
+

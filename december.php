@@ -1,8 +1,8 @@
 <?php include "head.php"; ?>
 
-<nav class="main-nav">
+    <nav class="main-nav">
         <ul>
-            <li><a class="main-title" href="/">An Phantom Voices</a></li>
+            <li><a class="main-title" href="anphantomvoices.php">An Phantom Voices</a></li>
             <li><a class="active" href="december.php">December</a></li>
             <li><a href="january.php">January</a></li>
             <li><a href="february.php">February</a></li>
@@ -18,4 +18,13 @@
 
 </main>
 
-<?php include "foot.php"; ?>
+</div> <!-- .end of wrapper -->
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+        <script src="js/p5/index.js"></script>
+        <script src="script.js"></script>
+
+</body>
+
+</html>
