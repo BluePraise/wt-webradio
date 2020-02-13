@@ -37,4 +37,20 @@ $(document).ready(function() {
         li.toggleClass('grow');
     });
 
+    // AUDIO PLAYER
+    // hide the pause button
+    $('.icon-pause').hide();
+    $('audio').play();
+    // find the audio element
+    // var audio = $('.player');
+
+    // set click event to this audio element.
+    $('.icon-play').on('click', function() {
+    	// play the audio
+
+    	// show the pause icon
+    	$('.icon-pause').show();
+    });
+
 })
+
