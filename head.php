@@ -17,3 +17,21 @@
 <body>
     <div class="wrapper">
         <header class="mast-head">
+            <div class="topbar">
+                <div class="topbar--left">
+                    <div class="play-toggle">
+                        <audio class="player">
+                            <source src="audiofile.mp3" type="audio/mp3"></audio>
+                        <img id="play" class="icon-play" src="icon-play.svg" alt="play icon">
+                        <img id="pause" class="icon-pause" src="icon-pause.svg" alt="play icon">
+
+                    </div>
+                    <div class="play--title">
+                        SONIC MEDITATIONS (SINGING WITH THE
+                    </div>
+
+                </div>
+                <div class="topbar--right">
+                    <div class="counter"></div>
+                </div>
+            </div>

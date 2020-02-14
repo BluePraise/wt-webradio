@@ -1,5 +1,4 @@
-<?php include "head.php"; ?>
-
+<?php include "head.php";?>
     <nav class="main-nav">
         <ul>
             <li><a class="main-title" href="anphantomvoices.php">An Phantom Voices</a></li>
@@ -53,8 +52,9 @@ uses, radio waves are used to carry information across space from a transmitter 
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
-        <script src="js/p5/index.js"></script>
-        <script src="script.js"></script>
+<script src="js/p5/index.js"></script>
+<script>window.countDownDate = new Date("Jan 06, 2020 12:00").getTime();</script>
+<script src="script.js"></script>
 
 </body>
 
