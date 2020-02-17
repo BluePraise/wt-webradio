@@ -11,6 +11,7 @@
     <script src="https://unpkg.com/feather-icons"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+    <script src="amplitude.js"></script>
 
 </head>
 
