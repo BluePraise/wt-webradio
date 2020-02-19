@@ -1,56 +1,105 @@
 $(document).ready(function() {
+  // Set the date we're counting down to
+  var countDownDate = window.countDownDate || getMonday();
+  console.log(countDownDate);
+  var now = new Date().getTime();
 
-    // Set the date we're counting down to
-    var countDownDate = new Date("Mar 02, 2020 12:00").getTime();
+  function getMonday() {
+    var d = new Date(),
+      monday;
 
-    // Update the count down every 1 second
-    var x = setInterval(function() {
+    d.setDate(1);
 
-        // Get today's date and time
-        var now = new Date().getTime();
+    // Get the first Monday in the month
+    while (d.getDay() !== 1) {
+      monday = d.setDate(d.getDate() + 1);
+    }
 
-        // Find the distance between now and the count down date
-        var distance = countDownDate - now;
+    if (monday < Date.now()) {
+      d.setMonth(d.getMonth() + 1);
+      d.setDate(1);
+      while (d.getDay() !== 1) {
+        monday = d.setDate(d.getDate() + 1);
+      }
+    }
 
-        // Time calculations for days, hours, minutes and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    return monday;
+  }
 
-        // Display the result in the element with id="demo"
-        $(".counter").text("NEXT SESSION IN " + days + " DAYS~" + hours + " HOURS~" + minutes + " MINUTES ");
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+    // Get today's date and time
+    var now = Date.now();
+    var isPassed = false;
 
-        // If the count down is finished, write some text
-        if (distance < 0) {
-            clearInterval(x);
-            $(".counter").innerHTML = "EXPIRED";
-        }
-    }, 1000);
+    if (now > countDownDate) {
+      isPassed = true;
+    }
 
-    // ACCORDION
-    $('.accordion--toggle').on('click', function() {
-        $(this).toggleClass('active');
-        $(this).next().toggle();
+    // Find the distance between now and the count down date
+    var distance = isPassed ? now - countDownDate : countDownDate - now;
 
-        // find the List Item that's been activated
-        li = $(this).closest('li');
-        li.toggleClass('grow');
-    });
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor(
+      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 
-    // AUDIO PLAYER
-    // hide the pause button
-    $('.icon-pause').hide();
-    $('audio').play();
-    // find the audio element
-    // var audio = $('.player');
+    // Display the result in the element with id="demo"
+    if (isPassed) {
+      $(".counter").text(
+        "THIS SESSION WAS " +
+          days +
+          " DAYS~" +
+          hours +
+          " HOURS~" +
+          minutes +
+          " MINUTES AGO"
+      );
+    } else {
+      $(".counter").text(
+        "NEXT SESSION IN " +
+          days +
+          " DAYS~" +
+          hours +
+          " HOURS~" +
+          minutes +
+          " MINUTES "
+      );
+    }
 
-    // set click event to this audio element.
-    $('.icon-play').on('click', function() {
-    	// play the audio
+    // If the count down is finished, write some text
+    if (distance < 0) {
+      clearInterval(x);
+      $(".counter").innerHTML = "EXPIRED";
+    }
+  }, 1000);
 
-    	// show the pause icon
-    	$('.icon-pause').show();
-    });
+  // ACCORDION
+  $(".accordion--toggle").on("click", function() {
+    $(this).toggleClass("active");
+    $(this)
+      .next()
+      .toggle();
 
-})
+    // find the List Item that's been activated
+    li = $(this).closest("li");
+    li.toggleClass("grow");
+  });
 
+  // AUDIO PLAYER
+  // hide the pause button
+  $(".icon-pause").hide();
+  $("audio").play();
+  // find the audio element
+  // var audio = $('.player');
+
+  // set click event to this audio element.
+  $(".icon-play").on("click", function() {
+    // play the audio
+
+    // show the pause icon
+    $(".icon-pause").show();
+  });
+});
