@@ -3,7 +3,7 @@ var pointillize = 10;
 
 
 function preload() {
-    img = loadImage("visual.jpg");
+    img = loadImage("img/visual.jpg");
 }
 
 function setup() {
@@ -32,7 +32,7 @@ function draw() {
         // from a pixel to draw a circle.
 
         fill(r, g, b, 255);
-        ellipse(x, y, 4, 4);
+        ellipse(x, y, 2, 2);
 
     }
 }

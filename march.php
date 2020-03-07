@@ -1,5 +1,8 @@
 <?php include "head.php";?>
 
+<div id="p5js-mar" class="canvas-container"></div>
+    <header class="mast-head">
+
     <nav class="main-nav">
         <ul>
             <li><a class="main-title" href="anphantomvoices.php">An Phantom Voices</a></li>
@@ -16,7 +19,7 @@
 
 <main class="content--container">
 
-    <div id="p5js-dec" class="content--left">
+    <div class="content--left">
 
     </div>
     <div class="content--right">
@@ -54,7 +57,7 @@ uses, radio waves are used to carry information across space from a transmitter 
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
-        <script src="js/p5/index.js"></script>
+        <script src="js/p5/mar.js"></script>
         <script> window.countDownDate = new Date("Mar 02, 2020 12:00").getTime(); </script>
         <script src="script.js"></script>
 

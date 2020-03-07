@@ -1,7 +1,7 @@
 $(document).ready(function() {
   // Set the date we're counting down to
   var countDownDate = window.countDownDate || getMonday();
-  console.log(countDownDate);
+  // console.log(countDownDate);
   var now = new Date().getTime();
 
   function getMonday() {
@@ -91,7 +91,7 @@ $(document).ready(function() {
   // AUDIO PLAYER
   // hide the pause button
   $(".icon-pause").hide();
-  $("audio").play();
+  // $("audio").play();
   // find the audio element
   // var audio = $('.player');
 

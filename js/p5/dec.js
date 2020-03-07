@@ -3,14 +3,14 @@ var pointillize = 10;
 
 
 function preload() {
-    img = loadImage("visual.jpg");
+    img = loadImage("img/december.jpg");
 }
 
 function setup() {
-    let cnv = createCanvas(500, 435);
+    let cnv = createCanvas(800, 635);
     cnv.parent('p5js-dec');
 
-    img.resize(500, 435);
+    img.resize(800, 635);
     background(255);
 }
 
@@ -32,7 +32,7 @@ function draw() {
         // from a pixel to draw a circle.
 
         fill(r, g, b, 255);
-        ellipse(x, y, 4, 4);
+        ellipse(x, y, 2, 2);
 
     }
 }

@@ -33,6 +33,7 @@ body {
 
     font-family: 'Caudex', serif;
     color: #000;
+    overflow: hidden;
 }
 
 html, body {
@@ -180,19 +181,10 @@ video {
 .main-nav ul {
     display: flex;
     flex-wrap: wrap;
-
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    border-left: 1px solid;
 }
 
 .main-nav ul li {
     width: 25%;
-    border-right: 1px solid;
-}
-
-.main-nav ul li:nth-child(-n+4) {
-    border-bottom: 1px solid;
 }
 
 .main-nav ul li a {
@@ -219,14 +211,15 @@ video {
 .content--container,
 .content--container__basic,
 .content--footer {
-    border-left: 1px solid;
-    border-right: 1px solid;
-    border-bottom: 1px solid;
     justify-content: center;
 }
 
 #p5js.content--container {
     padding: 0;
+}
+
+.content--container {
+    height: 60vh;
 }
 
 .content--container .counter {
@@ -285,13 +278,10 @@ video {
     border-bottom: none;
 }
 
-.content--container__basic .content--right ul li a {
-    line-height: 166px;
-    padding: 0;
-}
-
 .content--container .content--right ul li button.accordion--toggle,
-.content--container .content--right ul li span {
+.content--container .content--right ul li span,
+.content--container .content--right ul li a
+ {
     font-family: inherit;
     font-size: 18px;
     display: block;
@@ -302,30 +292,6 @@ video {
     background: transparent;
 }
 
-.accordion--toggle:hover {
-    cursor: pointer;
-}
-
-.accordion--toggle:focus {
-    outline: none;
-}
-
-/* The panel is not shown by default */
-.panel {
-    display: none;
-    overflow: hidden;
-
-    text-align: left;
-    padding: 0 40px;
-}
-
-.panel.open {
-    display: block;
-}
-
-.grow {
-    flex-grow: 2;
-}
 
 /* AUDIO PLAYER */
 
@@ -387,3 +353,16 @@ video {
     margin-bottom: 10px;
     padding-right: 17px;
 }*/
+
+.canvas-container {
+    position: absolute;
+    z-index: -1;
+    margin: 0 auto;
+    /* display: block; */
+    width: 100%;
+}
+
+.canvas-container canvas {
+    margin: 0 auto;
+    display: block;
+}
