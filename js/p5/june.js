@@ -1,5 +1,6 @@
 var img;
 var pointillize = 10;
+p5.disableFriendlyErrors = true;
 
 
 function preload() {
@@ -7,10 +8,10 @@ function preload() {
 }
 
 function setup() {
-    let cnv = createCanvas(800, 635);
+    let cnv = createCanvas(windowWidth, windowHeight);
     cnv.parent('p5js-june');
 
-    img.resize(800, 635);
+    img.resize(displayWidth, displayHeight);
     background(255);
 }
 
