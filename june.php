@@ -1,8 +1,7 @@
 <?php include "head.php";?>
 
-
-    <main class="main-container">
         <div id="p5js-june" class="canvas-container"></div>  <!-- .end of canvas-container -->
+        <div class="full-height">
             <header class="mast-head">
 
                 <nav class="main-nav">
@@ -18,33 +17,33 @@
                     </ul>
                 </nav>
             </header>
-            <div class="content--container">
-                <div class="content--left">
 
+            <main class="main-container">
+                <div class="content--container">
+                    <div class="content--left">
+
+                    </div>
+                    <div class="content--right">
+                        <ul>
+                            <li>
+                                <a>MARGINS AS THE SILENT SILENCED CENTER</a>
+
+                            </li>
+                            <li><a class="accordion--toggle">SONIC MEDITATIONS (SINGING WITH THE SIRENS)</a></li>
+                            <li>
+                                <span>TITLE, Visual Score by MINA MUSTERFRAU</span>
+                            </li>
+                            <li>
+                                <span>TITLE, Broadcast by MALA MUSTERFRAU</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="content--right">
-                    <ul>
-                        <li>
-                            <a>MARGINS AS THE SILENT SILENCED CENTER</a>
 
-                        </li>
-                        <li><a class="accordion--toggle">SONIC MEDITATIONS (SINGING WITH THE SIRENS)</a></li>
-                        <li>
-                            <span>TITLE, Visual Score by MINA MUSTERFRAU</span>
-                        </li>
-                        <li>
-                            <span>TITLE, Broadcast by MALA MUSTERFRAU</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <footer class="content--footer">
-                <div class="foot--left">hosted by phantom radio</div>
-                <div class="foot--right"><a href="#">Colophon</a></div>
-            </footer>
+            </main>
 
-    </main>
-
+            <?php include "footer.php"; ?>
+        </div>
 </div> <!-- .end of wrapper -->
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>

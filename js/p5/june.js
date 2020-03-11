@@ -2,16 +2,15 @@ var img;
 var pointillize = 10;
 p5.disableFriendlyErrors = true;
 
-
 function preload() {
     img = loadImage("img/june.jpg");
 }
 
 function setup() {
     let cnv = createCanvas(windowWidth, windowHeight);
-    cnv.parent('p5js-june');
+    cnv.parent("p5js-june");
 
-    img.resize(displayWidth, displayHeight);
+    img.resize(windowWidth, windowHeight);
     background(255);
 }
 
@@ -34,6 +33,5 @@ function draw() {
 
         fill(r, g, b, 255);
         ellipse(x, y, 2, 2);
-
     }
 }

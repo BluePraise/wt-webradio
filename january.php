@@ -1,47 +1,47 @@
 <?php include "head.php";?>
         <div id="p5js-jan" class="canvas-container"></div>
+        <div class="full-height">
         <header class="mast-head">
-    <nav class="main-nav">
-        <ul>
-            <li><a class="main-title" href="anphantomvoices.php">An Phantom Voices</a></li>
-            <li><a href="december.php">December</a></li>
-            <li><a class="active" href="january.php">January</a></li>
-            <li><a href="february.php">February</a></li>
-            <li><a href="march.php">March</a></li>
-            <li><a href="april.php">April</a></li>
-            <li><a href="may.php">May</a></li>
-            <li><a href="june.php">June</a></li>
-        </ul>
-    </nav>
-</header>
-<main class="content--container">
+            <nav class="main-nav">
+                <ul>
+                    <li><a class="main-title" href="anphantomvoices.php">An Phantom Voices</a></li>
+                    <li><a href="december.php">December</a></li>
+                    <li><a class="active" href="january.php">January</a></li>
+                    <li><a href="february.php">February</a></li>
+                    <li><a href="march.php">March</a></li>
+                    <li><a href="april.php">April</a></li>
+                    <li><a href="may.php">May</a></li>
+                    <li><a href="june.php">June</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="content--container">
 
+            <div class="content--left d-flex aic">
 
-    <div class="conten--left">
+            </div>
+            <div class="content--right">
+                <ul>
+                    <li>
+                        <a>MARGINS AS THE SILENT SILENCED CENTER</a>
+                    </li>
+                    <li><a>SONIC MEDITATIONS (SINGING WITH THE SIRENS)</a></li>
 
-    </div>
-    <div class="content--right">
-        <ul>
-            <li>
-                <a>MARGINS AS THE SILENT SILENCED CENTER</a>
-            </li>
-            <li><a>SONIC MEDITATIONS (SINGING WITH THE SIRENS)</a></li>
+                    <li>
+                        <span>TITLE, Visual Score by MINA MUSTERFRAU</span>
+                    </li>
+                    <li>
+                        <span>TITLE, Broadcast by MALA MUSTERFRAU</span>
+                    </li>
+                </ul>
+            </div>
 
-            <li>
-                <span>TITLE, Visual Score by MINA MUSTERFRAU</span>
-            </li>
-            <li>
-                <span>TITLE, Broadcast by MALA MUSTERFRAU</span>
-            </li>
-        </ul>
-    </div>
+        </main>
 
-</main>
+        <?php include "footer.php"; ?>
 
-<footer class="content--footer">
-    <div class="foot--left">hosted by phantom radio</div>
-    <div class="foot--right"><a href="#">Colophon</a></div>
-</footer>
+        </div>
+
 
 </div> <!-- .end of wrapper -->
 

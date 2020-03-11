@@ -102,4 +102,17 @@ $(document).ready(function() {
     // show the pause icon
     $(".icon-pause").show();
   });
+
+  $(".colophon__link").click(function(e) {
+    var $this = $(this);
+    var $colophon = $this.closest(".colophon");
+
+    $colophon.toggleClass("colophon--active");
+
+    return false;
+  });
+
+  function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+  }
 });

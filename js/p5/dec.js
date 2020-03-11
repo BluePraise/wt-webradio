@@ -1,16 +1,15 @@
 var img;
 var pointillize = 10;
 
-
 function preload() {
     img = loadImage("img/december.jpg");
 }
 
 function setup() {
-    let cnv = createCanvas(800, 635);
-    cnv.parent('p5js-dec');
+    let cnv = createCanvas(windowWidth, windowHeight);
+    cnv.parent("p5js-dec");
 
-    img.resize(800, 635);
+    img.resize(windowWidth, windowHeight);
     background(255);
 }
 
@@ -33,6 +32,5 @@ function draw() {
 
         fill(r, g, b, 255);
         ellipse(x, y, 2, 2);
-
     }
 }
