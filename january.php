@@ -17,22 +17,31 @@
         </header>
         <main class="content--container">
 
-            <div class="content--left d-flex aic">
+            <div class="content--left">
+                <div class="entry-a panel show">
+                    <p>This month’s reading:
+                    “Bite, Chew, Eat” from “Lexicon of the Mouth” by Brandon LaBelle.</p>
 
+                    <p>Additional texts in the reader: “Yurokon” by Wilson Harris, “Liner Notes on Lick Piece” by Fred Moten, “Columbus and the Cannibals” by Peter Hulme, “Mother Tongue” by Amy Tan, “Dreaming in Foreign” by Safiya Sinclair, *A Tempest* by Aimé Césaire, “All You Can’t Eat: Derrida’s Course *Rhétorique Du Cannibalisme* (1990–1991)” by David Farrell Krell.</p>
+                </div>
+                <div class="entry-b panel hide">
+                    <p>This month, we followed the Sonic Meditation “Tumbling Song” until the sound of the sirens went off.</p>
+                    <p>Sonic Meditation meetings are inspired by Pauline Oliveros, who introduced them as non-verbal group work, as a way of attuning yourself to others, through one's own voice as well as exercising to listen to each other without the pressure of daily speech, often being marked by gendered parameters.</p>
+                </div>
+                <div class="entry-c panel hide">
+                    <p>Straw Phonation and Collective Gargle led by the WTFPC, followed by a Silent Lunch.
+                    Monthly supper, along with other WTFPC activities, can be tracked here.</p>
+                </div>
             </div>
             <div class="content--right">
                 <ul class="audio-menu">
                     <li>
-                        <a>MARGINS AS THE SILENT SILENCED CENTER</a>
+                        <a class="entry-a">Oral Imaginaries, Strategies and Truths</a>
                     </li>
-                    <li><a>SONIC MEDITATIONS (SINGING WITH THE SIRENS)</a></li>
+                    <li><a class="entry-b">Sonic Meditation “Tumbling Song”</a></li><!--  [Audio: january-phantomvoices-sonicmeditation.mp3]-->
 
-                    <li>
-                        <span>TITLE, Visual Score by MINA MUSTERFRAU</span>
-                    </li>
-                    <li>
-                        <span>TITLE, Broadcast by MALA MUSTERFRAU</span>
-                    </li>
+                    <li><a class="entry-c">Food Poetics Club”</a></li><!-- [Audio: january-phantomvoices-silentlunch.mp3] -->
+                    <li><a class="entry-d">“Title” visual score by Yunie Chae</a></li>
                 </ul>
             </div>
 
