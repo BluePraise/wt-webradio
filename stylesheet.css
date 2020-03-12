@@ -119,10 +119,8 @@ h5 {
 }
 
 a {
-    font-size: 18px;
     color: #000;
-    text-decoration: none;
-    display: block;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -315,20 +313,6 @@ video {
     overflow: auto;
 }
 
-.content--right ul {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* height: 100%; */
-}
-
-.content--container__basic ul {
-    /* justify-content: space-evenly; */
-}
-
-.content--container__basic ul li {
-    /* height: calc(500px / 3); */
-}
-
 .content--right ul li {
     text-align: center;
     margin-bottom: 1em;
@@ -400,23 +384,6 @@ video {
 .hide {
     display: none;
 }
-
-/*.icon-play {
-    border-left: 22px solid #0000;
-    border-right: 22px solid #0000;
-    border-bottom: 34px solid #000;
-    transform: rotate(90deg) translate(10px, 5px);
-}
-
-.icon-pause {
-    width: 44px;
-    height: 40px;
-    border-style: double;
-    border-width: 0px 0 0px 27px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-right: 17px;
-}*/
 
 .colophon {
     overflow: hidden;
@@ -493,3 +460,22 @@ video {
     animation-name: ticker;
     -webkit-animation-duration: 20s;
     animation-duration: 20s;
+}
+
+.flex-table {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-table .col {
+    margin-right: 30px;
+}
+
+.flex-table .col .cell {
+    margin-bottom: 20px;
+}
+
+.footnotes {
+    font-size: 14px;
+}
