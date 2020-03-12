@@ -27,7 +27,7 @@
                         <li>
                             <a>MARGINS AS THE SILENT SILENCED CENTER</a>
                         </li>
-                        <li><a class="accordion--toggle">SONIC MEDITATIONS (SINGING WITH THE SIRENS)</a></li>
+                        <li><a>SONIC MEDITATIONS (SINGING WITH THE SIRENS)</a></li>
                         <li>
                             <span>TITLE, Visual Score by MINA MUSTERFRAU</span>
                         </li>

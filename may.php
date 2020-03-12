@@ -25,10 +25,10 @@
         <div class="content--right">
             <ul class="audio-menu">
                 <li>
-                    <a class="accordion--toggle">MARGINS AS THE SILENT SILENCED CENTER</a>
+                    <a>MARGINS AS THE SILENT SILENCED CENTER</a>
 
                 </li>
-                <li><a class="accordion--toggle">SONIC MEDITATIONS (SINGING WITH THE SIRENS)</a>
+                <li><a>SONIC MEDITATIONS (SINGING WITH THE SIRENS)</a>
                 </li>
                 <li>
                     <span>TITLE, Visual Score by MINA MUSTERFRAU</span>
