@@ -45,6 +45,7 @@ html {
 }
 
 body {
+    display: none;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
@@ -478,4 +479,12 @@ video {
 
 .footnotes {
     font-size: 14px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
 }

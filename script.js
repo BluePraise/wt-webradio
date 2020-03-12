@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  $('body').fadeIn(5500);
   // Set the date we're counting down to
   var countDownDate = window.countDownDate || getMonday();
   // console.log(countDownDate);
