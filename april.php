@@ -23,7 +23,7 @@
 
         </div>
         <div class="content--right">
-            <ul>
+            <ul class="audio-menu">
                 <li><a>MARGINS AS THE SILENT SILENCED CENTER</a></li>
 
                 <li><a>SONIC MEDITATIONS (SINGING WITH THE SIRENS)</a></li>

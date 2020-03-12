@@ -27,9 +27,10 @@
 
                 </div>
                 <div class="play--title">
-                    SONIC MEDITATIONS (SINGING WITH THE
+                    <div class="ticker-wrap">
+                    <div class="ticker">SONIC MEDITATIONS (SINGING WITH THE SIRENS)</div>
+                    </div>
                 </div>
-
             </div>
             <div class="topbar--right">
                 <div class="counter"></div>

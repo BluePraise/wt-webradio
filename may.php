@@ -23,7 +23,7 @@
 
         </div>
         <div class="content--right">
-            <ul>
+            <ul class="audio-menu">
                 <li>
                     <a class="accordion--toggle">MARGINS AS THE SILENT SILENCED CENTER</a>
 

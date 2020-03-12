@@ -106,7 +106,6 @@ $(document).ready(function() {
   $(".colophon__link").click(function(e) {
     var $this = $(this);
     var $colophon = $this.closest(".colophon");
-
     $colophon.toggleClass("colophon--active");
 
     return false;
@@ -115,4 +114,16 @@ $(document).ready(function() {
   function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
   }
+
+  $(".audio-menu")
+    .find("a")
+    .click(function() {
+      // set ticker text to clicked menu item
+      $(".ticker").text($(this).text());
+      // make ticker to move
+      $(".ticker-wrap").addClass("ticker-wrap--active");
+
+      // prevent default link action
+      return false;
+    });
 });
