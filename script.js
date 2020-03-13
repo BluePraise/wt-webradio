@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('body').fadeIn(5500);
+  $("body").fadeIn(5500);
   // Set the date we're counting down to
   var countDownDate = window.countDownDate || getMonday();
   // console.log(countDownDate);
@@ -127,4 +127,13 @@ $(document).ready(function() {
       // prevent default link action
       return false;
     });
+
+  $(".js-show-panel").click(function() {
+    var $this = $(this);
+    var $panel = $this.data("panel");
+
+    $('.panel[data-panel="' + $panel + '"]').fadeToggle();
+
+    return false;
+  });
 });

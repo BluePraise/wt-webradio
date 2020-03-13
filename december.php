@@ -18,19 +18,19 @@
         </header>
         <main class="content--container">
             <div class="content--left">
-                <div class="panel show entry-a">
+                <div class="panel show entry-a" data-panel="entry-a">
                     <p>This month’s reading:</p>
                     <p>“The Transformation of Silence into Language and Action” from “Your Silence Will Not Protect You” by Audre Lorde.</p>
 
                     <p>Additional texts in the reader: “Silence, Feminism, Power. Reflections at the Edges of Sound.” by Sheena Malhotra, Aimee Carrillo Rowe (Ed.), “Can the Subaltern Speak?” by Gayatri Chakravorty Spivak, “Word and Silence” from “Listening and Voice: Phenomenologies of Sound” by Don Ihde.</p>
                 </div>
-                <div class="panel hide entry-b">
+                <div class="panel hide entry-b" data-panel="entry-b">
                     <p>This month, we followed the Sonic Meditation “Teach yourself to fly” until the sound of the sirens went off.</p>
 
                     <p>Sonic Meditation meetings are inspired by Pauline Oliveros, who introduced them as non-verbal group work, as a way of attuning yourself to others, through one's own voice as well as exercising to listen to each other without the pressure of daily speech, often being marked by gendered parameters.</p>
 
                 </div>
-                <div class="panel hide entry-c">
+                <div class="panel hide entry-c" data-panel="entry-c">
                     <p>Straw Phonation and Collective Gargle led by the WTFPC, followed by a Silent Lunch.
                     Monthly supper, along with other WTFPC activities, can be tracked <a href="#">here.</a></p>
                 </div>
@@ -40,9 +40,9 @@
                 <ul class="audio-menu">
                     <li>
                         <a>MARGINS AS THE SILENT SILENCED CENTER</a></li>
-                        <li><a class="entry-a">Sonic Meditation “Teach yourself to fly” </a></li>
-                        <li><a class="entry-b">Food Poetics Club</a></li>
-                        <li><a class="entry-c">“Ghostboxing from the Attic” broadcast by Gerardo Madera and Bryant Wells</a></li>
+                        <li><a class="entry-a js-show-panel" data-panel="entry-a">Sonic Meditation “Teach yourself to fly” </a></li>
+                        <li><a class="entry-b js-show-panel" data-panel="entry-a">Food Poetics Club</a></li>
+                        <li><a class="entry-c js-show-panel" data-panel="entry-a">“Ghostboxing from the Attic” broadcast by Gerardo Madera and Bryant Wells</a></li>
                     </ul>
                 </div>
 
