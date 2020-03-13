@@ -399,7 +399,7 @@ video {
 }
 
 .colophon--active {
-    bottom: 55px;
+    bottom: 4%;
     top: 160px;
     overflow: hidden;
     overflow-y: auto;
