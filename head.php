@@ -19,9 +19,7 @@
     <div class="wrapper">
         <div class="topbar">
             <div class="topbar--left">
-                <div class="play-toggle">
-                    <audio class="player">
-                        <source src="audiofile.mp3" type="audio/mp3"></audio>
+                <div class="play-toggle amplitude-play-pause">
                     <img id="play" class="icon-play" src="icon-play.svg" alt="play icon">
                     <img id="pause" class="icon-pause" src="icon-pause.svg" alt="play icon">
 

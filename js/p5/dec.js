@@ -34,3 +34,29 @@ function draw() {
         ellipse(x, y, 2, 2);
     }
 }
+
+$(document).ready(function() {
+    Amplitude.setDebug( true );
+    Amplitude.init({
+
+            "songs": [
+                {
+                    // data-amplitude-song-index="0"
+                    "name": "Phantom Voices - December Sonic Meditation",
+                    "url": "/audio/dec/december-phantomvoices-sonicmeditation.mp3"
+                },
+                {
+                    // data-amplitude-song-index="1"
+                    "name": "Phantom Voices - December Sonic Meditation",
+                    "url": "/audio/dec/december-phantomvoices-sonicmeditation.mp3"
+                },
+                {
+                    // data-amplitude-song-index="2"
+                    "name": "Phantom Voices - December - Ghost Boxing",
+                    "url": "/audio/dec/december-phantomvoices-ghostboxing.mp3"
+                }
+            ],
+            "autoplay": true
+        });
+
+});

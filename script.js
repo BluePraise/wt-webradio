@@ -1,4 +1,8 @@
 $(document).ready(function() {
+
+	let $playbutton = $(document).find(".icon-play");
+	let $pausebutton = $(document).find(".icon-pause");
+
     $("body").fadeIn(5500);
     // Set the date we're counting down to
     var countDownDate = window.countDownDate || getMonday();
@@ -91,8 +95,7 @@ $(document).ready(function() {
 
     // AUDIO PLAYER
     // hide the pause button
-    $(".icon-pause").hide();
-    // $("audio").play();
+    $(".icon-play").hide();
     // find the audio element
     // var audio = $('.player');
 
@@ -124,6 +127,7 @@ $(document).ready(function() {
     $(".audio-menu")
         .find("a")
         .click(function() {
+
             // set ticker text to clicked menu item
             $(".ticker").text($(this).text());
             // make ticker to move
@@ -134,19 +138,31 @@ $(document).ready(function() {
             // remove the classnames on the other links
             $('.clicked').not(this).removeClass('clicked');
 
-
             // prevent default link action
             return false;
         });
 
     $(".js-show-panel").on("click", function(e) {
-        var $this = $(this);
-        var $panel = $this.data("panel");
+    	var $this = $(this);
+    	var $panel = $this.data("panel");
         var $show = $(".show");
         var data = $this.data();
 
+        var leftpanel = $('.content--left').find('.panel[data-panel="' + $panel + '"]');
+
 		$('.panel[data-panel="' + $panel + '"]').fadeToggle();
-		$('.panel').siblings().not($panel).addClass('hide');
+		// $('.panel').siblings().not($panel).addClass('hide');
+		if ($(".js-show-panel").hasClass('amplitude-paused')) {
+			console.log("hi");
+    		$playbutton.hide();
+    		$pausebutton.show();
+	    }
+		if ($("js-show-panel").hasClass('amplitude-playing')) {
+			console.log("doei");
+	    	$pausebutton.hide();
+	    	$playbutton.show();
+    	}
 
     });
+
 });

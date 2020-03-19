@@ -30,18 +30,24 @@
                 </div>
                 <div class="entry-c panel hide" data-panel="entry-c">
                     <p>Straw Phonation and Collective Gargle led by the WTFPC, followed by a Silent Lunch.
-                    Monthly supper, along with other WTFPC activities, can be tracked here.</p>
+                    Monthly supper, along with other WTFPC activities, can be tracked <a href="https://foodpoeticsclub.werkplaatstypografie.org/">here.</a>.</p>
+                </div>
+
+                <div class="entry-d panel hide" data-panel="entry-d">
+                    <p>“Title” visual score by Yunie Chae</p>
+                    <p></p><!-- Description and Audio by Yuni will come later-->
                 </div>
             </div>
             <div class="content--right">
                 <ul class="audio-menu">
                     <li>
-                        <a class="entry-a js-show-panel" data-panel="entry-a">Oral Imaginaries, Strategies and Truths</a>
+                        <a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-a">Oral Imaginaries, Strategies and Truths</a>
                     </li>
-                    <li><a class="entry-b js-show-panel" data-panel="entry-b">Sonic Meditation “Tumbling Song”</a></li><!--  [Audio: january-phantomvoices-sonicmeditation.mp3]-->
+                    <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-b">Sonic Meditation “Tumbling Song”</a></li><!--  [Audio: january-phantomvoices-sonicmeditation.mp3]-->
 
-                    <li><a class="entry-c js-show-panel" data-panel="entry-c">Food Poetics Club”</a></li><!-- [Audio: january-phantomvoices-silentlunch.mp3] -->
-                    <li><a class="entry-d js-show-panel" data-panel="entry-d">“Title” visual score by Yunie Chae</a></li>
+                    <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-c">Food Poetics Club”</a></li><!-- [Audio: january-phantomvoices-silentlunch.mp3] -->
+
+                    <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-d">“Title” visual score by Yunie Chae</a></li>
                 </ul>
             </div>
 
@@ -56,9 +62,10 @@
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
-<script src="js/p5/jan.js"></script>
 <script>window.countDownDate = new Date("Jan 06, 2020 12:00").getTime();</script>
 <script src="script.js"></script>
+<script src="js/p5/jan.js"></script>
+<script src="js/amplitude.js"></script>
 
 </body>
 

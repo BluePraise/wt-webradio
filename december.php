@@ -1,3 +1,4 @@
+
 <?php include "head.php";?>
     <div id="p5js-dec" class="canvas-container"></div>
     <div class="full-height">
@@ -23,32 +24,34 @@
                     <p>“The Transformation of Silence into Language and Action” from “Your Silence Will Not Protect You” by Audre Lorde.</p>
 
                     <p>Additional texts in the reader: “Silence, Feminism, Power. Reflections at the Edges of Sound.” by Sheena Malhotra, Aimee Carrillo Rowe (Ed.), “Can the Subaltern Speak?” by Gayatri Chakravorty Spivak, “Word and Silence” from “Listening and Voice: Phenomenologies of Sound” by Don Ihde.</p>
-                    <audio src="audio/dec/december-phantomvoices-sonicmeditation.mp3"></audio>
                 </div>
                 <div class="panel entry-b" data-panel="entry-b">
                     <p>This month, we followed the Sonic Meditation “Teach yourself to fly” until the sound of the sirens went off.</p>
 
                     <p>Sonic Meditation meetings are inspired by Pauline Oliveros, who introduced them as non-verbal group work, as a way of attuning yourself to others, through one's own voice as well as exercising to listen to each other without the pressure of daily speech, often being marked by gendered parameters.</p>
-                    <audio src="audio/dec/december-phantomvoices-sonicmeditation.mp3"></audio>
                 </div>
                 <div class="panel entry-c" data-panel="entry-c">
                     <p>Straw Phonation and Collective Gargle led by the WTFPC, followed by a Silent Lunch.
                     Monthly supper, along with other WTFPC activities, can be tracked <a href="https://foodpoeticsclub.werkplaatstypografie.org/">here.</a></p>
-                    <audio src="audio/de/december-phantomvoices-silent-lunch.mp3"></audio>
+
                 </div>
                 <div class="panel entry-d" data-panel="entry-d">
-                    <audio src="audio/dec/december-phantomvoices-ghostboxing.mp3"></audio>
                 </div>
             </div>
 
             <div class="content--right">
                 <ul class="audio-menu">
                     <li>
-                        <a class="js-show-panel" data-panel="entry-a">MARGINS AS THE SILENT SILENCED CENTER</a>
+                        <a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-a">MARGINS AS THE SILENT SILENCED CENTER</a>
                     </li>
-                        <li><a class="js-show-panel" data-panel="entry-b">Sonic Meditation “Teach yourself to fly” </a></li>
-                        <li><a class="js-show-panel" data-panel="entry-c">Food Poetics Club</a></li>
-                        <li><a class="js-show-panel" data-panel="entry-d">“Ghostboxing from the Attic” broadcast by Gerardo Madera and Bryant Wells</a></li>
+                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-b">Sonic Meditation “Teach yourself to fly” </a>
+                    </li>
+                        <li>
+                            <a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-c">Food Poetics Club</a>
+                        </li>
+                        <li>
+                            <a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-d">“Ghostboxing from the Attic” broadcast by Gerardo Madera and Bryant Wells</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -66,6 +69,7 @@
 <script>window.countDownDate = new Date("Dec 02, 2019 12:00").getTime();</script>
 <script src="script.js"></script>
 <script src="js/p5/dec.js"></script>
+<script src="js/amplitude.js"></script>
 
 </body>
 
