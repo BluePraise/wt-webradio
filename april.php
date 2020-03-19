@@ -49,6 +49,7 @@
         <script src="js/p5/apr.js"></script>
         <script> window.countDownDate = new Date("Apr 06, 2020 12:00").getTime(); </script>
         <script src="script.js"></script>
+        <script src="js/amplitude.js"></script>
 
 </body>
 

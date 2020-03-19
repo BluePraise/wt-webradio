@@ -52,6 +52,7 @@
         <script src="js/p5/may.js"></script>
         <script> window.countDownDate = new Date("May 04, 2020 12:00").getTime(); </script>
         <script src="script.js"></script>
+        <script src="js/amplitude.js"></script>
 
 </body>
 
