@@ -389,6 +389,12 @@ img.icon-pause {
     display: none;
 }
 
+.footnote {
+    font-size: 11px;
+    vertical-align: text-top;
+    margin-left: 4px;
+}
+
 .colophon {
     overflow: hidden;
     z-index: 2;
