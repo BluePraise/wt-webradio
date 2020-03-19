@@ -20,23 +20,23 @@
         <main class="content--container">
 
             <div class="content--left">
-                 <div class="entry-a panel show" data-panel="entry-a">
+                 <div class="panel show" data-panel="entry-a">
                     <p>This month’s reading: “The Gender of Sound” by Anne Carson.</p>
                     <p>Additional texts in the reader: “Cry, Scream, Shout, Sing” from “Lexicon of the Mouth” by Brandon LaBelle, “When Our Lips Speak Together” by Luce Irigaray, “The Laugh of the Medusa” by Hélène Cixous, “A Phenomenology of Voice” from “Listening and Voice: Phenomenologies of Sound” by Don Ihde, “The Sounds of Feminist Theory” by Ruth Salvaggio, “Deep Listening” from “Deep Listening: A Composer’s Sound Practice” by Pauline Oliveros</p>
                 </div>
-                <div class="entry-b panel hide" data-panel="entry-b">
+                <div class="panel" data-panel="entry-b">
                     <p>This month, we followed the Sonic Meditation “Ear Ly / Sex Change” until the sound of the sirens went off.</p>
                     <p>Sonic Meditation meetings are inspired by Pauline Oliveros, who introduced them as non-verbal group work, as a way of attuning yourself to others, through one's own voice as well as exercising to listen to each other without the pressure of daily speech, often being marked by gendered parameters.</p>
                 </div>
-                <div class="entry-c panel hide" data-panel="entry-c">
+                <div class="panel" data-panel="entry-c">
                     <p>Straw Phonation and Collective Gargle led by the WTFPC, followed by a Silent Lunch.
                     Monthly supper, along with other WTFPC activities, can be tracked <a href="https://foodpoeticsclub.werkplaatstypografie.org/">here.</a></p>
                 </div>
-                <div class="entry-d panel hide" data-panel="entry-d">
+                <div class="panel" data-panel="entry-d">
                     <p>(engraved mirrors, performed with torch)</p>
                     <p>“Reflections on her voice” shares a selection of images, engraved into mirrors, chosen while looking at the presence of female voices in early Japanese theatre. Actresses were forbidden from the stage; all roles were played by men. Thus, femininity being marked by makeup, wigs, costumes and gestures. Visual representation compensated the absence of her voice.  The mirrors host a reflection of her voice into current space (music by Koppi Mizrahi).</p>
                 </div>
-                <div class="entry-e panel show" data-panel="entry-e">
+                <div class="panel" data-panel="entry-e">
                     <p> “An Phantom Voices” closes out the week with “Intermezzo,” located in the so called Crowded Space, a corner in the Werkplaats Typografie’s basement. This month with the sonic contribution “Macht Kaputt” by Marcus Wachter.
                     </p>
                 </div>
@@ -67,6 +67,25 @@
 <script src="script.js"></script>
 <script src="js/p5/feb.js"></script>
 <script src="js/amplitude.js"></script>
+
+ <script>
+
+    $(document).ready(function() {
+        Amplitude.setDebug( true );
+        Amplitude.init({
+
+                "songs": [
+                    {
+                        // data-amplitude-song-index="0"
+                        "name": "Phantom Voices - December Sonic Meditation",
+                        "url": "/audio/dec/december-phantomvoices-sonicmeditation.mp3"
+                    }
+                ],
+                "autoplay": true
+            });
+
+    });
+    </script>
 
 </body>
 

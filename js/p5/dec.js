@@ -38,25 +38,28 @@ function draw() {
 $(document).ready(function() {
     Amplitude.setDebug( true );
     Amplitude.init({
+        "bindings": {
+            32: 'play_pause'
+        },
 
-            "songs": [
-                {
-                    // data-amplitude-song-index="0"
-                    "name": "Phantom Voices - December Sonic Meditation",
-                    "url": "/audio/dec/december-phantomvoices-sonicmeditation.mp3"
-                },
-                {
-                    // data-amplitude-song-index="1"
-                    "name": "Phantom Voices - December Sonic Meditation",
-                    "url": "/audio/dec/december-phantomvoices-sonicmeditation.mp3"
-                },
-                {
-                    // data-amplitude-song-index="2"
-                    "name": "Phantom Voices - December - Ghost Boxing",
-                    "url": "/audio/dec/december-phantomvoices-ghostboxing.mp3"
-                }
-            ],
-            "autoplay": true
-        });
+        "songs": [
+            {
+                // data-amplitude-song-index="0"
+                "name": "Phantom Voices - December Sonic Meditation",
+                "url": "/audio/dec/december-phantomvoices-sonicmeditation.mp3"
+            },
+            {
+                // data-amplitude-song-index="1"
+                "name": "Phantom Voices - December Sonic Meditation",
+                "url": "/audio/dec/december-phantomvoices-sonicmeditation.mp3"
+            },
+            {
+                // data-amplitude-song-index="2"
+                "name": "Phantom Voices - December - Ghost Boxing",
+                "url": "/audio/dec/december-phantomvoices-ghostboxing.mp3"
+            }
+        ],
+        "autoplay": true
+    });
 
 });

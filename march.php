@@ -76,10 +76,11 @@
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
-        <script src="script.js"></script>
-        <script src="js/p5/mar.js"></script>
-        <script src="js/amplitude.js"></script>
-        <script> window.countDownDate = new Date("Mar 02, 2020 12:00").getTime(); </script>
+    <script src="script.js"></script>
+    <script src="js/p5/mar.js"></script>
+    <script src="js/amplitude.js"></script>
+    <script> window.countDownDate = new Date("Mar 02, 2020 12:00").getTime(); </script>
+
 
 </body>
 

@@ -1,9 +1,7 @@
 $(document).ready(function() {
 
-	let $playbutton = $(document).find(".icon-play");
-	let $pausebutton = $(document).find(".icon-pause");
-
     $("body").fadeIn(5500);
+
     // Set the date we're counting down to
     var countDownDate = window.countDownDate || getMonday();
     // console.log(countDownDate);
@@ -81,23 +79,9 @@ $(document).ready(function() {
         }
     }, 1000);
 
-    // ACCORDION
-    $(".accordion--toggle").on("click", function() {
-        $(this).toggleClass("active");
-        $(this)
-            .next()
-            .toggle();
-
-        // find the List Item that's been activated
-        li = $(this).closest("li");
-        li.toggleClass("grow");
-    });
-
     // AUDIO PLAYER
     // hide the pause button
     $(".icon-play").hide();
-    // find the audio element
-    // var audio = $('.player');
 
     // set click event to this audio element.
     $(".icon-play").on("click", function() {
@@ -111,6 +95,17 @@ $(document).ready(function() {
     	$(".icon-pause").hide();
         $(".icon-play").show();
     });
+
+    if ( $(".amplitude-play-pause").hasClass('amplitude-paused')) {
+		console.log("test");
+		$(".icon-play").hide();
+		$(".icon-pause").show();
+    }
+	if ($(".amplitude-play-pause").hasClass('amplitude-playing')) {
+		console.log("play");
+    	$(".icon-pause").hide();
+    	$(".icon-play").show();
+	}
 
     $(".colophon__link").click(function(e) {
         var $this = $(this);
@@ -144,27 +139,8 @@ $(document).ready(function() {
             leftpanel.addClass('show');
             anypanel.not(leftpanel).removeClass('show');
 
-
             // prevent default link action
             return false;
         });
-
-    $(".js-show-panel").on("click", function(e) {
-    	var $this = $(this);
-    	var $panel = $this.data("panel");
-
-		// $('.panel[data-panel="' + $panel + '"]').fadeToggle();
-		// $('.panel').siblings().not($panel).addClass('hide');
-		if ($(".js-show-panel").hasClass('amplitude-paused')) {
-
-    		$playbutton.hide();
-    		$pausebutton.show();
-	    }
-		if ($("js-show-panel").hasClass('amplitude-playing')) {
-	    	$pausebutton.hide();
-	    	$playbutton.show();
-    	}
-
-    });
 
 });
