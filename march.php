@@ -21,7 +21,7 @@
     <main class="content--container">
 
         <div class="content--left">
-            <div class="panel" data-panel="entry-a">
+            <div class="panel show" data-panel="entry-a">
             <p>This month’s reading:</p>
                     <p>“The Transformation of Silence into Language and Action” from “Your Silence Will Not Protect You” by Audre Lorde.</p>
 
@@ -45,8 +45,6 @@
             </div>
             <div class="panel" data-panel="entry-f">
                  <p>“Radio Romantique Urbain, Radio Privacy, Radio Open Ear, Radio Random, Radio Bug, Radio Alfabet, Radio Adventure”</p>
-
-
                 <p>“An Phantom Voices” closes out each of its monthly sessions with “Intermezzo,” a platform for spontaneous collective listening, to close the week, yet also already point to the next one: Intermezzo, as in between two sonic entities.
 
                 “Radio Romantique Urbain, Radio Privacy, Radio Open Ear, Radio Random, Radio Bug, Radio Alfabet, Radio Adventure” is a sonic collage in form of a collective listening session to different radio stations, shared by participants as their “first favorites.”
@@ -78,9 +76,10 @@
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
-        <script src="js/p5/mar.js"></script>
-        <script> window.countDownDate = new Date("Mar 02, 2020 12:00").getTime(); </script>
         <script src="script.js"></script>
+        <script src="js/p5/mar.js"></script>
+        <script src="js/amplitude.js"></script>
+        <script> window.countDownDate = new Date("Mar 02, 2020 12:00").getTime(); </script>
 
 </body>
 

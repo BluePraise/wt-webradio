@@ -137,6 +137,13 @@ $(document).ready(function() {
             $(this).addClass('clicked');
             // remove the classnames on the other links
             $('.clicked').not(this).removeClass('clicked');
+            var data = $(this).data("panel");
+            var leftpanel = $('.content--left').find('[data-panel="' + data + '"]')
+            var anypanel = $('.content--left').find('.panel.show');
+
+            leftpanel.addClass('show');
+            anypanel.not(leftpanel).removeClass('show');
+
 
             // prevent default link action
             return false;
@@ -145,20 +152,15 @@ $(document).ready(function() {
     $(".js-show-panel").on("click", function(e) {
     	var $this = $(this);
     	var $panel = $this.data("panel");
-        var $show = $(".show");
-        var data = $this.data();
 
-        var leftpanel = $('.content--left').find('.panel[data-panel="' + $panel + '"]');
-
-		$('.panel[data-panel="' + $panel + '"]').fadeToggle();
+		// $('.panel[data-panel="' + $panel + '"]').fadeToggle();
 		// $('.panel').siblings().not($panel).addClass('hide');
 		if ($(".js-show-panel").hasClass('amplitude-paused')) {
-			console.log("hi");
+
     		$playbutton.hide();
     		$pausebutton.show();
 	    }
 		if ($("js-show-panel").hasClass('amplitude-playing')) {
-			console.log("doei");
 	    	$pausebutton.hide();
 	    	$playbutton.show();
     	}

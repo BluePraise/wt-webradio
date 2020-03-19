@@ -53,7 +53,7 @@ $(document).ready(function() {
                 {
                     // data-amplitude-song-index="2"
                     "name": "Phantom Voices - March - Jannette Mark",
-                    "url": "/audio/mar/march-phantomvoices-contribution-jannete_mark.mp3"
+                    "url": "/audio/mar/march-phantomvoices-contribution_jannete_mark.mp3"
                 },
                 {
                     // data-amplitude-song-index="3"
