@@ -18,7 +18,7 @@
         </header>
         <main class="content--container">
             <div class="content--left">
-                <div class="panel show entry-a" data-panel="entry-a">
+                <div class="panel show" data-panel="entry-a">
                     <p>This month’s reading:</p>
                     <p>“The Transformation of Silence into Language and Action” from “Your Silence Will Not Protect You” by Audre Lorde.</p>
 
@@ -39,10 +39,10 @@
             <div class="content--right">
                 <ul class="audio-menu">
                     <li>
-                        <a>MARGINS AS THE SILENT SILENCED CENTER</a></li>
-                        <li><a class="entry-a js-show-panel" data-panel="entry-a">Sonic Meditation “Teach yourself to fly” </a></li>
-                        <li><a class="entry-b js-show-panel" data-panel="entry-a">Food Poetics Club</a></li>
-                        <li><a class="entry-c js-show-panel" data-panel="entry-a">“Ghostboxing from the Attic” broadcast by Gerardo Madera and Bryant Wells</a></li>
+                        <a class="js-show-panel" data-panel="entry-a">MARGINS AS THE SILENT SILENCED CENTER</a></li>
+                        <li><a class="js-show-panel" data-panel="entry-b">Sonic Meditation “Teach yourself to fly” </a></li>
+                        <li><a class="js-show-panel" data-panel="entry-c">Food Poetics Club</a></li>
+                        <li><a class="js-show-panel" data-panel="entry-d">“Ghostboxing from the Attic” broadcast by Gerardo Madera and Bryant Wells</a></li>
                     </ul>
                 </div>
 

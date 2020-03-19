@@ -488,3 +488,7 @@ video {
 .hide {
     display: none;
 }
+
+.clicked {
+    font-weight: bold;
+}
