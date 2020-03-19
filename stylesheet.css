@@ -383,6 +383,10 @@ video {
     transform: rotate(90deg);
 }
 
+img.icon-pause {
+    height: 45px;
+}
+
 .panel {
     display: none;
 }

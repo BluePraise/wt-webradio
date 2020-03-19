@@ -99,9 +99,14 @@ $(document).ready(function() {
     // set click event to this audio element.
     $(".icon-play").on("click", function() {
         // play the audio
-
         // show the pause icon
         $(".icon-pause").show();
+        $(".icon-play").hide();
+    });
+
+    $(".icon-pause").on("click", function(){
+    	$(".icon-pause").hide();
+        $(".icon-play").show();
     });
 
     $(".colophon__link").click(function(e) {
