@@ -121,7 +121,7 @@ h5 {
 
 a {
     color: #000;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover {
@@ -129,8 +129,8 @@ a:hover {
 }
 
 a.active {
-    background-color: #000;
-    color: #fff;
+    /*background-color: #000;*/
+    /*color: #fff;*/
     font-weight: bold;
 }
 
@@ -357,6 +357,7 @@ video {
     margin-bottom: 10px;
     font-weight: 700;
     min-height: 45px;
+    text-align: center;
 }
 
 .play--title {
@@ -382,8 +383,12 @@ video {
     transform: rotate(90deg);
 }
 
-.hide {
+.panel {
     display: none;
+}
+
+.panel:first-child {
+    display: block;
 }
 
 .colophon {

@@ -124,9 +124,11 @@ $(document).ready(function() {
             // make ticker to move
             $(".ticker-wrap").addClass("ticker-wrap--active");
 
+            // add class to make link on the right bold
             $(this).addClass('clicked');
-
+            // remove the classnames on the other links
             $('.clicked').not(this).removeClass('clicked');
+
 
             // prevent default link action
             return false;
@@ -138,8 +140,8 @@ $(document).ready(function() {
         var $show = $(".show");
         var data = $this.data();
 
-
-
+		$('.panel[data-panel="' + $panel + '"]').fadeToggle();
+		$('.panel').siblings().not($panel).addClass('hide');
 
     });
 });
