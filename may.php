@@ -19,7 +19,7 @@
 
     <main class="content--container">
 
-        <div class="content--left">
+        <div class="content--left content--txt">
 
         </div>
         <div class="content--right">

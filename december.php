@@ -18,7 +18,7 @@
             </nav>
         </header>
         <main class="content--container">
-            <div class="content--left">
+            <div class="content--left content--txt">
                 <div class="panel show" data-panel="entry-a">
                     <p>This month’s reading:</p>
                     <p>“The Transformation of Silence into Language and Action” from “Your Silence Will Not Protect You” by Audre Lorde.</p>

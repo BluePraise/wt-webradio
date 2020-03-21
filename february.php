@@ -19,7 +19,7 @@
 
         <main class="content--container">
 
-            <div class="content--left">
+            <div class="content--left content--txt">
                  <div class="panel show" data-panel="entry-a">
                     <p>This month’s reading: “The Gender of Sound” by Anne Carson.</p>
                     <p>Additional texts in the reader: “Cry, Scream, Shout, Sing” from “Lexicon of the Mouth” by Brandon LaBelle, “When Our Lips Speak Together” by Luce Irigaray, “The Laugh of the Medusa” by Hélène Cixous, “A Phenomenology of Voice” from “Listening and Voice: Phenomenologies of Sound” by Don Ihde, “The Sounds of Feminist Theory” by Ruth Salvaggio, “Deep Listening” from “Deep Listening: A Composer’s Sound Practice” by Pauline Oliveros</p>

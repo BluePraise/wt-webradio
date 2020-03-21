@@ -2,14 +2,14 @@ var img;
 var pointillize = 10;
 
 function preload() {
-    img = loadImage("img/february.jpg");
+    img = loadImage("./img/february.jpg");
 }
 
 function setup() {
-    let cnv = createCanvas(windowWidth, windowHeight);
+    let cnv = createCanvas(3626, 3584);
     cnv.parent("p5js-feb");
 
-    img.resize(windowWidth, windowHeight);
+    img.resize(3626, 3584);
     background(255);
 }
 
@@ -48,22 +48,22 @@ $(document).ready(function() {
             {
                 // data-amplitude-song-index="0"
                 "name": "Phantom Voices - February Sonic Meditation",
-                "url": "/audio/feb/february-phantomvoices-sonicmeditation.mp3"
+                "url": "audio/feb/february-phantomvoices-sonicmediation.mp3"
             },
             {
                 // data-amplitude-song-index="0"
                 "name": "Phantom Voices - February Sonic Meditation",
-                "url": "/audio/feb/february-phantomvoices-sonicmeditation.mp3"
+                "url": "audio/feb/february-phantomvoices-sonicmediation.mp3"
             },
             {
                 // data-amplitude-song-index="1"
-                "name:" "",
+                "name": "Silent Lunch",
                 "url": "/audio/feb/february-phantomvoices-silentlunch.mp3"
             },
             {
                 // data-amplitude-song-index="2"
                 "name": "Phantom Voices - February - Silent Lunch",
-                "url": "/audio/feb/february-phantomvoices-intermezzo.mp3"
+                "url": "/audio/feb/february_phantomvoices-intermezzo.mp3"
             }
         ],
             "autoplay": true

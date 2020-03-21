@@ -97,12 +97,12 @@ $(document).ready(function() {
     });
 
     if ( $(".amplitude-play-pause").hasClass('amplitude-paused')) {
-		console.log("test");
+
 		$(".icon-play").hide();
 		$(".icon-pause").show();
     }
 	if ($(".amplitude-play-pause").hasClass('amplitude-playing')) {
-		console.log("play");
+
     	$(".icon-pause").hide();
     	$(".icon-play").show();
 	}

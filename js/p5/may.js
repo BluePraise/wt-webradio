@@ -6,10 +6,10 @@ function preload() {
 }
 
 function setup() {
-    let cnv = createCanvas(windowWidth, windowHeight);
+    let cnv = createCanvas(6213, 3468);
     cnv.parent("p5js-may");
 
-    img.resize(windowWidth, windowHeight);
+    img.resize(6213, 3468);
     background(255);
 }
 

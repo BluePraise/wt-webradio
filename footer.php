@@ -11,6 +11,8 @@
             <br>
             Website Design: Hannah Sakai
             <br>
+            Webdevelopment: Magalie Chetrit
+            <br>
             Images: New York Public Library Picture Collection, from the folders
             <br>
             “Sound” and “Listening”
@@ -24,5 +26,5 @@
             </p>
         </div>
     </div>
-    <p class="copyright"><a href="https://radio.werkplaatstypografie.org">hosted by phantom radio</a></p>
+    <p class="copyright"><a target="_blank "href="https://radio.werkplaatstypografie.org">hosted by phantom radio</a></p>
 </footer>
