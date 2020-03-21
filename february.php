@@ -50,7 +50,7 @@
                     <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-b">Sonic Meditation “Ear Ly / Sex Change” </a></li><!-- Audio: february-phantomvoices-sonicmeditation.mp3] -->
                     <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-c">Food Poetics Club”</a></li><!-- Audio: later -->
                     <li><a class="js-show-panel amplitude-play-pause" data-panel="entry-d">“Reflections on her Voice” visual score by Hannah Sakai”</a></li><!-- Audio: later -->
-                    <li><a class="amplitude-play-pause js-show-panel" data-amplitude-song-index="2" data-panel="entry-e">Intermezzo</a></li><!-- Audio: february-phantomvoices-intermezzo.mp3]-->
+                    <li><a class="amplitude-play-pause js-show-panel" data-amplitude-song-index="2" data-panel="entry-e">Intermezzo</a></li><!-- Audio: february_phantomvoices-intermezzo.mp3]-->
 
                 </ul>
             </div>
@@ -68,24 +68,6 @@
 <script src="js/p5/feb.js"></script>
 <script src="js/amplitude.js"></script>
 
- <script>
-
-    $(document).ready(function() {
-        Amplitude.setDebug( true );
-        Amplitude.init({
-
-                "songs": [
-                    {
-                        // data-amplitude-song-index="0"
-                        "name": "Phantom Voices - December Sonic Meditation",
-                        "url": "/audio/dec/december-phantomvoices-sonicmeditation.mp3"
-                    }
-                ],
-                "autoplay": true
-            });
-
-    });
-    </script>
 
 </body>
 

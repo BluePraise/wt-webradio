@@ -36,3 +36,22 @@ function draw() {
 
     }
 }
+
+$(document).ready(function() {
+    Amplitude.setDebug( true );
+    Amplitude.init({
+        "bindings": {
+            32: 'play_pause'
+        },
+
+        "songs": [
+            {
+                // data-amplitude-song-index="0"
+                "name": "Phantom Voices - December Intro",
+                "url": "/audio/dec/december-phantomvoices-intro.mp3"
+            }
+        ],
+        "autoplay": true
+    });
+
+});

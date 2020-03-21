@@ -89,8 +89,30 @@
 </div> <!-- .end of wrapper -->
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-<script src="js/p5/anphantomvoices.js"></script>
+
+<script> window.countDownDate = new Date("Feb 03, 2020 12:00").getTime(); </script>
 <script src="script.js"></script>
+<script src="js/p5/feb.js"></script>
+<script src="js/amplitude.js"></script>
+
+ <script>
+
+    $(document).ready(function() {
+        Amplitude.setDebug( true );
+        Amplitude.init({
+
+                "songs": [
+            {
+                // data-amplitude-song-index="0"
+                "name": "Phantom Voices - December Intro",
+                "url": "/audio/dec/december-phantomvoices-intro.mp3"
+            }
+        ],
+                "autoplay": true
+            });
+
+    });
+    </script>
 
 
 </body>

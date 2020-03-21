@@ -76,10 +76,45 @@
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
-    <script src="script.js"></script>
-    <script src="js/p5/mar.js"></script>
-    <script src="js/amplitude.js"></script>
-    <script> window.countDownDate = new Date("Mar 02, 2020 12:00").getTime(); </script>
+<script> window.countDownDate = new Date("Feb 03, 2020 12:00").getTime(); </script>
+<script src="script.js"></script>
+<script src="js/p5/feb.js"></script>
+<script src="js/amplitude.js"></script>
+
+ <script>
+
+    $(document).ready(function() {
+        Amplitude.setDebug( true );
+        Amplitude.init({
+
+                
+            "songs": [
+                {
+                    // data-amplitude-song-index="0"
+                    "name": "Phantom Voices - March Sonic Meditation",
+                    "url": "/audio/mar/march-phantomvoices-sonicmeditation.mp3"
+                },
+                {
+                    // data-amplitude-song-index="1"
+                    "name": "Phantom Voices - March Sonic Meditation",
+                    "url": "/audio/mar/march-phantomvoices-silentlunch-straws.mp3"
+                },
+                {
+                    // data-amplitude-song-index="2"
+                    "name": "Phantom Voices - March - Jannette Mark",
+                    "url": "/audio/mar/march-phantomvoices-contribution_jannete_mark.mp3"
+                },
+                {
+                    // data-amplitude-song-index="3"
+                    "name": "Phantom Voices - March - Intermezzo",
+                    "url": "/audio/mar/march-phantomvoices-intermezzo.mp3"
+                }
+            ],
+                "autoplay": true
+            });
+
+    });
+    </script>
 
 
 </body>

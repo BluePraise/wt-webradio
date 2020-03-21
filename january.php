@@ -62,7 +62,7 @@
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
-<script>window.countDownDate = new Date("Jan 06, 2020 12:00").getTime();</script>
+<script> window.countDownDate = new Date("Feb 03, 2020 12:00").getTime(); </script>
 <script src="script.js"></script>
 <script src="js/p5/jan.js"></script>
 <script src="js/amplitude.js"></script>

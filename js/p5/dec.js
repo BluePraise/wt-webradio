@@ -49,12 +49,22 @@ $(document).ready(function() {
                 "url": "/audio/dec/december-phantomvoices-sonicmeditation.mp3"
             },
             {
-                // data-amplitude-song-index="1"
+                // data-amplitude-song-index="0"
                 "name": "Phantom Voices - December Sonic Meditation",
                 "url": "/audio/dec/december-phantomvoices-sonicmeditation.mp3"
             },
             {
+                // data-amplitude-song-index="1"
+                "name": "Phantom Voices - December Intro",
+                "url": "/audio/dec/december-phantomvoices-intro.mp3"
+            },
+            {
                 // data-amplitude-song-index="2"
+                "name": "Phantom Voices - Food Poetics Club",
+                "url": "/audio/dec/december-phantomvoices-silent-lunch.mp3"
+            },
+            {
+                // data-amplitude-song-index="3"
                 "name": "Phantom Voices - December - Ghost Boxing",
                 "url": "/audio/dec/december-phantomvoices-ghostboxing.mp3"
             }
