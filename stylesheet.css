@@ -132,6 +132,23 @@ a.active {
     font-weight: bold;
 }
 
+a.hover-link {
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+}
+.hover-img  {
+    display: none;
+}
+a.hover-link:hover .hover-img  {
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+    max-width: initial;
+    height: auto;
+}
+
 blockquote {
 }
 
@@ -248,12 +265,14 @@ video {
     flex-grow: 2;
 }
 
+.content--container__basic {
+    z-index: 100;
+}
+
 #p5js.content--container {
     padding: 0;
 }
 
-.content--container {
-}
 
 .content--container .counter {
     position: absolute;

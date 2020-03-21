@@ -33,7 +33,7 @@
                     Monthly supper, along with other WTFPC activities, can be tracked <a href="https://foodpoeticsclub.werkplaatstypografie.org/">here.</a></p>
                 </div>
                 <div class="panel" data-panel="entry-d">
-                    <p>(engraved mirrors, performed with torch)</p>
+                    <p>(engraved <a href="#" class="hover-link">mirrors<img class="hover-img" src="img/february-hannah_mirror.jpeg" alt="An Phantom Voices"></a>, performed with torch)</p>
                     <p>“Reflections on her voice” shares a selection of images, engraved into mirrors, chosen while looking at the presence of female voices in early Japanese theatre. Actresses were forbidden from the stage; all roles were played by men. Thus, femininity being marked by makeup, wigs, costumes and gestures. Visual representation compensated the absence of her voice.  The mirrors host a reflection of her voice into current space (music by Koppi Mizrahi).</p>
                 </div>
                 <div class="panel" data-panel="entry-e">

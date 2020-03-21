@@ -1,4 +1,5 @@
 <?php include "head.php"; ?>
+<div id="p5js-anphantomvoices" class="canvas-container"></div>
 
 <div class="full-height">
 
@@ -88,6 +89,7 @@
 </div> <!-- .end of wrapper -->
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="js/p5/anphantomvoices.js"></script>
 <script src="script.js"></script>
 
 
