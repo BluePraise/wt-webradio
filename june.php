@@ -42,8 +42,7 @@
         </div>
 </div> <!-- .end of wrapper -->
 
-<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/p5/june.js"></script>
 <script> window.countDownDate = new Date("Jun 01, 2020 12:00").getTime(); </script>
 <script src="script.js"></script>

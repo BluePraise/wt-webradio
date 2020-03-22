@@ -1,6 +1,7 @@
+
 $(document).ready(function() {
 
-    $("body").fadeIn(5500);
+    // $("body").fadeIn(5500);
 
     // Set the date we're counting down to
     var countDownDate = window.countDownDate || getMonday();
@@ -84,14 +85,15 @@ $(document).ready(function() {
     $(".icon-play").hide();
 
     // set click event to this audio element.
-    $(".icon-play").on("click", function() {
+    $(".play-toggle").on("click", function() {
         // play the audio
         // show the pause icon
         $(".icon-pause").show();
         $(".icon-play").hide();
+
     });
 
-    $(".icon-pause").on("click", function(){
+    $(".play-toggle").on("click", function(){
     	$(".icon-pause").hide();
         $(".icon-play").show();
     });
@@ -115,9 +117,6 @@ $(document).ready(function() {
         return false;
     });
 
-    function windowResized() {
-        resizeCanvas(windowWidth, windowHeight);
-    }
 
     $(".audio-menu")
         .find("a")
@@ -142,5 +141,18 @@ $(document).ready(function() {
             // prevent default link action
             return false;
         });
+
+    $('.play-pause').click(function(e) {
+        console.log("hi");
+        var $audio = document.getElementById("main-audio");
+        if(!$audio.paused && !$audio.ended) {
+            console.log("boo");
+            $audio.pause();
+        }
+        else if ($audio.paused) {
+            $audio.play();
+        }
+        return false;
+    });
 
 });

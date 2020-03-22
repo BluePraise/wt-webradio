@@ -36,7 +36,6 @@ function draw() {
 }
 
 $(document).ready(function() {
-    Amplitude.setDebug( true );
     Amplitude.init({
         "bindings": {
             32: 'play_pause'

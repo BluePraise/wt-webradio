@@ -45,7 +45,7 @@ html {
 }
 
 body {
-    display: none;
+    /*display: none;*/
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
@@ -56,6 +56,7 @@ body {
     padding: 0;
     font-family: "Caudex", serif;
     color: #000;
+    overflow-x: hidden;
 }
 
 html,
@@ -387,15 +388,16 @@ video {
     overflow: hidden;
 }
 
+.play-pause-special,
 .play-toggle {
     width: 40px;
     margin-right: 20px;
 }
-
+.play-pause-special:hover,
 .play-toggle:hover {
     cursor: pointer;
 }
-
+.play-pause-special img.icon-play,
 .play-toggle img.icon-play {
     transform: rotate(90deg);
 }

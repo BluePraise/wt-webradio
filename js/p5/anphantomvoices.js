@@ -1,6 +1,6 @@
 var img;
 var pointillize = 10;
-
+var $audio = document.getElementById("main-audio");
 
 function preload() {
     img = loadImage("img/anphantomvoices.jpg");
@@ -36,22 +36,27 @@ function draw() {
 
     }
 }
+$(".icon-play").hide();
 
-$(document).ready(function() {
-    Amplitude.setDebug( true );
-    Amplitude.init({
-        "bindings": {
-            32: 'play_pause'
-        },
+// set click event to this audio element.
+$(".play-pause-special").on("click", function() {
 
-        "songs": [
-            {
-                // data-amplitude-song-index="0"
-                "name": "Phantom Voices - December Intro",
-                "url": "/audio/dec/december-phantomvoices-intro.mp3"
-            }
-        ],
-        "autoplay": true
-    });
+    if(!$audio.paused && !$audio.ended) {
+        console.log("pause");
+        $(".icon-pause").hide();
+        $(".icon-play").show();
+        $audio.pause();
+    }
+    else if ($audio.paused) {
+        console.log("play");
+        $(".icon-pause").show();
+        $(".icon-play").hide();
+        $audio.play();
+    }
+    return false;
 
 });
+
+
+
+

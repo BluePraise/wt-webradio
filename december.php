@@ -1,5 +1,6 @@
 
 <?php include "head.php";?>
+
     <div id="p5js-dec" class="canvas-container"></div>
     <div class="full-height">
         <header class="mast-head">
@@ -45,9 +46,12 @@
             <div class="content--right">
                 <ul class="audio-menu">
                     <li>
-                        <a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-a">MARGINS AS THE SILENT SILENCED CENTER</a>
+                        <a class="play-pause" data-panel="entry-a" data-amplitude-song-index="0">MARGINS AS THE SILENT SILENCED CENTER</a>
+                        <audio id="main-audio" autoplay>
+                            <source src="audio/feb/february-phantomvoices-sonicmediation.mp3" type="audio/mpeg">
+                        </audio>
                     </li>
-                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-b">Sonic Meditation “Teach yourself to fly”</a>
+                        <li><a class="amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-b">Sonic Meditation “Teach yourself to fly”</a>
                     </li>
                         <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-c">“An Phantom Voices” Introductory broadcast by Tabea Nixdorff and Gerardo Madera</a>
                     </li>
@@ -69,12 +73,9 @@
 
 </div> <!-- .end of wrapper -->
 
-<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-
 <script> window.countDownDate = new Date("Feb 03, 2020 12:00").getTime(); </script>
-<script src="script.js"></script>
 <script src="js/p5/dec.js"></script>
-<script src="js/amplitude.js"></script>
+
 
 </body>
 

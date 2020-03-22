@@ -1,4 +1,43 @@
-<?php include "head.php"; ?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>An Phantom Voices</title>
+    <meta name="author" content="Werkplaats Typgrafie Arnhem">
+    <link href="https://fonts.googleapis.com/css?family=Caudex:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+    <script src="js/amplitude.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="topbar">
+            <div class="topbar--left">
+                <div class="play-pause-special">
+                    <img id="play" class="icon-play" src="icon-play.svg" alt="play icon">
+                    <img id="pause" class="icon-pause" src="icon-pause.svg" alt="play icon">
+
+                </div>
+                <audio id="main-audio" autoplay preload>
+                        <source src="https://projects.magalielinda.me/anphantomvoices/audio/dec/december-phantomvoices-intro.mp3" type="audio/mpeg">
+                    </audio>
+                <div class="play--title">
+                    <div class="ticker-wrap">
+                    <div class="ticker">SONIC MEDITATIONS (SINGING WITH THE SIRENS)</div>
+                    </div>
+                </div>
+            </div>
+            <div class="topbar--right">
+                <div class="counter"></div>
+            </div>
+        </div>
+
 <div id="p5js-anphantomvoices" class="canvas-container"></div>
 
 <div class="full-height">
@@ -88,32 +127,9 @@
 </div>
 </div> <!-- .end of wrapper -->
 
-<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-
 <script> window.countDownDate = new Date("Feb 03, 2020 12:00").getTime(); </script>
 <script src="script.js"></script>
-<script src="js/p5/feb.js"></script>
-<script src="js/amplitude.js"></script>
-
- <script>
-
-    $(document).ready(function() {
-        Amplitude.setDebug( true );
-        Amplitude.init({
-
-                "songs": [
-            {
-                // data-amplitude-song-index="0"
-                "name": "Phantom Voices - December Intro",
-                "url": "/audio/dec/december-phantomvoices-intro.mp3"
-            }
-        ],
-                "autoplay": true
-            });
-
-    });
-    </script>
-
+<script src="js/p5/anphantomvoices.js"></script>
 
 </body>
 

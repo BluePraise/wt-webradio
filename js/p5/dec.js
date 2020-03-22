@@ -35,19 +35,13 @@ function draw() {
     }
 }
 
-$(document).ready(function() {
-    Amplitude.setDebug( true );
-    Amplitude.init({
+Amplitude.init({
+        "autoplay": true,
         "bindings": {
             32: 'play_pause'
         },
 
         "songs": [
-            {
-                // data-amplitude-song-index="0"
-                "name": "Phantom Voices - December Sonic Meditation",
-                "url": "/audio/dec/december-phantomvoices-sonicmeditation.mp3"
-            },
             {
                 // data-amplitude-song-index="0"
                 "name": "Phantom Voices - December Sonic Meditation",
@@ -69,7 +63,8 @@ $(document).ready(function() {
                 "url": "/audio/dec/december-phantomvoices-ghostboxing.mp3"
             }
         ],
-        "autoplay": true
+        "start_song":3,
+        "debug": true
     });
 
-});
+
