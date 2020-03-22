@@ -19,7 +19,8 @@
             </header>
 
             <div class="content--container">
-                <div class="content--left">
+                <div class="counter"></div>
+                <!-- <div class="content--left">
 
                 </div>
                 <div class="content--right">
@@ -28,14 +29,9 @@
                             <a>MARGINS AS THE SILENT SILENCED CENTER</a>
                         </li>
                         <li><a>SONIC MEDITATIONS (SINGING WITH THE SIRENS)</a></li>
-                        <li>
-                            <span>TITLE, Visual Score by MINA MUSTERFRAU</span>
-                        </li>
-                        <li>
-                            <span>TITLE, Broadcast by MALA MUSTERFRAU</span>
-                        </li>
+
                     </ul>
-                </div>
+                </div> -->
             </div>
 
             <?php include "footer.php"; ?>

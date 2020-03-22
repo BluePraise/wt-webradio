@@ -18,8 +18,9 @@
     </header>
 
     <main class="content--container">
+        <div class="counter"></div>
 
-        <div class="content--left content--txt">
+        <!-- <div class="content--left content--txt">
 
         </div>
         <div class="content--right">
@@ -36,7 +37,7 @@
                 </li>
             </ul>
         </div>
-
+ -->
     </main>
 
     <?php include "footer.php"; ?>

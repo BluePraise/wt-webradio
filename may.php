@@ -18,8 +18,9 @@
     </header>
 
     <main class="content--container">
+        <div class="counter"></div>
 
-        <div class="content--left content--txt">
+        <!-- <div class="content--left content--txt">
 
         </div>
         <div class="content--right">
@@ -31,13 +32,13 @@
                 <li><a>SONIC MEDITATIONS (SINGING WITH THE SIRENS)</a>
                 </li>
                 <li>
-                    <span>TITLE, Visual Score by MINA MUSTERFRAU</span>
+
                 </li>
                 <li>
-                    <span>TITLE, Broadcast by MALA MUSTERFRAU</span>
+
                 </li>
             </ul>
-        </div>
+        </div> -->
 
     </main>
 
@@ -46,14 +47,9 @@
 </div>
 
 </div> <!-- .end of wrapper -->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-        <script src="js/p5/may.js"></script>
-        <script> window.countDownDate = new Date("May 04, 2020 12:00").getTime(); </script>
-        <script src="script.js"></script>
-        <script src="js/amplitude.js"></script>
-
+    <script src="js/p5/may.js"></script>
+    <script> window.countDownDate = new Date("May 04, 2020 12:00").getTime(); </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
