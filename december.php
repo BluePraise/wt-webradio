@@ -1,5 +1,8 @@
 
 <?php include "head.php";?>
+<audio id="main-audio" autoplay preload>
+    <source src="https://projects.magalielinda.me/anphantomvoices/audio/dec/december-phantomvoices-intro.mp3" type="audio/mpeg">
+</audio>
 
     <div id="p5js-dec" class="canvas-container"></div>
     <div class="full-height">
@@ -30,13 +33,18 @@
                     <p>This month, we followed the Sonic Meditation “Teach yourself to fly” until the sound of the sirens went off.</p>
 
                     <p>Sonic Meditation meetings are inspired by Pauline Oliveros, who introduced them as non-verbal group work, as a way of attuning yourself to others, through one's own voice as well as exercising to listen to each other without the pressure of daily speech, often being marked by gendered parameters.</p>
+                    <br>
+                    <p>TEACH YOURSELF TO FLY</p>
+
+                    <p>WE SIT IN A CIRCLE FACING THE CENTER. THE SPACE IS ILLUMINATED WITH DIM BLUE LIGHT. BEGIN BY SIMPLY OBSERVING YOUR OWN BREATHING. ALWAYS BE ON OBSERVER. GRADUALLY ALLOW YOUR BREATHING TO BECOME AUDIBLE. THEN GRADUALLY INTRODUCE YOUR VOICE, ALLOW YOUR VOCAL CORDS TO VIBRATE IN ANY MODE WHICH OCCURS NATURALLY. ALLOW THE INTENSITY TO INCREASE VERY SLOWLY. CONTINUE AS LONG AS POSSIBLE NATURALLY, AND UNTIL ALL OTHERS ORE QUIET, ALWAYS OBSERVING YOUR OWN BREATH CYCLE.</p>
                 </div>
                 <div class="panel" data-panel="entry-c">
-                    <p>Besides our voices, this inaugural audio essay to the project "An Phantom Voices" echoes some of our references: Pamela Z (Breathing), Samuel Beckett (Not I), Anthony Whiteread (Pressures of the Unspeakable, with the Institute for Screamscape Studies), Kathy Acker in an interview, Cathy Berberian (Stripsody), Kamala Sankaram (Ololyga), Meredith Monk (Tablet/Songs from a Hill), Susan Howe (Frolic Architecture), Pauline Oliveros in an interview and (Ghostdance). Alvin Lucier (I am Sitting in a Room), Friedrich Jürgenson (From The Studio For Audioscopic Research), Frank Sumption (Ghost Box #13 - Random Sweep), Mark Bain (The Live Room), Jacob Kirkegaard (Aion, Church), Radio Ragazza (Born in Flames), Fred Moten (On “Figuring it out”).</p>
+                    <p>Besides our voices, this inaugural audio essay to the project "An Phantom Voices" echoes some of our references, interweaving them into each other:<br><br>
+                    Pamela Z (Breathing), Samuel Beckett (Not I), Anthony Whiteread (Pressures of the Unspeakable, with the Institute for Screamscape Studies), Kathy Acker in an interview, Cathy Berberian (Stripsody), Kamala Sankaram (Ololyga), Meredith Monk (Tablet/Songs from a Hill), Susan Howe (Frolic Architecture), Pauline Oliveros in an interview and (Ghostdance). Alvin Lucier (I am Sitting in a Room), Friedrich Jürgenson (From The Studio For Audioscopic Research), Frank Sumption (Ghost Box #13 - Random Sweep), Mark Bain (The Live Room), Jacob Kirkegaard (Aion, Church), Radio Ragazza (Born in Flames), Fred Moten (On “Figuring it out”).</p>
                 </div>
                 <div class="panel" data-panel="entry-d">
-                    <p>Straw Phonation and Collective Gargle led by the WTFPC, followed by a Silent Lunch.
-                    Monthly supper, along with other WTFPC activities, can be tracked <a href="https://foodpoeticsclub.werkplaatstypografie.org/">here.</a></p>
+                    <p>Hosted by the WT Food Poetics Club (WTFPC), we excersised an Straw Phonation and Collective Gargle ritual, followed by a Silent Lunch.
+                    This month's WTFPC supper, along with the other WTFPC activities, can be tracked <a target="_blank" href="https://foodpoeticsclub.werkplaatstypografie.org/">here.</a></p>
 
                 </div>
                 <div class="panel entry-e" data-panel="entry-e">
@@ -47,20 +55,16 @@
                 <ul class="audio-menu">
                     <li>
                         <a class="play-pause" data-panel="entry-a" data-amplitude-song-index="0">MARGINS AS THE SILENT SILENCED CENTER</a>
-                        <audio id="main-audio" autoplay>
-                            <source src="audio/feb/february-phantomvoices-sonicmediation.mp3" type="audio/mpeg">
-                        </audio>
                     </li>
-                        <li><a class="amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-b">Sonic Meditation “Teach yourself to fly”</a>
+                        <li><a class="amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-b">SONIC MEDITATION “TEACH YOURSELF TO FLY”</a>
                     </li>
-                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-c">“An Phantom Voices” Introductory broadcast by Tabea Nixdorff and Gerardo Madera</a>
+                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-c">“AN PHANTOM VOICES” introductory broadcast<br> by
+                        TABEA NIXDORFF and GERARDO MADERA</a>
                     </li>
-                        <li>
-                            <a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-d">Food Poetics Club</a>
-                        </li>
-                        <li>
-                            <a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="3" data-panel="entry-e">“Ghostboxing from the Attic” broadcast by Gerardo Madera and Bryant Wells</a>
-                        </li>
+                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-d">WT FOOD POETICS CLUB</a>
+                    </li>
+                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="3" data-panel="entry-e">“GHOSTBOXING FROM THE ATTIC”<br> broadcast by GERARDO MADERA and BRYANT WELLS</a>
+                    </li>
                     </ul>
                 </div>
 
@@ -73,8 +77,11 @@
 
 </div> <!-- .end of wrapper -->
 
-<script> window.countDownDate = new Date("Feb 03, 2020 12:00").getTime(); </script>
+<script> window.countDownDate = new Date("Dec 02, 2019 12:00").getTime(); </script>
 <script src="js/p5/dec.js"></script>
+<script src="script.js"></script>
+
+
 
 
 </body>

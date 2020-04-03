@@ -2,14 +2,14 @@ var img;
 var pointillize = 10;
 
 function preload() {
-    img = loadImage("./img/february.jpg");
+    img = loadImage("img/f1.jpg");
 }
 
 function setup() {
-    let cnv = createCanvas(3626, 3584);
+    let cnv = createCanvas(1000, 500);
     cnv.parent("p5js-feb");
 
-    img.resize(3626, 3584);
+    img.resize(1000, 500);
     background(255);
 }
 
@@ -47,23 +47,28 @@ $(document).ready(function() {
         "songs": [
             {
                 // data-amplitude-song-index="0"
-                "name": "Phantom Voices - February Sonic Meditation",
+                "name": "Phantom Voices - February - Sonic Meditation",
                 "url": "audio/feb/february-phantomvoices-sonicmediation.mp3"
             },
             {
                 // data-amplitude-song-index="0"
-                "name": "Phantom Voices - February Sonic Meditation",
+                "name": "Phantom Voices - February - Sonic Meditation",
                 "url": "audio/feb/february-phantomvoices-sonicmediation.mp3"
             },
             {
                 // data-amplitude-song-index="1"
-                "name": "Silent Lunch",
+                "name": "Phantom Voices - February - Silent Lunch",
                 "url": "/audio/feb/february-phantomvoices-silentlunch.mp3"
             },
             {
                 // data-amplitude-song-index="2"
-                "name": "Phantom Voices - February - Silent Lunch",
-                "url": "/audio/feb/february_phantomvoices-intermezzo.mp3"
+                "name": "Phantom Voices - February - Hannah Sakai",
+                "url": "/audio/feb/february-phantomvoices-hannah-sakai.mp3"
+            }
+            {
+                // data-amplitude-song-index="3"
+                "name": "Phantom Voices - February - Intermezzo",
+                "url": "/audio/feb/february-intermezzo-intermezzo.mp3"
             }
         ],
             "autoplay": true

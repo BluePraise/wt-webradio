@@ -11,7 +11,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
     <script src="js/amplitude.js"></script>
-    <script src="script.js"></script>
 
 </head>
 

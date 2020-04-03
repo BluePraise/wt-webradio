@@ -3,14 +3,14 @@ var pointillize = 10;
 
 
 function preload() {
-    img = loadImage("img/visual.jpg");
+    img = loadImage("img/anphantomvoices.jpg");
 }
 
 function setup() {
-    let cnv = createCanvas(800, 635);
+    let cnv = createCanvas(1000, 400);
     cnv.parent('p5js-index');
 
-    img.resize(800, 635);
+    img.resize(1000, 400);
     background(255);
 }
 

@@ -47,9 +47,10 @@
 </div>
 
 </div> <!-- .end of wrapper -->
-    <script src="js/p5/may.js"></script>
+    
     <script> window.countDownDate = new Date("May 04, 2020 12:00").getTime(); </script>
     <script src="script.js"></script>
+    s<script src="js/p5/may.js"></script>
 </body>
 
 </html>

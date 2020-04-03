@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 
-    // $("body").fadeIn(5500);
+    $("body").fadeIn(5500);
 
     // Set the date we're counting down to
     var countDownDate = window.countDownDate || getMonday();
@@ -143,10 +143,9 @@ $(document).ready(function() {
         });
 
     $('.play-pause').click(function(e) {
-        console.log("hi");
+
         var $audio = document.getElementById("main-audio");
         if(!$audio.paused && !$audio.ended) {
-            console.log("boo");
             $audio.pause();
         }
         else if ($audio.paused) {

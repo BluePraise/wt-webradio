@@ -3,14 +3,14 @@ var pointillize = 10;
 p5.disableFriendlyErrors = true;
 
 function preload() {
-    img = loadImage("img/june.jpg");
+    img = loadImage("img/ju1.jpg");
 }
 
 function setup() {
-    let cnv = createCanvas(4162, 3588);
+    let cnv = createCanvas(1000, 500);
     cnv.parent("p5js-june");
 
-    img.resize(4162, 3588);
+    img.resize(1000, 500);
     background(255);
 }
 

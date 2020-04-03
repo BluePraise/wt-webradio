@@ -1,4 +1,7 @@
 <?php include "head.php";?>
+<audio id="main-audio" autoplay preload>
+    <source src="https://projects.magalielinda.me/anphantomvoices/audio/dec/december-phantomvoices-intro.mp3" type="audio/mpeg">
+</audio>
         <div id="p5js-jan" class="canvas-container"></div>
         <div class="full-height">
         <header class="mast-head">
@@ -19,35 +22,46 @@
 
             <div class="content--left content--txt">
                 <div class="panel show" data-panel="entry-a">
-                    <p>This month’s reading:
+                    <p>This month’s reading:<br><br>
                     “Bite, Chew, Eat” from “Lexicon of the Mouth” by Brandon LaBelle.</p>
 
-                    <p>Additional texts in the reader: “Yurokon” by Wilson Harris, “Liner Notes on Lick Piece” by Fred Moten, “Columbus and the Cannibals” by Peter Hulme, “Mother Tongue” by Amy Tan, “Dreaming in Foreign” by Safiya Sinclair, *A Tempest* by Aimé Césaire, “All You Can’t Eat: Derrida’s Course *Rhétorique Du Cannibalisme* (1990–1991)” by David Farrell Krell.</p>
+                    <p>Additional texts in the reader: “Yurokon” by Wilson Harris, “Liner Notes on Lick Piece” by Fred Moten, “Columbus and the Cannibals” by Peter Hulme, “Mother Tongue” by Amy Tan, “Dreaming in Foreign” by Safiya Sinclair, “A Tempest” by Aimé Césaire, “All You Can’t Eat: Derrida’s Course “Rhétorique Du Cannibalisme” (1990–1991)” by David Farrell Krell.</p>
                 </div>
-                <div class="panel hide" data-panel="entry-b">
+                <div class="panel" data-panel="entry-b">
                     <p>This month, we followed the Sonic Meditation “Tumbling Song” until the sound of the sirens went off.</p>
+
                     <p>Sonic Meditation meetings are inspired by Pauline Oliveros, who introduced them as non-verbal group work, as a way of attuning yourself to others, through one's own voice as well as exercising to listen to each other without the pressure of daily speech, often being marked by gendered parameters.</p>
+                    <br>
+                    <p>TUMBLING SONG </p>
+
+                    <p>MAKE ANY VOCAL SOUND, BUT ALWAYS GO DOWNWARD IN PITCH FROM THE INITIAL ATTACK. THE INITIAL ATTACK MAY BEGIN AT ANY PITCH LEVEL. GO DOWNWARD IN A GLISSANDO OR IN DISCRETE STEPS CONTINUOUSLY. GO ANY DISTANCE IN RANGE, AT ANY SPEED, DYNAMIC OR QUALITY, BUT THE BREATH DETERMINES THE MAXIMUM TIME LENGTH OF ANY DOWNWARD GESTURE.</p>
                 </div>
-                <div class="panel hide" data-panel="entry-c">
-                    <p>Straw Phonation and Collective Gargle led by the WTFPC, followed by a Silent Lunch.
-                    Monthly supper, along with other WTFPC activities, can be tracked <a href="https://foodpoeticsclub.werkplaatstypografie.org/">here.</a>.</p>
+                <div class="panel" data-panel="entry-c">
+                    <p>Hosted by the WT Food Poetics Club (WTFPC), we excersised an Straw Phonation and Collective Gargle ritual, followed by a Silent Lunch.
+                    This month's WTFPC supper, along with the other WTFPC activities, can be tracked <a target="_blank" href="https://foodpoeticsclub.werkplaatstypografie.org/">here.</a></p>
                 </div>
 
-                <div class="entry-d panel hide" data-panel="entry-d">
-                    <p>“Title” visual score by Yunie Chae</p>
+                <div class="panel" data-panel="entry-d">
+                    <p>“My mother’s tongue” is a game, in which dots are connected by different mouths, breath, and saliva.
+                    <br><br>
+                    It is a response to Brandon ­LaBelle’s “Lexicon of the Mouth — Bite, Chew, Eat”, acknowledging a violence which remains disturbingly clear today; how the history of how we bite, chew, and eat (another), is a primal habit.
+                    <br><br>
+                    Words associated with the mouth and its abilities become infinite—though social boundaries restrain the mouth and create strict distinctions or: definitions of what is “law and taboo”. “My mother’s tongue” is an interactive performance, in which a lexicon is read. A lexicon which partly draws from LaBelle’s politics of the mouth, exploring its contemporary relevance, merged with definitions that arose from my own voice. This created both a messy trajectory to be chewed, and a bodily connection through the sounds of mouths blowing ink.
+                    <br><br>
+                    (Credits for the title go to “Mother Tongue” by Amy Tan, a text which strongly informed my own politics of the mouth, developed during this project).</p>
                     <p></p><!-- Description and Audio by Yuni will come later-->
                 </div>
             </div>
             <div class="content--right">
                 <ul class="audio-menu">
                     <li>
-                        <a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-a">Oral Imaginaries, Strategies and Truths</a>
+                        <a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-a">ORAL IMAGINARIES, STRATEGIES AND TRUTHS</a>
                     </li>
-                    <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-b">Sonic Meditation “Tumbling Song”</a></li><!--  [Audio: january-phantomvoices-sonicmeditation.mp3]-->
+                    <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-b">SONIC MEDITATION “TUMBLING SONG”</a></li><!--  [Audio: january-phantomvoices-sonicmeditation.mp3]-->
 
-                    <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-c">Food Poetics Club”</a></li><!-- [Audio: january-phantomvoices-silentlunch.mp3] -->
+                    <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-c">WT FOOD POETICS CLUB</a></li><!-- [Audio: january-phantomvoices-silentlunch.mp3] -->
 
-                    <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-d">“Title” visual score by Yunie Chae</a></li>
+                    <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-d">“MY MOTHER’S TONGUE” visual score by YUNIE CHAE</a></li>
                 </ul>
             </div>
 
@@ -62,10 +76,9 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-<script> window.countDownDate = new Date("Feb 03, 2020 12:00").getTime(); </script>
-<script src="script.js"></script>
+<script> window.countDownDate = new Date("Jan 06, 2020 12:00").getTime(); </script>
 <script src="js/p5/jan.js"></script>
-<script src="js/amplitude.js"></script>
+<script src="script.js"></script>
 
 </body>
 

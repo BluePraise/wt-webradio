@@ -1,4 +1,7 @@
 <?php include "head.php";?>
+<audio id="main-audio" autoplay preload>
+    <source src="https://projects.magalielinda.me/anphantomvoices/audio/dec/december-phantomvoices-intro.mp3" type="audio/mpeg">
+</audio>
 
 <div id="p5js-mar" class="canvas-container"></div>
 <div class="full-height">
@@ -31,17 +34,21 @@
                 <p>This month, we followed the Sonic Meditations “Breathe In Breathe Out" and "Mental Image” until the sound of the sirens went off.</p>
 
                  <p>Sonic Meditation meetings are inspired by Pauline Oliveros, who introduced them as non-verbal group work, as a way of attuning yourself to others, through one's own voice as well as exercising to listen to each other without the pressure of daily speech, often being marked by gendered parameters.</p>
+                 <br>
+                 <p>BREATHE IN BREATHE OUT / MENTAL IMAGE</p>
+                 <p>WE SIT IN A CIRCLE WITH OUR EYES CLOSED. BEGIN BY LISTENING TO YOUR OWN BREATHING. AMPLIFY THE SOUND OF YOUR BREATH BY PLACING THE PALMS OF YOUR HANDS OVER YOUR EARS. LISTEN AS THE SOUND OF YOUR BREATH TURNS INTO THE SOUND OF WIND. IT MIGHT BE A GENTLE WIND, A GUSTY WIND, A HOWLING WIND, OR SOME OTHER KIND OF WIND. OPEN YOUR EARS GRADUALLY AGAIN, LISTEN FOR THE CALM.<p>
+
+                 <p>GRADUALLY FORM A MENTAL IMAGE OF ONE PERSON WHO IS SITTING IN THE CIRCLE. SING A LONG TONE TO THAT PERSON. THEN SING THE PITCH THAT PERSON IS SINGING, CHANGE YOUR MENTAL IMAGE TO ANOTHER PERSON AND REPEAT UNTIL YOU HAVE CONTACTED EVERY PERSON IN THE CIRCLE ONE OR MORE TIMES.<p>
             </div>
             <div class="panel" data-panel="entry-c">
-                 <p>Straw Phonation and Collective Gargle led by the WTFPC, followed by a Silent Lunch.
-                 Monthly supper, along with other WTFPC activities, can be tracked <a href="https://foodpoeticsclub.werkplaatstypografie.org/">here.</a></p>
+                 <p>Hosted by the WT Food Poetics Club (WTFPC), we excersised an Straw Phonation and Collective Gargle ritual, followed by a Silent Lunch. This month's WTFPC supper, along with the other WTFPC activities, can be tracked <a target="_blank" href="https://foodpoeticsclub.werkplaatstypografie.org/">here.</a></p>
             </div>
             <div class="panel" data-panel="entry-d">
-                 <p>“Title” visual score by Tjobo Kho</p>
-            </div>
-            <div class="panel" data-panel="entry-e">
-                 <p>“Title” sonic contribution by Jannete Mark</p>
+                 <p>“The meaning of the living and the non-meaning of things converge in the muteness of the world; this meaning and non-meaning plunge there and come out, the ultimate eddy. Mundus patet: through a fissure, through an opening, a fault, a cleft come noises, calls as small as these apertures. I’m listening, attentive, I’m translating, I’m advancing in the scaled-down meaning and science. Mundus patet: should the world open greatly, it will launch me into its silence. The totality remains silent. Knowledge expanded in elation. White origin of meaning, fountain of joy.”</p>
                  <audio src=""></audio>
+            <div class="panel hide" data-panel="entry-e">
+                 <p>“Attitude #1” visual score by Tjobo Kho</p>
+            </div>
             </div>
             <div class="panel" data-panel="entry-f">
                  <p>“Radio Romantique Urbain, Radio Privacy, Radio Open Ear, Radio Random, Radio Bug, Radio Alfabet, Radio Adventure”</p>
@@ -58,11 +65,12 @@
                         <a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-a">THE THING WITH TRANSMITTING IS
                         (BLABLA)</a>
                     </li>
-                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-b">Sonic Meditation “Breathe In Breathe Out" and "Mental Image” </a></li>
-                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-c">Food Poetics Club</a></li>
-                        <li><a class="js-show-panel" data-panel="entry-d">“Title” visual score by Tjobo Kho</a></li>
-                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-e">“Title” sonic contribution by Jannete Mark</a></li>
-                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="3" data-panel="entry-f">Intermezzo</a></li>
+                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-b">SONIC MEDITATION “BREATHE IN BREATHE OUT / MENTAL IMAGE”</a></li>
+                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-c">WT FOOD POETICS CLUB</a></li>
+                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-d">“TREMBLING EARTH” sonic contribution by JANNETE MARK</a></li>
+                        <li><a class="js-show-panel" data-panel="entry-e">“ATTITUDE #1” visual score by TJOBO KHO</a></li>
+                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="3"
+                        data-panel="entry-f">INTERMEZZO</a></li>
                     </ul>
         </div>
 
@@ -76,10 +84,9 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-<script> window.countDownDate = new Date("Feb 03, 2020 12:00").getTime(); </script>
+<script> window.countDownDate = new Date("Mar 02, 2020 12:00").getTime(); </script>
+<script src="js/p5/mar.js"></script>
 <script src="script.js"></script>
-<script src="js/p5/feb.js"></script>
-<script src="js/amplitude.js"></script>
 
  <script>
 
@@ -88,30 +95,35 @@
         Amplitude.init({
 
 
-            "songs": [
+           "songs": [
                 {
                     // data-amplitude-song-index="0"
-                    "name": "Phantom Voices - March Sonic Meditation",
-                    "url": "/audio/mar/march-phantomvoices-sonicmeditation.mp3"
+                    "name": "Phantom Voices - March - Sonic Meditation",
+                    "url": "./audio/mar/march-phantomvoices-sonicmeditation.mp3"
+                },
+                {
+                    // data-amplitude-song-index="0"
+                    "name": "Phantom Voices - March - Sonic Meditation",
+                    "url": "./audio/mar/march-phantomvoices-sonicmeditation.mp3"
                 },
                 {
                     // data-amplitude-song-index="1"
-                    "name": "Phantom Voices - March Sonic Meditation",
-                    "url": "/audio/mar/march-phantomvoices-silentlunch-straws.mp3"
+                    "name": "Phantom Voices - March - Silent Lunch",
+                    "url": "./audio/mar/march-phantomvoices-silentlunch-straws.mp3"
                 },
                 {
                     // data-amplitude-song-index="2"
                     "name": "Phantom Voices - March - Jannette Mark",
-                    "url": "/audio/mar/march-phantomvoices-contribution_jannete_mark.mp3"
+                    "url": "./audio/mar/march-phantomvoices-jannete-mark.mp3"
                 },
                 {
                     // data-amplitude-song-index="3"
                     "name": "Phantom Voices - March - Intermezzo",
-                    "url": "/audio/mar/march-phantomvoices-intermezzo.mp3"
+                    "url": "./audio/mar/march-phantomvoices-intermezzo.mp3"
                 }
             ],
-                "autoplay": true
-            });
+            "autoplay": true
+        });
 
     });
     </script>

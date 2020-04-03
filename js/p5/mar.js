@@ -2,14 +2,14 @@ var img;
 var pointillize = 10;
 
 function preload() {
-    img = loadImage("img/march.jpg");
+    img = loadImage("img/m1.jpg");
 }
 
 function setup() {
-    let cnv = createCanvas(2772, 2552);
+    let cnv = createCanvas(1000, 500);
     cnv.parent("p5js-mar");
 
-    img.resize(2772, 2552);
+    img.resize(1000, 500);
     background(255);
 }
 
@@ -40,18 +40,23 @@ function draw() {
             "songs": [
                 {
                     // data-amplitude-song-index="0"
-                    "name": "Phantom Voices - March Sonic Meditation",
+                    "name": "Phantom Voices - March - Sonic Meditation",
+                    "url": "./audio/mar/march-phantomvoices-sonicmeditation.mp3"
+                },
+                {
+                    // data-amplitude-song-index="0"
+                    "name": "Phantom Voices - March - Sonic Meditation",
                     "url": "./audio/mar/march-phantomvoices-sonicmeditation.mp3"
                 },
                 {
                     // data-amplitude-song-index="1"
-                    "name": "Phantom Voices - March Sonic Meditation",
+                    "name": "Phantom Voices - March - Silent Lunch",
                     "url": "./audio/mar/march-phantomvoices-silentlunch-straws.mp3"
                 },
                 {
                     // data-amplitude-song-index="2"
                     "name": "Phantom Voices - March - Jannette Mark",
-                    "url": "./audio/mar/march-phantomvoices-contribution_jannete_mark.mp3"
+                    "url": "./audio/mar/march-phantomvoices-jannete-mark.mp3"
                 },
                 {
                     // data-amplitude-song-index="3"

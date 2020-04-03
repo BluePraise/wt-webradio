@@ -2,14 +2,14 @@ var img;
 var pointillize = 10;
 
 function preload() {
-    img = loadImage("img/december.jpg");
+    img = loadImage("img/d1.jpg");
 }
 
 function setup() {
-    let cnv = createCanvas(800, 635);
+    let cnv = createCanvas(1000, 500);
     cnv.parent("p5js-dec");
 
-    img.resize(800, 635);
+    img.resize(1000, 500);
     background(255);
 }
 
@@ -44,17 +44,22 @@ Amplitude.init({
         "songs": [
             {
                 // data-amplitude-song-index="0"
-                "name": "Phantom Voices - December Sonic Meditation",
+                "name": "Phantom Voices - December - Sonic Meditation",
+                "url": "/audio/dec/december-phantomvoices-sonicmeditation.mp3"
+            },
+            {
+                // data-amplitude-song-index="0"
+                "name": "Phantom Voices - December - Sonic Meditation",
                 "url": "/audio/dec/december-phantomvoices-sonicmeditation.mp3"
             },
             {
                 // data-amplitude-song-index="1"
-                "name": "Phantom Voices - December Intro",
+                "name": "Phantom Voices - December - Intro",
                 "url": "/audio/dec/december-phantomvoices-intro.mp3"
             },
             {
                 // data-amplitude-song-index="2"
-                "name": "Phantom Voices - Food Poetics Club",
+                "name": "Phantom Voices - December - Food Poetics Club",
                 "url": "/audio/dec/december-phantomvoices-silent-lunch.mp3"
             },
             {

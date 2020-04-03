@@ -45,7 +45,7 @@ html {
 }
 
 body {
-    /*display: none;*/
+    display: none;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
@@ -137,6 +137,7 @@ a.hover-link {
     position: relative;
     display: inline-block;
     z-index: 2;
+    text-decoration: underline;
 }
 .hover-img  {
     display: none;
@@ -145,7 +146,7 @@ a.hover-link:hover .hover-img  {
     display: inline-block;
     position: absolute;
     z-index: -1;
-    opacity: 0.7;
+    opacity: 0.9;
     max-width: initial;
     height: auto;
 }
@@ -230,6 +231,7 @@ video {
 .main-nav ul {
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 70px;
 }
 
 .main-nav ul li {
@@ -267,7 +269,7 @@ video {
 }
 
 .content--container__basic {
-    z-index: 100;
+    /*z-index: 100;*/
 }
 
 #p5js.content--container {
@@ -294,7 +296,7 @@ video {
     text-align: center;
     background: white;
     padding: 20px 0;
-    z-index: 2;
+    z-index: 982;
     width: 100%;
     margin-top: auto;
     flex-shrink: 0;
@@ -367,13 +369,16 @@ video {
 .topbar--left {
     display: inline-flex;
     padding-right: 20px;
+
 }
 
 .topbar--right .counter {
     padding: 10px;
-    border: 1px solid;
+    padding-bottom: 20px;
+    border: 0px ;
     margin-bottom: 10px;
-    font-weight: 700;
+    font-weight: bold;
+    font-size: 15px;
     min-height: 45px;
     text-align: center;
 }
@@ -381,10 +386,14 @@ video {
 .play--title {
     font-weight: 700;
     padding: 10px;
-    border: 1px solid;
+    padding-bottom: 20px;
+    padding-right:40px;
+    border: 0px ;
     margin-bottom: 10px;
-    flex-grow: 1;
-    max-width: 90%;
+    font-size: 15px;
+    flex-grow: 0.5;
+    max-width: 100%;
+    text-align: center;
     overflow: hidden;
 }
 
@@ -392,6 +401,7 @@ video {
 .play-toggle {
     width: 40px;
     margin-right: 20px;
+
 }
 .play-pause-special:hover,
 .play-toggle:hover {
@@ -459,7 +469,7 @@ img.icon-pause {
     position: relative;
     z-index: 2;
     margin-top: 0;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 .full-height {
@@ -489,8 +499,8 @@ img.icon-pause {
     animation-timing-function: linear;
     -webkit-animation-name: ticker;
     animation-name: ticker;
-    -webkit-animation-duration: 20s;
-    animation-duration: 20s;
+    -webkit-animation-duration: 25s;
+    animation-duration: 25s;
 }
 
 .flex-table {

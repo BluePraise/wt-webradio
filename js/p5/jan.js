@@ -2,14 +2,14 @@ var img;
 var pointillize = 10;
 
 function preload() {
-    img = loadImage("img/january.jpg");
+    img = loadImage("img/j1.jpg");
 }
 
 function setup() {
-    let cnv = createCanvas(377, 364);
+    let cnv = createCanvas(1000, 500);
     cnv.parent("p5js-jan");
 
-    img.resize(377, 364);
+    img.resize(1000, 500);
     background(255);
 }
 
@@ -43,18 +43,23 @@ $(document).ready(function() {
         "songs": [
             {
                 // data-amplitude-song-index="0"
-                "name": "Phantom Voices - January Sonic Meditation",
-                "url": "/audio/jan/jan-phantomvoices-sonicmeditation.mp3"
+                "name": "Phantom Voices - January - Sonic Meditation",
+                "url": "/audio/jan/january-phantomvoices-sonicmeditation.mp3"
+            },
+            {
+                // data-amplitude-song-index="0"
+                "name": "Phantom Voices - January - Sonic Meditation",
+                "url": "/audio/jan/january-phantomvoices-sonicmeditation.mp3"
             },
             {
                 // data-amplitude-song-index="1"
-                "name": "Phantom Voices - January Sonic Meditation",
-                "url": "/audio/jan/jan-phantomvoices-sonicmeditation.mp3"
-            },
+                "name": "Phantom Voices - January - Silent Lunch",
+                "url": "/audio/jan/january-phantomvoices-silentlunch.mp3"
+            }
             {
                 // data-amplitude-song-index="2"
-                "name": "Phantom Voices - December - Silent Lunch",
-                "url": "/audio/jan/jan-phantomvoices-silentlunch.mp3"
+                "name": "Phantom Voices - January - Yunie Chae",
+                "url": "/audio/jan/january-phantomvoices-yunie-chae.mp3"
             }
         ],
             "autoplay": true
