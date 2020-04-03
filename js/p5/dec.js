@@ -44,27 +44,27 @@ Amplitude.init({
         "songs": [
             {
                 // data-amplitude-song-index="0"
-                "name": "Phantom Voices - December - Sonic Meditation",
+                "name": "MARGINS AS THE SILENT SILENCED CENTER",
                 "url": "/audio/dec/december-phantomvoices-sonicmeditation.mp3"
             },
             {
                 // data-amplitude-song-index="0"
-                "name": "Phantom Voices - December - Sonic Meditation",
+                "name": "SONIC MEDITATION “TEACH YOURSELF TO FLY",
                 "url": "/audio/dec/december-phantomvoices-sonicmeditation.mp3"
             },
             {
                 // data-amplitude-song-index="1"
-                "name": "Phantom Voices - December - Intro",
+                "name": "AN PHANTOM VOICES” introductory broadcast by TABEA NIXDORFF and GERARDO MADERA",
                 "url": "/audio/dec/december-phantomvoices-intro.mp3"
             },
             {
                 // data-amplitude-song-index="2"
-                "name": "Phantom Voices - December - Food Poetics Club",
+                "name": "WT FOOD POETICS CLUB",
                 "url": "/audio/dec/december-phantomvoices-silent-lunch.mp3"
             },
             {
                 // data-amplitude-song-index="3"
-                "name": "Phantom Voices - December - Ghost Boxing",
+                "name": "GHOSTBOXING FROM THE ATTIC",
                 "url": "/audio/dec/december-phantomvoices-ghostboxing.mp3"
             }
         ],

@@ -1,7 +1,40 @@
-<?php include "head.php";?>
-<audio id="main-audio" autoplay preload>
-    <source src="https://projects.magalielinda.me/anphantomvoices/audio/dec/december-phantomvoices-intro.mp3" type="audio/mpeg">
-</audio>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>An Phantom Voices</title>
+    <meta name="author" content="Werkplaats Typgrafie Arnhem">
+    <link href="https://fonts.googleapis.com/css?family=Caudex:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+    <script src="js/amplitude.js"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="topbar">
+            <div class="topbar--left">
+                <div class="play-toggle amplitude-play-pause">
+                    <img id="play" class="icon-play" src="icon-play.svg" alt="play icon">
+                    <img id="pause" class="icon-pause" src="icon-pause.svg" alt="play icon">
+                    <audio id="main-audio" autoplay preload>
+                        <source src="/audio/mar/march-phantomvoices-sonicmeditation.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="play--title">
+                    <div class="ticker-wrap">
+                    <div class="ticker">SONIC MEDITATION “BREATHE IN BREATHE OUT / MENTAL IMAGE”</div>
+                    </div>
+                </div>
+            </div>
+            <div class="topbar--right">
+                <div class="counter"></div>
+            </div>
+        </div>
 
 <div id="p5js-mar" class="canvas-container"></div>
 <div class="full-height">
@@ -62,14 +95,14 @@
         <div class="content--right">
             <ul class="audio-menu">
                     <li>
-                        <a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-a">THE THING WITH TRANSMITTING IS
+                        <a class="amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-a">THE THING WITH TRANSMITTING IS
                         (BLABLA)</a>
                     </li>
-                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-b">SONIC MEDITATION “BREATHE IN BREATHE OUT / MENTAL IMAGE”</a></li>
-                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-c">WT FOOD POETICS CLUB</a></li>
-                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-d">“TREMBLING EARTH” sonic contribution by JANNETE MARK</a></li>
-                        <li><a class="js-show-panel" data-panel="entry-e">“ATTITUDE #1” visual score by TJOBO KHO</a></li>
-                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="3"
+                        <li><a class="amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-b">SONIC MEDITATION “BREATHE IN BREATHE OUT / MENTAL IMAGE”</a></li>
+                        <li><a class="amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-c">WT FOOD POETICS CLUB</a></li>
+                        <li><a class="amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-d">“TREMBLING EARTH” sonic contribution by JANNETE MARK</a></li>
+                        <li><a class="amplitude-play-pause" data-panel="entry-e">“ATTITUDE #1” visual score by TJOBO KHO</a></li>
+                        <li><a class="amplitude-play-pause" data-amplitude-song-index="3"
                         data-panel="entry-f">INTERMEZZO</a></li>
                     </ul>
         </div>
@@ -82,52 +115,9 @@
 
 </div> <!-- .end of wrapper -->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
 <script> window.countDownDate = new Date("Mar 02, 2020 12:00").getTime(); </script>
 <script src="js/p5/mar.js"></script>
 <script src="script.js"></script>
-
- <script>
-
-    $(document).ready(function() {
-        Amplitude.setDebug( true );
-        Amplitude.init({
-
-
-           "songs": [
-                {
-                    // data-amplitude-song-index="0"
-                    "name": "Phantom Voices - March - Sonic Meditation",
-                    "url": "./audio/mar/march-phantomvoices-sonicmeditation.mp3"
-                },
-                {
-                    // data-amplitude-song-index="0"
-                    "name": "Phantom Voices - March - Sonic Meditation",
-                    "url": "./audio/mar/march-phantomvoices-sonicmeditation.mp3"
-                },
-                {
-                    // data-amplitude-song-index="1"
-                    "name": "Phantom Voices - March - Silent Lunch",
-                    "url": "./audio/mar/march-phantomvoices-silentlunch-straws.mp3"
-                },
-                {
-                    // data-amplitude-song-index="2"
-                    "name": "Phantom Voices - March - Jannette Mark",
-                    "url": "./audio/mar/march-phantomvoices-jannete-mark.mp3"
-                },
-                {
-                    // data-amplitude-song-index="3"
-                    "name": "Phantom Voices - March - Intermezzo",
-                    "url": "./audio/mar/march-phantomvoices-intermezzo.mp3"
-                }
-            ],
-            "autoplay": true
-        });
-
-    });
-    </script>
-
 
 </body>
 

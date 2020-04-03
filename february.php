@@ -1,8 +1,41 @@
-<?php include "head.php";?>
+<!DOCTYPE html>
+<html>
 
-<audio id="main-audio" autoplay preload>
-    <source src="https://projects.magalielinda.me/anphantomvoices/audio/dec/december-phantomvoices-intro.mp3" type="audio/mpeg">
-</audio>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>An Phantom Voices</title>
+    <meta name="author" content="Werkplaats Typgrafie Arnhem">
+    <link href="https://fonts.googleapis.com/css?family=Caudex:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+    <script src="js/amplitude.js"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="topbar">
+            <div class="topbar--left">
+                <div class="play-toggle amplitude-play-pause">
+                    <img id="play" class="icon-play" src="icon-play.svg" alt="play icon">
+                    <img id="pause" class="icon-pause" src="icon-pause.svg" alt="play icon">
+                    <audio id="main-audio" autoplay preload>
+                        <source src="/audio/feb/february-phantomvoices-sonicmeditation.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="play--title">
+                    <div class="ticker-wrap">
+                    <div class="ticker">SONIC MEDITATION “SEX CHANGE / EAR LY”</div>
+                    </div>
+                </div>
+            </div>
+            <div class="topbar--right">
+                <div class="counter"></div>
+            </div>
+        </div>
+
     <div id="p5js-feb" class="canvas-container"></div>
     <div class="full-height">
         <header class="mast-head">
@@ -79,45 +112,6 @@
 <script src="js/p5/feb.js"></script>
 <script src="script.js"></script>
 
-<script>
-
-    $(document).ready(function() {
-        Amplitude.setDebug( true );
-        Amplitude.init({
-
-
-          "songs": [
-                {
-                    // data-amplitude-song-index="0"
-                    "name": "Phantom Voices - February - Sonic Meditation",
-                    "url": "audio/feb/february-phantomvoices-sonicmediation.mp3"
-                },
-                {
-                    // data-amplitude-song-index="0"
-                    "name": "Phantom Voices - February - Sonic Meditation",
-                    "url": "audio/feb/february-phantomvoices-sonicmediation.mp3"
-                },
-                {
-                    // data-amplitude-song-index="1"
-                    "name": "Phantom Voices - February - Silent Lunch",
-                    "url": "/audio/feb/february-phantomvoices-silentlunch.mp3"
-                },
-                {
-                    // data-amplitude-song-index="2"
-                    "name": "Phantom Voices - February - Hannah Sakai",
-                    "url": "/audio/feb/february-phantomvoices-hannah-sakai.mp3"
-                }
-                {
-                    // data-amplitude-song-index="3"
-                    "name": "Phantom Voices - February - Intermezzo",
-                    "url": "/audio/feb/february-intermezzo-intermezzo.mp3"
-                }
-            ],
-                "autoplay": true
-            });
-
-    });
-    </script>
 
 </body>
 

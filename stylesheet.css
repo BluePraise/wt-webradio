@@ -231,7 +231,6 @@ video {
 .main-nav ul {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 70px;
 }
 
 .main-nav ul li {
@@ -412,6 +411,10 @@ video {
     transform: rotate(90deg);
 }
 
+.icon-play {
+    display: none;
+}
+
 img.icon-pause {
     height: 45px;
 }
@@ -469,7 +472,6 @@ img.icon-pause {
     position: relative;
     z-index: 2;
     margin-top: 0;
-    padding-bottom: 40px;
 }
 
 .full-height {

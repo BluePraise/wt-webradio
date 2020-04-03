@@ -43,23 +43,23 @@ $(document).ready(function() {
         "songs": [
             {
                 // data-amplitude-song-index="0"
-                "name": "Phantom Voices - January - Sonic Meditation",
+                "name": "ORAL IMAGINARIES, STRATEGIES AND TRUTHS",
                 "url": "/audio/jan/january-phantomvoices-sonicmeditation.mp3"
             },
             {
                 // data-amplitude-song-index="0"
-                "name": "Phantom Voices - January - Sonic Meditation",
+                "name": "SONIC MEDITATION “TUMBLING SONG",
                 "url": "/audio/jan/january-phantomvoices-sonicmeditation.mp3"
             },
             {
                 // data-amplitude-song-index="1"
-                "name": "Phantom Voices - January - Silent Lunch",
+                "name": "WT FOOD POETICS CLUB",
                 "url": "/audio/jan/january-phantomvoices-silentlunch.mp3"
-            }
+            },
             {
                 // data-amplitude-song-index="2"
-                "name": "Phantom Voices - January - Yunie Chae",
-                "url": "/audio/jan/january-phantomvoices-yunie-chae.mp3"
+                "name": "MY MOTHER’S TONGUE",
+                "url": ""
             }
         ],
             "autoplay": true

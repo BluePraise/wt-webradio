@@ -41,27 +41,27 @@ function draw() {
                 {
                     // data-amplitude-song-index="0"
                     "name": "Phantom Voices - March - Sonic Meditation",
-                    "url": "./audio/mar/march-phantomvoices-sonicmeditation.mp3"
+                    "url": "/audio/mar/march-phantomvoices-sonicmeditation.mp3"
                 },
                 {
                     // data-amplitude-song-index="0"
                     "name": "Phantom Voices - March - Sonic Meditation",
-                    "url": "./audio/mar/march-phantomvoices-sonicmeditation.mp3"
+                    "url": "/audio/mar/march-phantomvoices-sonicmeditation.mp3"
                 },
                 {
                     // data-amplitude-song-index="1"
                     "name": "Phantom Voices - March - Silent Lunch",
-                    "url": "./audio/mar/march-phantomvoices-silentlunch-straws.mp3"
+                    "url": "/audio/mar/march-phantomvoices-silentlunch-straws.mp3"
                 },
                 {
                     // data-amplitude-song-index="2"
                     "name": "Phantom Voices - March - Jannette Mark",
-                    "url": "./audio/mar/march-phantomvoices-jannete-mark.mp3"
+                    "url": "/audio/mar/march-phantomvoices-jannete-mark.mp3"
                 },
                 {
                     // data-amplitude-song-index="3"
                     "name": "Phantom Voices - March - Intermezzo",
-                    "url": "./audio/mar/march-phantomvoices-intermezzo.mp3"
+                    "url": "/audio/mar/march-phantomvoices-intermezzo.mp3"
                 }
             ],
             "autoplay": true

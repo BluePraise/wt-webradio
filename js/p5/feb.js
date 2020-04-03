@@ -64,11 +64,11 @@ $(document).ready(function() {
                 // data-amplitude-song-index="2"
                 "name": "Phantom Voices - February - Hannah Sakai",
                 "url": "/audio/feb/february-phantomvoices-hannah-sakai.mp3"
-            }
+            },
             {
                 // data-amplitude-song-index="3"
                 "name": "Phantom Voices - February - Intermezzo",
-                "url": "/audio/feb/february-intermezzo-intermezzo.mp3"
+                "url": "/audio/feb/february-phantomvoices-intermezzo.mp3"
             }
         ],
             "autoplay": true

@@ -81,33 +81,29 @@ $(document).ready(function() {
     }, 1000);
 
     // AUDIO PLAYER
-    // hide the pause button
-    $(".icon-play").hide();
-
     // set click event to this audio element.
     $(".play-toggle").on("click", function() {
-        // play the audio
-        // show the pause icon
-        $(".icon-pause").show();
-        $(".icon-play").hide();
+        $webaudio = document.getElementById('main-audio');
 
+        // if paused show play button
+        if ( $(".amplitude-play-pause").hasClass('amplitude-paused')) {
+
+    		$(".icon-pause").hide();
+    		$(".icon-play").show();
+
+            $webaudio.pause();
+
+        }
+
+        // if play show pause button
+    	if ($(".amplitude-play-pause").hasClass('amplitude-playing')) {
+
+        	$(".icon-play").hide();
+        	$(".icon-pause").show();
+            $webaudio.play();
+    	}
+        return false;
     });
-
-    $(".play-toggle").on("click", function(){
-    	$(".icon-pause").hide();
-        $(".icon-play").show();
-    });
-
-    if ( $(".amplitude-play-pause").hasClass('amplitude-paused')) {
-
-		$(".icon-play").hide();
-		$(".icon-pause").show();
-    }
-	if ($(".amplitude-play-pause").hasClass('amplitude-playing')) {
-
-    	$(".icon-pause").hide();
-    	$(".icon-play").show();
-	}
 
     $(".colophon__link").click(function(e) {
         var $this = $(this);
@@ -121,7 +117,7 @@ $(document).ready(function() {
     $(".audio-menu")
         .find("a")
         .click(function() {
-
+            $webaudio = document.getElementById('main-audio');
             // set ticker text to clicked menu item
             $(".ticker").text($(this).text());
             // make ticker to move
@@ -137,6 +133,22 @@ $(document).ready(function() {
 
             leftpanel.addClass('show');
             anypanel.not(leftpanel).removeClass('show');
+            //pause the initial audio
+            $webaudio.pause();
+            // if paused show play button
+            if ( $(".amplitude-play-pause").hasClass('amplitude-paused')) {
+
+                $(".icon-pause").hide();
+                $(".icon-play").show();
+
+            }
+
+            // if play show pause button
+            if ($(".amplitude-play-pause").hasClass('amplitude-playing')) {
+
+                $(".icon-pause").show();
+                $(".icon-play").hide();
+            }
 
             // prevent default link action
             return false;
