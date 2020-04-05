@@ -21,13 +21,13 @@
                 <div class="play-toggle amplitude-play-pause">
                     <img id="play" class="icon-play" src="icon-play.svg" alt="play icon">
                     <img id="pause" class="icon-pause" src="icon-pause.svg" alt="play icon">
-                    <audio id="main-audio" autoplay preload>
+                    <!-- <audio id="main-audio" autoplay preload>
                         <source src="/audio/jun/june-phantomvoices-sonicmeditation.mp3" type="audio/mpeg">
-                    </audio>
+                    </audio> -->
                 </div>
                 <div class="play--title">
                     <div class="ticker-wrap">
-                    <div class="ticker">PUT SONIC MEDITATION here DO NOT FORGET TO CHECK THE AUDIO PATH in AUDIO tAg</div>
+                    <div class="ticker">SONIC MEDITATIONS (SINGING WITH THE SIRENS)</div>
                     </div>
                 </div>
             </div>

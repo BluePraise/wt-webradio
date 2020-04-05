@@ -18,11 +18,11 @@
     <div class="wrapper">
         <div class="topbar">
             <div class="topbar--left">
-                <div class="play-toggle amplitude-play-pause" amplitude-main-play-pause="true">
+                <div class="play-toggle amplitude-play-pause">
                     <img id="play" class="icon-play" src="icon-play.svg" alt="play icon">
                     <img id="pause" class="icon-pause" src="icon-pause.svg" alt="play icon">
-                    <audio id="main-audio" autoplay preload>
-                        <source src="/audio/feb/ february-phantomvoices-sonicmediation.mp3" type="audio/mpeg">
+                    <audio id="main-audio" autoplay preload loop>
+                        <source src="/audio/feb/february-phantomvoices-sonicmediation.mp3" type="audio/mpeg">
                     </audio>
                 </div>
                 <div class="play--title">
@@ -38,7 +38,7 @@
 
         <div id="p5js-index" class="canvas-container"></div>
 
-        <div class="full-height">
+        <div class="full-height index-php">
             <header class="mast-head">
              <nav class="main-nav">
                  <ul>

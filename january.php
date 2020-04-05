@@ -90,13 +90,13 @@
             <div class="content--right">
                 <ul class="audio-menu">
                     <li>
-                        <a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-a">ORAL IMAGINARIES, STRATEGIES AND TRUTHS</a>
+                        <a class="amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-a">ORAL IMAGINARIES, STRATEGIES AND TRUTHS</a>
                     </li>
-                    <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-b">SONIC MEDITATION “TUMBLING SONG”</a></li><!--  [Audio: january-phantomvoices-sonicmeditation.mp3]-->
+                    <li><a class="amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-b">SONIC MEDITATION “TUMBLING SONG”</a></li><!--  [Audio: january-phantomvoices-sonicmeditation.mp3]-->
 
-                    <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-c">WT FOOD POETICS CLUB</a></li><!-- [Audio: january-phantomvoices-silentlunch.mp3] -->
+                    <li><a class="amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-c">WT FOOD POETICS CLUB</a></li><!-- [Audio: january-phantomvoices-silentlunch.mp3] -->
 
-                    <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-d">“MY MOTHER’S TONGUE” visual score by YUNIE CHAE</a></li>
+                    <li><a class="amplitude-play-pause" data-amplitude-song-index="3" data-panel="entry-d">“MY MOTHER’S TONGUE” visual score by YUNIE CHAE</a></li>
                 </ul>
             </div>
 

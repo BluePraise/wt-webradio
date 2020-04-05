@@ -40,28 +40,33 @@ function draw() {
             "songs": [
                 {
                     // data-amplitude-song-index="0"
-                    "name": "Phantom Voices - March - Sonic Meditation",
-                    "url": "/audio/mar/march-phantomvoices-sonicmeditation.mp3"
-                },
-                {
-                    // data-amplitude-song-index="0"
-                    "name": "Phantom Voices - March - Sonic Meditation",
+                    "name": "THE THING WITH TRANSMITTING IS (BLABLA)",
                     "url": "/audio/mar/march-phantomvoices-sonicmeditation.mp3"
                 },
                 {
                     // data-amplitude-song-index="1"
-                    "name": "Phantom Voices - March - Silent Lunch",
-                    "url": "/audio/mar/march-phantomvoices-silentlunch-straws.mp3"
+                    "name": "SONIC MEDITATION “BREATHE IN BREATHE OUT / MENTAL IMAGE”",
+                    "url": "/audio/mar/march-phantomvoices-sonicmeditation.mp3"
                 },
                 {
                     // data-amplitude-song-index="2"
-                    "name": "Phantom Voices - March - Jannette Mark",
-                    "url": "/audio/mar/march-phantomvoices-jannete-mark.mp3"
+                    "name": "WT FOOD POETICS CLUB",
+                    "url": "/audio/mar/march-phantomvoices-silentlunch-straws.mp3"
                 },
                 {
                     // data-amplitude-song-index="3"
-                    "name": "Phantom Voices - March - Intermezzo",
-                    "url": "/audio/mar/march-phantomvoices-intermezzo.mp3"
+                    "name": "“TREMBLING EARTH” sonic contribution by JANNETE MARK",
+                    "url": "/audio/mar/march-phantomvoices-jannete-mark.mp3"
+                },
+                {
+                    // data-amplitude-song-index="4"
+                    "name": "“ATTITUDE #1” visual score by TJOBO KHO",
+                    "url": "" // AUDIO FOLLOWS
+                },
+                {
+                    // data-amplitude-song-index="5"
+                    "name": "INTERMEZZO",
+                    "url": "/audio/mar/march-phantomvoices-intermezzo.mp3" // AUDIO FOLLOWS
                 }
             ],
             "autoplay": true

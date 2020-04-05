@@ -36,3 +36,7 @@ function draw() {
 
     }
 }
+
+Amplitude.init({
+    "autoplay": true
+});

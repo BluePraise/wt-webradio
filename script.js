@@ -8,6 +8,8 @@ $(document).ready(function() {
     // console.log(countDownDate);
     var now = new Date().getTime();
 
+    var $menutoggleactivated = $(".audio-menu").find(".clicked");
+
     function getMonday() {
         var d = new Date(),
             monday;
@@ -80,29 +82,38 @@ $(document).ready(function() {
         }
     }, 1000);
 
+
     // AUDIO PLAYER
     // set click event to this audio element.
     $(".play-toggle").on("click", function() {
         $webaudio = document.getElementById('main-audio');
 
         // if paused show play button
-        if ( $(".amplitude-play-pause").hasClass('amplitude-paused')) {
+        if ( $(".amplitude-play-pause").hasClass('amplitude-paused') ) {
+            // if the audiomenu has the class clicked don't play
+            // the audio in the top bar.
 
     		$(".icon-pause").hide();
     		$(".icon-play").show();
 
             $webaudio.pause();
-
         }
 
         // if play show pause button
     	if ($(".amplitude-play-pause").hasClass('amplitude-playing')) {
+            console.log("hello maggie");
 
         	$(".icon-play").hide();
         	$(".icon-pause").show();
             $webaudio.play();
+            $webaudio.loop = true;
+            if ($menutoggleactivated) {
+                $webaudio.pause();
+                $webaudio.loop = false;
+                $menutoggleactivated.play();
+                $menutoggleactivated.loop = true;
+            }
     	}
-        return false;
     });
 
     $(".colophon__link").click(function(e) {
@@ -118,8 +129,13 @@ $(document).ready(function() {
         .find("a")
         .click(function() {
             $webaudio = document.getElementById('main-audio');
+            $activeSong = Amplitude.getActiveIndex()
+            $metadata = Amplitude.getSongAtIndex( $activeSong )
+
+            console.log($metadata);
             // set ticker text to clicked menu item
-            $(".ticker").text($(this).text());
+            // $(".ticker").text($(this).text());
+            $(".ticker").text($metadata.name);
             // make ticker to move
             $(".ticker-wrap").addClass("ticker-wrap--active");
 
@@ -135,12 +151,12 @@ $(document).ready(function() {
             anypanel.not(leftpanel).removeClass('show');
             //pause the initial audio
             $webaudio.pause();
+            // $activeSong.loop = true;
             // if paused show play button
             if ( $(".amplitude-play-pause").hasClass('amplitude-paused')) {
-
+                $webaudio.pause();
                 $(".icon-pause").hide();
                 $(".icon-play").show();
-
             }
 
             // if play show pause button
@@ -150,20 +166,11 @@ $(document).ready(function() {
                 $(".icon-play").hide();
             }
 
+
+
             // prevent default link action
             return false;
         });
 
-    $('.play-pause').click(function(e) {
-
-        var $audio = document.getElementById("main-audio");
-        if(!$audio.paused && !$audio.ended) {
-            $audio.pause();
-        }
-        else if ($audio.paused) {
-            $audio.play();
-        }
-        return false;
-    });
 
 });

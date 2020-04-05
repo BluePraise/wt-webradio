@@ -294,7 +294,7 @@ video {
 .content--footer {
     text-align: center;
     background: white;
-    padding: 20px 0;
+    padding: 80px 0;
     z-index: 982;
     width: 100%;
     margin-top: auto;
@@ -434,7 +434,7 @@ img.icon-pause {
     z-index: 2;
     background: white;
     width: 100%;
-    top: 93vh;
+    top: 92vh;
     bottom: auto;
     position: absolute;
     transform: translateY(-10px);
@@ -475,7 +475,7 @@ img.icon-pause {
 }
 
 .full-height {
-    height: 100vh;
+    height: 97vh;
     display: flex;
     flex-direction: column;
 }
@@ -533,4 +533,8 @@ img.icon-pause {
 
 .clicked {
     font-weight: bold;
+}
+
+.index-php .copyright {
+    display: none;
 }

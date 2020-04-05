@@ -22,7 +22,7 @@
                     <img id="play" class="icon-play" src="icon-play.svg" alt="play icon">
                     <img id="pause" class="icon-pause" src="icon-pause.svg" alt="play icon">
                     <audio id="main-audio" autoplay preload>
-                        <source src="/audio/feb/february-phantomvoices-sonicmeditation.mp3" type="audio/mpeg">
+                        <source src="/audio/feb/february-phantomvoices-sonicmediation.mp3" type="audio/mpeg">
                     </audio>
                 </div>
                 <div class="play--title">
@@ -94,10 +94,10 @@
                     <li>
                         <a href="" class="js-show-panel amplitude-play-pause"  data-amplitude-song-index="0"data-panel="entry-a">THE “FIG.” OF WOMAN AS THE WHITE NOISE OF HISTORY</a>
                     </li>
-                    <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-b">SONIC MEDITATION “SEX CHANGE / EAR LY” </a></li><!-- Audio: february-phantomvoices-sonicmeditation.mp3] -->
-                    <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-c">WT FOOD POETICS CLUB</a></li><!-- Audio: later -->
-                    <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-d">“REFLECTIONS ON HER VOICE” visual score <br>by HANNAH SAKAI</a></li><!-- Audio: later -->
-                    <li><a class="amplitude-play-pause js-show-panel" data-amplitude-song-index="3" data-panel="entry-e">INTERMEZZO</a></li><!-- Audio: february_phantomvoices-intermezzo.mp3]-->
+                    <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-b">SONIC MEDITATION “SEX CHANGE / EAR LY” </a></li><!-- Audio: february-phantomvoices-sonicmeditation.mp3] -->
+                    <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-c">WT FOOD POETICS CLUB</a></li><!-- Audio: later -->
+                    <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="3" data-panel="entry-d">“REFLECTIONS ON HER VOICE” visual score <br>by HANNAH SAKAI</a></li><!-- Audio: later -->
+                    <li><a class="amplitude-play-pause js-show-panel" data-amplitude-song-index="4" data-panel="entry-e">INTERMEZZO</a></li><!-- Audio: february_phantomvoices-intermezzo.mp3]-->
 
                 </ul>
             </div>

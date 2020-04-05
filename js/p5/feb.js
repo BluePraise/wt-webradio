@@ -47,27 +47,27 @@ $(document).ready(function() {
         "songs": [
             {
                 // data-amplitude-song-index="0"
-                "name": "Phantom Voices - February - Sonic Meditation",
-                "url": "audio/feb/february-phantomvoices-sonicmediation.mp3"
-            },
-            {
-                // data-amplitude-song-index="0"
-                "name": "Phantom Voices - February - Sonic Meditation",
+                "name": "THE “FIG.” OF WOMAN AS THE WHITE NOISE OF HISTORY",
                 "url": "audio/feb/february-phantomvoices-sonicmediation.mp3"
             },
             {
                 // data-amplitude-song-index="1"
-                "name": "Phantom Voices - February - Silent Lunch",
-                "url": "/audio/feb/february-phantomvoices-silentlunch.mp3"
+                "name": "SONIC MEDITATION “SEX CHANGE / EAR LY",
+                "url": "audio/feb/february-phantomvoices-sonicmediation.mp3"
             },
             {
                 // data-amplitude-song-index="2"
-                "name": "Phantom Voices - February - Hannah Sakai",
-                "url": "/audio/feb/february-phantomvoices-hannah-sakai.mp3"
+                "name": "WT FOOD POETICS CLUB",
+                "url": "audio/feb/february-phantomvoices-silentlunch.mp3"
             },
             {
                 // data-amplitude-song-index="3"
-                "name": "Phantom Voices - February - Intermezzo",
+                "name": "“REFLECTIONS ON HER VOICE” visual score by HANNAH SAKAI",
+                "url": "/audio/feb/february-phantomvoices-hannah-sakai.mp3"
+            },
+            {
+                // data-amplitude-song-index="4"
+                "name": "INTERMEZZO",
                 "url": "/audio/feb/february-phantomvoices-intermezzo.mp3"
             }
         ],

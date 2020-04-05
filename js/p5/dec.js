@@ -36,7 +36,6 @@ function draw() {
 }
 
 Amplitude.init({
-        "autoplay": true,
         "bindings": {
             32: 'play_pause'
         },
@@ -48,28 +47,28 @@ Amplitude.init({
                 "url": "/audio/dec/december-phantomvoices-sonicmeditation.mp3"
             },
             {
-                // data-amplitude-song-index="0"
-                "name": "SONIC MEDITATION “TEACH YOURSELF TO FLY",
+                // data-amplitude-song-index="1"
+                "name": "SONIC MEDITATION “TEACH YOURSELF TO FLY”",
                 "url": "/audio/dec/december-phantomvoices-sonicmeditation.mp3"
             },
             {
-                // data-amplitude-song-index="1"
+                // data-amplitude-song-index="2"
                 "name": "AN PHANTOM VOICES” introductory broadcast by TABEA NIXDORFF and GERARDO MADERA",
                 "url": "/audio/dec/december-phantomvoices-intro.mp3"
             },
             {
-                // data-amplitude-song-index="2"
+                // data-amplitude-song-index="3"
                 "name": "WT FOOD POETICS CLUB",
                 "url": "/audio/dec/december-phantomvoices-silent-lunch.mp3"
             },
             {
-                // data-amplitude-song-index="3"
-                "name": "GHOSTBOXING FROM THE ATTIC",
+                // data-amplitude-song-index="4"
+                "name": "“GHOSTBOXING FROM THE ATTIC” broadcast by GERARDO MADERA and BRYANT WELLS",
                 "url": "/audio/dec/december-phantomvoices-ghostboxing.mp3"
             }
         ],
-        "start_song":3,
-        "debug": true
+        "start_song":3
     });
+
 
 

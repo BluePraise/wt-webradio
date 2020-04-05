@@ -90,14 +90,14 @@
                     <li>
                         <a class="play-pause" data-panel="entry-a" data-amplitude-song-index="0">MARGINS AS THE SILENT SILENCED CENTER</a>
                     </li>
-                        <li><a class="amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-b">SONIC MEDITATION “TEACH YOURSELF TO FLY”</a>
+                        <li><a class="amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-b">SONIC MEDITATION “TEACH YOURSELF TO FLY”</a>
                     </li>
-                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-c">“AN PHANTOM VOICES” introductory broadcast<br> by
+                        <li><a class="amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-c">“AN PHANTOM VOICES” introductory broadcast<br> by
                         TABEA NIXDORFF and GERARDO MADERA</a>
                     </li>
-                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-d">WT FOOD POETICS CLUB</a>
+                        <li><a class="amplitude-play-pause" data-amplitude-song-index="3" data-panel="entry-d">WT FOOD POETICS CLUB</a>
                     </li>
-                        <li><a class="js-show-panel amplitude-play-pause" data-amplitude-song-index="3" data-panel="entry-e">“GHOSTBOXING FROM THE ATTIC”<br> broadcast by GERARDO MADERA and BRYANT WELLS</a>
+                        <li><a class="amplitude-play-pause" data-amplitude-song-index="4" data-panel="entry-e">“GHOSTBOXING FROM THE ATTIC”<br> broadcast by GERARDO MADERA and BRYANT WELLS</a>
                     </li>
                     </ul>
                 </div>
@@ -114,9 +114,6 @@
 <script> window.countDownDate = new Date("Dec 02, 2019 12:00").getTime(); </script>
 <script src="js/p5/dec.js"></script>
 <script src="script.js"></script>
-
-
-
 
 </body>
 

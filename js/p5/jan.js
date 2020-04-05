@@ -47,17 +47,17 @@ $(document).ready(function() {
                 "url": "/audio/jan/january-phantomvoices-sonicmeditation.mp3"
             },
             {
-                // data-amplitude-song-index="0"
-                "name": "SONIC MEDITATION “TUMBLING SONG",
+                // data-amplitude-song-index="1"
+                "name": "ORAL IMAGINARIES, STRATEGIES AND TRUTHS",
                 "url": "/audio/jan/january-phantomvoices-sonicmeditation.mp3"
             },
             {
-                // data-amplitude-song-index="1"
+                // data-amplitude-song-index="2"
                 "name": "WT FOOD POETICS CLUB",
                 "url": "/audio/jan/january-phantomvoices-silentlunch.mp3"
             },
             {
-                // data-amplitude-song-index="2"
+                // data-amplitude-song-index="3"
                 "name": "MY MOTHER’S TONGUE",
                 "url": ""
             }
