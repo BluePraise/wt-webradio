@@ -55,7 +55,7 @@
                 </ul>
             </nav>
         </header>
-        <main class="content--container">
+        <main class="content--container dec">
             <div class="content--left content--txt">
                 <div class="panel show" data-panel="entry-a">
                     <p>This month’s reading:</p>

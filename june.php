@@ -55,7 +55,7 @@
                 </nav>
             </header>
 
-            <div class="content--container">
+            <div class="content--container june">
                 <div class="counter"></div>
                 <!-- <div class="content--left">
 

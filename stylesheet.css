@@ -260,21 +260,24 @@ video {
     position: relative;
 }
 
-.content--container,
+/* this is used on pages with months */
+.content--container {
+    justify-content: center;
+    height: 60vh;
+    flex-grow: 2;
+}
+
+/* this is used on page: An phantom voices
+ because it has a different layout*/
 .content--container__basic {
     justify-content: center;
     height: 60vh;
     flex-grow: 2;
 }
 
-.content--container__basic {
-    /*z-index: 100;*/
-}
-
 #p5js.content--container {
     padding: 0;
 }
-
 
 .content--container .counter {
     position: absolute;
@@ -304,10 +307,29 @@ video {
 }
 
 .content--txt {
-    padding: 50px 40px 10px 40px;
+    padding: 0px 40px 10px 40px;
     height: 60vh;
     overflow: hidden;
     overflow-y: auto;
+}
+/* CONTENT CONTAINER EXAMPLE*/
+
+/*.dec .content-left .panel.show[data-panel="entry-b"] {
+    margin-top: 200px;
+}*/
+
+.content--left .panel.show[data-panel="entry-b"] {
+    margin-top: 90px;
+}
+
+.content--left .panel.show[data-panel="entry-c"] {
+    margin-top: 150px;
+}
+.content--left .panel.show[data-panel="entry-d"] {
+    margin-top: 233px;
+}
+.content--left .panel.show[data-panel="entry-e"] {
+    margin-top: 270px;
 }
 
 .content--txt h3 {
@@ -455,6 +477,10 @@ img.icon-pause {
     visibility: visible;
     opacity: 1;
     margin-top: 30px;
+}
+
+.hosted_by {
+    text-align: center;
 }
 
 .colophon__text {

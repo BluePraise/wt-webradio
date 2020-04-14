@@ -54,7 +54,7 @@
         </nav>
     </header>
 
-    <main class="content--container">
+    <main class="content--container mar">
 
         <div class="content--left content--txt">
             <div class="panel show" data-panel="entry-a">
@@ -98,9 +98,9 @@
                         <a class="amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-a">THE THING WITH TRANSMITTING IS
                         (BLABLA)</a>
                     </li>
-                        <li><a class="amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-b">SONIC MEDITATION “BREATHE IN BREATHE OUT / MENTAL IMAGE”</a></li>
+                        <li><a class="amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-b">SONIC MEDITATION “BREATHE IN BREATHE OUT / <br>MENTAL IMAGE”</a></li>
                         <li><a class="amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-c">WT FOOD POETICS CLUB</a></li>
-                        <li><a class="amplitude-play-pause" data-amplitude-song-index="3" data-panel="entry-d">“TREMBLING EARTH” sonic contribution by JANNETE MARK</a></li>
+                        <li><a class="amplitude-play-pause" data-amplitude-song-index="3" data-panel="entry-d">“TREMBLING EARTH” sonic contribution <br>by JANNETE MARK</a></li>
                         <li><a class="amplitude-play-pause" data-panel="entry-e">“ATTITUDE #1” visual score by TJOBO KHO</a></li>
                         <li><a class="amplitude-play-pause" data-amplitude-song-index="4"
                         data-panel="entry-f">INTERMEZZO</a></li>

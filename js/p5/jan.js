@@ -48,7 +48,7 @@ $(document).ready(function() {
             },
             {
                 // data-amplitude-song-index="1"
-                "name": "ORAL IMAGINARIES, STRATEGIES AND TRUTHS",
+                "name": "SONIC MEDITATION “TUMBLING SONG",
                 "url": "/audio/jan/january-phantomvoices-sonicmeditation.mp3"
             },
             {
