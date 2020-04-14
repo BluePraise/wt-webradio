@@ -1,5 +1,27 @@
 <!DOCTYPE html>
 <html>
+    
+<style>
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black; 
+}
+</style>
 
 <head>
     <meta charset="UTF-8">
@@ -59,7 +81,7 @@
 
     <main class="content--container__basic">
         <div class="content--txt content--left">
-            <h3 class="title">AN PHANTOM VOICES</h3>
+            <!-- <h3 class="title">AN PHANTOM VOICES</h3>--><br>
             <p>When we learn to read, we unlearn to involve our voice. To read aloud means to become bodily involved with text again. When to breathe? In silence, we in- and exhale paragraphs without getting thirsty. Your voice lifts for what [question mark]</p>
             <p>Voice, as an immediate medium for language, physically resonates—those who are deaf know best that perceiving sound means touch, means feeling vibration—connecting us to our bodies and their experiences, ­because voice is infected, not only by our mother tongues but through countless socio-political linguistic markers. So, when we speak, we express much more than what we mean to say. These other layers are often overheard, since our idea of listening is attuned to our idea of reading, constantly “making sense” of words as part of a shared language, that is to say, of a culturally and nationally charged system of codes. However, we cannot erase the biographical textures interwoven in a text when we read aloud. “Listening to everything, rather than just speech”<span class="footnote">1</span> could lead to something like a deconstruction of the domesticated voice, the linear text, which could also provoke a new perception of reading.</p>
             <p>A real reader is a writer<span class="footnote">2</span></p>
@@ -100,7 +122,7 @@
             <p>Listening can be understood as “tuning in.” Part of our everyday lexicon, to tune in, “to pay attention to, become aware of, or be responsive,” is a phrase indoctrinated by the advent of radio. As Mark Wigley puts it, “We tune in to spaces rather than simply occupy them.” Turning a radio dial—just as listening does—implies space; radiation ferrying itself through signal-filled airways, transmitting to a willful receiver. Listening—regardless if it’s mediated through transmission—whether it’s to a loved one, a passerby on the street, a speech, a piece of music, produces a site, a set of relations between ourselves and the subject being listened to. To tune in is to exchange space.
             </p>
             <p>“This listening that I give as well as through which I take.” When we listen, we broadcast by inserting ourselves into a collective exchange. How we listen then, and what we listen for—against the backdrop of the overheard, of those who dominate and oppress our society—can become a radical act of desire. An active listener reproduces what’s heard through action. To hear then, to listen, is to in fact give voice to something.
-            </p>
+            </p><br>
             <ol class="footnotes">
                 <li>Pauline Oliveros in an interview on Radiance: Meditation Talk Show, 2016</li>
                 <li>Hélène Cixous, “Three Steps on the Ladder of Writing,” 21.</li>
@@ -112,7 +134,7 @@
         </div>
 
         <div class="content--txt content--left">
-            <h3 class="title">A series of events</h3>
+            <h3 class="title">A Series of Events</h3>
             <p>“An Phantom Voices” is a programming platform, initiated by Gerardo Madera and Tabea Nixdorff, active from December 2019 through June 2020 at the Werkplaats Typografie in Arnhem, the Netherlands. A series of events take place every first Monday (demarcated by Arnhem’s monthly sirens) through Friday of the month. All is broadcasted on Phantom Radio, the radio plattform of Werkplaats Typografie.</p>
             <p>Each month is supplemented by a reader organized by topic, addressing different uses, strategies and implications of orality. The readers are a collection of texts, meant to be  non-canonical—to be cross(mis, counter, close)-read. Topically and referentially, the readers are points of departure, materials or resources for participants’ own research.</p>
             <p>Selecting either a sonic contribution or visual score as their output, participants of the Werkplaats Typografie respond to the various thematic propositions “An Phantom Voices” has to offer.</p>

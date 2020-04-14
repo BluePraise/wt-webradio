@@ -45,27 +45,27 @@ function draw() {
                 },
                 {
                     // data-amplitude-song-index="1"
-                    "name": "SONIC MEDITATION “BREATHE IN BREATHE OUT / MENTAL IMAGE”",
+                    "name": "SONIC MEDITATION “BREATHE IN BREATHE OUT / MENTAL IMAGE (09:06 mins.)”",
                     "url": "/audio/mar/march-phantomvoices-sonicmeditation.mp3"
                 },
                 {
                     // data-amplitude-song-index="2"
-                    "name": "WT FOOD POETICS CLUB",
+                    "name": "STRAW PHONATION by the WT FOOD POETICS CLUB (00:50 mins.)",
                     "url": "/audio/mar/march-phantomvoices-silentlunch-straws.mp3"
                 },
                 {
                     // data-amplitude-song-index="3"
-                    "name": "“TREMBLING EARTH” sonic contribution by JANNETE MARK",
+                    "name": "“TREMBLING EARTH” sonic contribution by JANNETE MARK (18:50 mins.)",
                     "url": "/audio/mar/march-phantomvoices-jannete-mark.mp3"
                 },
                 {
                     // data-amplitude-song-index="4"
-                    "name": "“ATTITUDE #1” visual score by TJOBO KHO",
+                    "name": "“ATTITUDE #1” visual score by TJOBO KHO (audio soon)",
                     "url": "" // AUDIO FOLLOWS
                 },
                 {
                     // data-amplitude-song-index="5"
-                    "name": "INTERMEZZO",
+                    "name": "INTERMEZZO (54:06 mins.)",
                     "url": "/audio/mar/march-phantomvoices-intermezzo.mp3" // AUDIO FOLLOWS
                 }
             ],

@@ -1,6 +1,28 @@
 
 <!DOCTYPE html>
 <html>
+    
+<style>
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black; 
+}
+</style>
 
 <head>
     <meta charset="UTF-8">
@@ -58,10 +80,14 @@
         <main class="content--container dec">
             <div class="content--left content--txt">
                 <div class="panel show" data-panel="entry-a">
-                    <p>This month’s reading:</p>
-                    <p>“The Transformation of Silence into Language and Action” from “Your Silence Will Not Protect You” by Audre Lorde.</p>
+                    <p>This month’s reading:<span class="footnote">1</span><br>
+                    <p>“The Transformation of Silence<span class="footnote">2</span> into Language and Action” from “Your Silence Will Not Protect You” by Audre Lorde.</p>
 
-                    <p>Additional texts in the reader: “Silence, Feminism, Power. Reflections at the Edges of Sound.” by Sheena Malhotra, Aimee Carrillo Rowe (Ed.), “Can the Subaltern Speak?” by Gayatri Chakravorty Spivak, “Word and Silence” from “Listening and Voice: Phenomenologies of Sound” by Don Ihde.</p>
+                    <p>Additional texts in the reader: “Silence, Feminism, Power. Reflections at the Edges of Sound.” by Sheena Malhotra, Aimee Carrillo Rowe (Ed.), “Can the Subaltern Speak?” by Gayatri Chakravorty Spivak, “Word and Silence” from “Listening and Voice: Phenomenologies of Sound” by Don Ihde.<br><br><br>
+                    <ol class="footnotes">
+                    <li><a href="#" class="hover-link">reading<img class="hover-img" src="img/dec_reading2-web.jpg" alt="An Phantom Voices"></a> collectively in the Meeting Room.</li>
+                    <li>In <a href="#" class="hover-link">silence<img class="hover-img" src="img/dec_reading3-web.jpg" alt="An Phantom Voices"></a> and aloud.</li>
+                    </p>
                 </div>
                 <div class="panel" data-panel="entry-b">
                     <p>This month, we followed the Sonic Meditation “Teach yourself to fly” until the sound of the sirens went off.</p>
@@ -77,8 +103,7 @@
                     Pamela Z (Breathing), Samuel Beckett (Not I), Anthony Whiteread (Pressures of the Unspeakable, with the Institute for Screamscape Studies), Kathy Acker in an interview, Cathy Berberian (Stripsody), Kamala Sankaram (Ololyga), Meredith Monk (Tablet/Songs from a Hill), Susan Howe (Frolic Architecture), Pauline Oliveros in an interview and (Ghostdance). Alvin Lucier (I am Sitting in a Room), Friedrich Jürgenson (From The Studio For Audioscopic Research), Frank Sumption (Ghost Box #13 - Random Sweep), Mark Bain (The Live Room), Jacob Kirkegaard (Aion, Church), Radio Ragazza (Born in Flames), Fred Moten (On “Figuring it out”).</p>
                 </div>
                 <div class="panel" data-panel="entry-d">
-                    <p>Hosted by the WT Food Poetics Club (WTFPC), we excersised an Straw Phonation and Collective Gargle ritual, followed by a Silent Lunch.
-                    This month's WTFPC supper, along with the other WTFPC activities, can be tracked <a target="_blank" href="https://foodpoeticsclub.werkplaatstypografie.org/">here.</a></p>
+                    <p>Straw Phonation and Collective Gargle, exercises led by the WTFPC, followed by a Silent Lunch. This month’s WTFPC supper, along with other WTFPC activities, can be tracked <a target="_blank" href="https://foodpoeticsclub.werkplaatstypografie.org/">here.</a></p>
 
                 </div>
                 <div class="panel entry-e" data-panel="entry-e">
@@ -95,7 +120,7 @@
                         <li><a class="amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-c">“AN PHANTOM VOICES” introductory broadcast<br> by
                         TABEA NIXDORFF and GERARDO MADERA</a>
                     </li>
-                        <li><a class="amplitude-play-pause" data-amplitude-song-index="3" data-panel="entry-d">WT FOOD POETICS CLUB</a>
+                        <li><a class="amplitude-play-pause" data-amplitude-song-index="3" data-panel="entry-d">SILENT LUNCH by the WT FOOD POETICS CLUB</a>
                     </li>
                         <li><a class="amplitude-play-pause" data-amplitude-song-index="4" data-panel="entry-e">“GHOSTBOXING FROM THE ATTIC”<br> broadcast by GERARDO MADERA and BRYANT WELLS</a>
                     </li>

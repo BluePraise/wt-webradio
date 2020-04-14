@@ -2,14 +2,14 @@ var img;
 var pointillize = 10;
 
 function preload() {
-    img = loadImage("img/may1.jpg");
-}s
+    img = loadImage("img/may.jpg");
+}
 
 function setup() {
-    let cnv = createCanvas(1000, 500);
+    let cnv = createCanvas(6213, 3468);
     cnv.parent("p5js-may");
 
-    img.resize(1000, 500);
+    img.resize(6213, 3468);
     background(255);
 }
 

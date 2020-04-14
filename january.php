@@ -1,5 +1,27 @@
 <!DOCTYPE html>
 <html>
+    
+<style>
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black; 
+}
+</style>
 
 <head>
     <meta charset="UTF-8">
@@ -72,8 +94,7 @@
                     <p>MAKE ANY VOCAL SOUND, BUT ALWAYS GO DOWNWARD IN PITCH FROM THE INITIAL ATTACK. THE INITIAL ATTACK MAY BEGIN AT ANY PITCH LEVEL. GO DOWNWARD IN A GLISSANDO OR IN DISCRETE STEPS CONTINUOUSLY. GO ANY DISTANCE IN RANGE, AT ANY SPEED, DYNAMIC OR QUALITY, BUT THE BREATH DETERMINES THE MAXIMUM TIME LENGTH OF ANY DOWNWARD GESTURE.</p>
                 </div>
                 <div class="panel" data-panel="entry-c">
-                    <p>Hosted by the WT Food Poetics Club (WTFPC), we excersised an Straw Phonation and Collective Gargle ritual, followed by a Silent Lunch.
-                    This month's WTFPC supper, along with the other WTFPC activities, can be tracked <a target="_blank" href="https://foodpoeticsclub.werkplaatstypografie.org/">here.</a></p>
+                    <p>Straw Phonation and Collective Gargle, exercises led by the WTFPC, followed by a Silent Lunch. This month’s WTFPC supper, along with other WTFPC activities, can be tracked <a target="_blank" href="https://foodpoeticsclub.werkplaatstypografie.org/">here.</a></p>
                 </div>
 
                 <div class="panel" data-panel="entry-d">
@@ -81,10 +102,16 @@
                     <br><br>
                     It is a response to Brandon ­LaBelle’s “Lexicon of the Mouth — Bite, Chew, Eat”, acknowledging a violence which remains disturbingly clear today; how the history of how we bite, chew, and eat (another), is a primal habit.
                     <br><br>
-                    Words associated with the mouth and its abilities become infinite—though social boundaries restrain the mouth and create strict distinctions or: definitions of what is “law and taboo”. “My mother’s tongue” is an interactive performance, in which a lexicon is read. A lexicon which partly draws from LaBelle’s politics of the mouth, exploring its contemporary relevance, merged with definitions that arose from my own voice. This created both a messy trajectory to be chewed, and a bodily connection through the sounds of mouths blowing ink.
+                    Words associated with the mouth and its abilities become infinite—though social boundaries restrain the mouth and create strict distinctions or: definitions of what is “law and taboo”. “My mother’s tongue” is an interactive performance,<span class="footnote">1</span> in which a lexicon is read. A lexicon which partly draws from LaBelle’s politics of the mouth, exploring its contemporary relevance, merged with definitions that arose from my own voice. This created both a messy<span class="footnote">2</span> trajectory to be chewed, and a bodily connection through the sounds of mouths blowing ink.<span class="footnote">3</span>
                     <br><br>
-                    (Credits for the title go to “Mother Tongue” by Amy Tan, a text which strongly informed my own politics of the mouth, developed during this project).</p>
-                    <p></p><!-- Description and Audio by Yuni will come later-->
+                    (Credits for the title go to “Mother Tongue” by Amy Tan, a text which strongly informed my own politics of the mouth, developed during this project).
+                    <br><br><br>
+                    <ol class="footnotes">
+                    <li><a href="#" class="hover-link">performance<img class="hover-img" src="img/jan_yunie1-web.jpg" alt="An Phantom Voices"></a></li>
+                    <li><a href="#" class="hover-link">messy<img class="hover-img" src="img/jan_yunie4-web.jpg" alt="An Phantom Voices"></a> traces.</li>
+                    <li><a href="#" class="hover-link">ink<img class="hover-img" src="img/jan_yunie2-web.jpg" alt="An Phantom Voices"></a> on paper</li>
+                    </p>
+                    <p></p><!-- Audio by Yuni will come later-->
                 </div>
             </div>
             <div class="content--right">
@@ -94,7 +121,7 @@
                     </li>
                     <li><a class="amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-b">SONIC MEDITATION “TUMBLING SONG”</a></li><!--  [Audio: january-phantomvoices-sonicmeditation.mp3]-->
 
-                    <li><a class="amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-c">WT FOOD POETICS CLUB</a></li><!-- [Audio: january-phantomvoices-silentlunch.mp3] -->
+                    <li><a class="amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-c">SILENT LUNCH by the WT FOOD POETICS CLUB</a></li><!-- [Audio: january-phantomvoices-silentlunch.mp3] -->
 
                     <li><a class="amplitude-play-pause" data-amplitude-song-index="3" data-panel="entry-d">“MY MOTHER’S TONGUE” visual score by YUNIE CHAE</a></li>
                 </ul>

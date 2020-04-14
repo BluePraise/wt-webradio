@@ -2,14 +2,14 @@ var img;
 var pointillize = 10;
 
 function preload() {
-    img = loadImage("img/a1.jpg");
+    img = loadImage("img/april.jpg");
 }
 
 function setup() {
-    let cnv = createCanvas(1000, 500);
+    let cnv = createCanvas(2961, 3890);
     cnv.parent("p5js-apr");
 
-    img.resize(1000, 500);
+    img.resize(2961, 3890);
     background(255);
 }
 

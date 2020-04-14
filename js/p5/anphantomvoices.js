@@ -7,10 +7,10 @@ function preload() {
 }
 
 function setup() {
-    let cnv = createCanvas(1000, 400);
+    let cnv = createCanvas(800, 300);
     cnv.parent('p5js-anphantomvoices');
 
-    img.resize(1000, 400);
+    img.resize(800, 300);
     background(255);
 }
 

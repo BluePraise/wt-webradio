@@ -48,27 +48,26 @@ Amplitude.init({
             },
             {
                 // data-amplitude-song-index="1"
-                "name": "SONIC MEDITATION “TEACH YOURSELF TO FLY”",
+                "name": "SONIC MEDITATION “TEACH YOURSELF TO FLY” (12:53 mins.)",
                 "url": "/audio/dec/december-phantomvoices-sonicmeditation.mp3"
             },
             {
                 // data-amplitude-song-index="2"
-                "name": "AN PHANTOM VOICES” introductory broadcast by TABEA NIXDORFF and GERARDO MADERA",
+                "name": "AN PHANTOM VOICES” introductory broadcast by TABEA NIXDORFF and GERARDO MADERA (32:09 mins.)",
                 "url": "/audio/dec/december-phantomvoices-intro.mp3"
             },
             {
                 // data-amplitude-song-index="3"
-                "name": "WT FOOD POETICS CLUB",
+                "name": "SILENT LUNCH by the WT FOOD POETICS CLUB (26:56 mins.)",
                 "url": "/audio/dec/december-phantomvoices-silent-lunch.mp3"
             },
             {
                 // data-amplitude-song-index="4"
-                "name": "“GHOSTBOXING FROM THE ATTIC” broadcast by GERARDO MADERA and BRYANT WELLS",
+                "name": "“GHOSTBOXING FROM THE ATTIC” broadcast by GERARDO MADERA and BRYANT WELLS (10:49 mins.)",
                 "url": "/audio/dec/december-phantomvoices-ghostboxing.mp3"
             }
         ],
         "start_song":3
     });
-
 
 

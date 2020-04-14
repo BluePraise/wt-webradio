@@ -52,22 +52,22 @@ $(document).ready(function() {
             },
             {
                 // data-amplitude-song-index="1"
-                "name": "SONIC MEDITATION “SEX CHANGE / EAR LY",
+                "name": "SONIC MEDITATION “SEX CHANGE / EAR LY (19:25 mins.)",
                 "url": "audio/feb/february-phantomvoices-sonicmediation.mp3"
             },
             {
                 // data-amplitude-song-index="2"
-                "name": "WT FOOD POETICS CLUB",
+                "name": "SILENT LUNCH by the WT FOOD POETICS CLUB (13:25 mins.)",
                 "url": "audio/feb/february-phantomvoices-silentlunch.mp3"
             },
             {
                 // data-amplitude-song-index="3"
-                "name": "“REFLECTIONS ON HER VOICE” visual score by HANNAH SAKAI",
+                "name": "“REFLECTIONS ON HER VOICE” visual score by HANNAH SAKAI (2:40 mins.)",
                 "url": "/audio/feb/february-phantomvoices-hannah-sakai.mp3"
             },
             {
                 // data-amplitude-song-index="4"
-                "name": "INTERMEZZO",
+                "name": "INTERMEZZO (15:59 mins.)",
                 "url": "/audio/feb/february-phantomvoices-intermezzo.mp3"
             }
         ],
