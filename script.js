@@ -82,6 +82,20 @@ $(document).ready(function() {
         }
     }, 1000);
 
+    // MOBILE MENU TOGGLE {
+        $(".menu-icon").on("click", function(){
+            $mobilenavlist = $(".mobile-nav-list");
+
+            if ($mobilenavlist.hasClass('hide-xs')) {
+                $mobilenavlist.removeClass('hide-xs')
+                $mobilenavlist.show();
+                $mobilenavlist.addClass('open-xs');
+            }
+            else {
+                $(".mobile-nav-list").addClass('hide-xs');
+                $mobilenavlist.removeClass('open-xs')
+            }
+        });
 
     // AUDIO PLAYER
     // set click event to this audio element.

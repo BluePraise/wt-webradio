@@ -113,7 +113,7 @@ h2 {
 
 h3 {
     font-size: 18px;
-    
+
 }
 
 h4 {
@@ -154,7 +154,7 @@ a.hover-link:hover .hover-img  {
     max-width: initial;
     height: auto;
     bottom: 20px;
-    
+
 }
 
 blockquote {
@@ -258,7 +258,10 @@ video {
 .main-title {
     font-weight: 700;
     font-size: 18px;
+}
 
+.mobile-nav {
+    display: none;
 }
 
 .content--container,
@@ -327,9 +330,6 @@ video {
 }
 /* CONTENT CONTAINER EXAMPLE*/
 
-/*.dec .content-left .panel.show[data-panel="entry-b"] {
-    margin-top: 200px;
-}*/
 
 .content--left .panel.show[data-panel="entry-b"] {
     margin-top: 90px;
@@ -350,17 +350,10 @@ video {
     font-weight: normal;
 }
 
-.content--left {
-}
-
 .foot--left,
 .foot--right a {
     text-align: center;
     padding: 10px 0;
-}
-
-.foot--right,
-.content--right {
 }
 
 .content--right {
@@ -581,4 +574,54 @@ img.icon-pause {
 
 .index-php .copyright {
     display: none;
+}
+
+/*************************
+*
+* RESPONSIVE
+*
+*************************/
+
+@media (max-width: 599.89px) {
+    .topbar--right {
+        display: none;
+    }
+    .topbar--left,
+    .content--left,
+    .content--right {
+        width: 100%;
+    }
+    .main-nav {
+        display: none;
+    }
+    .mobile-nav {
+        display: block;
+        position: relative;
+    }
+    .mobile-nav-top {
+        display: flex;
+        justify-content: space-between;
+    }
+    .hide-xs {
+        display: none;
+    }
+    ul.mobile-nav-list {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 908;
+        background: white;
+        margin-top: 20px;
+    }
+    ul.mobile-nav-list > li {
+        margin-bottom: 10px;
+    }
+    ul.submenu {
+        margin: 0 10px;
+        padding: 0 10px;
+    }
+    ul.submenu > li {
+        margin-bottom: 5px;
+    }
+
 }
