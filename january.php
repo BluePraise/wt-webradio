@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    
+
 <style>
 /* width */
 ::-webkit-scrollbar {
@@ -9,17 +9,17 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: white; 
+  background: white;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: white; 
+  background: white;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: black; 
+  background: black;
 }
 </style>
 
@@ -75,6 +75,7 @@
                 </ul>
             </nav>
         </header>
+
         <main class="content--container jan">
 
             <div class="content--left content--txt">
