@@ -83,19 +83,21 @@ $(document).ready(function() {
     }, 1000);
 
     // MOBILE MENU TOGGLE {
-        $(".menu-icon").on("click", function(){
-            $mobilenavlist = $(".mobile-nav-list");
+    $(".menu-icon").on("click", function(){
+        $mobilenavlist = $(".mobile-nav-list");
 
-            if ($mobilenavlist.hasClass('hide-xs')) {
-                $mobilenavlist.removeClass('hide-xs')
-                $mobilenavlist.show();
-                $mobilenavlist.addClass('open-xs');
-            }
-            else {
-                $(".mobile-nav-list").addClass('hide-xs');
-                $mobilenavlist.removeClass('open-xs')
-            }
-        });
+        if ($mobilenavlist.hasClass('hide-xs')) {
+            $mobilenavlist.removeClass('hide-xs')
+            $mobilenavlist.show();
+            $mobilenavlist.addClass('open-xs');
+            $('body').addClass('noscroll');
+        }
+        else {
+            $(".mobile-nav-list").addClass('hide-xs');
+            $mobilenavlist.removeClass('open-xs');
+            $('body').removeClass('noscroll');
+        }
+    });
 
     // AUDIO PLAYER
     // set click event to this audio element.
