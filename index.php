@@ -62,6 +62,18 @@
 
         <div class="full-height index-php">
              <header>
+                 <nav class="main-nav">
+                    <ul>
+                        <li><a class="active main-title" href="anphantomvoices.php">An Phantom Voices</a></li>
+                        <li><a href="december.php">December</a></li>
+                        <li><a href="january.php">January</a></li>
+                        <li><a href="february.php">February</a></li>
+                        <li><a href="march.php">March</a></li>
+                        <li><a href="april.php">April</a></li>
+                        <li><a href="may.php">May</a></li>
+                        <li><a href="june.php">June</a></li>
+                    </ul>
+                </nav>
 
                 <nav class="mobile-nav">
                     <div class="mobile-nav-top">
@@ -69,7 +81,7 @@
                         <a class="menu-icon" href="#">Menu</a>
                     </div>
                     <ul class="mobile-nav-list hide-xs">
-                        <li><a href="december.php">December</a>
+                        <li class="mobile-nav-link--month"><a href="december.php">December</a>
                             <ul class="submenu">
                                 <li>MARGINS AS THE SILENT SILENCED CENTER</li>
                                 <li>SONIC MEDITATION “TEACH YOURSELF TO FLY”</li>
@@ -80,7 +92,7 @@
 
                             </ul>
                         </li>
-                        <li><a href="january.php">January</a>
+                        <li class="mobile-nav-link--month"><a href="january.php">January</a>
                         <ul class="submenu">
                                 <li>ORAL IMAGINARIES, STRATEGIES AND TRUTHS</li>
                                 <li>SONIC MEDITATION “TUMBLING SONG”</li>
@@ -89,11 +101,11 @@
 
                             </ul>
                         </li>
-                        <li><a href="february.php">February</a></li>
-                        <li><a href="march.php">March</a></li>
-                        <li><a href="april.php">April</a></li>
-                        <li><a href="may.php">May</a></li>
-                        <li><a href="june.php">June</a></li>
+                        <li class="mobile-nav-link--month"><a href="february.php">February</a></li>
+                        <li class="mobile-nav-link--month"><a href="march.php">March</a></li>
+                        <li class="mobile-nav-link--month"><a href="april.php">April</a></li>
+                        <li class="mobile-nav-link--month"><a href="may.php">May</a></li>
+                        <li class="mobile-nav-link--month"><a href="june.php">June</a></li>
                     </ul>
 
                 </nav>

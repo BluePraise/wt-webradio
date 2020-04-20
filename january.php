@@ -74,6 +74,38 @@
                     <li><a href="june.php">June</a></li>
                 </ul>
             </nav>
+             <nav class="mobile-nav">
+                    <div class="mobile-nav-top">
+                        <a class="active main-title" href="anphantomvoices.php">An Phantom Voices</a>
+                        <a class="menu-icon" href="#">Menu</a>
+                    </div>
+                    <ul class="mobile-nav-list hide-xs">
+                        <li class="mobile-nav-link--month"><a href="december.php">December</a>
+                            <ul class="submenu">
+                                <li>MARGINS AS THE SILENT SILENCED CENTER</li>
+                                <li>SONIC MEDITATION “TEACH YOURSELF TO FLY”</li>
+                                <li>“AN PHANTOM VOICES” introductory broadcast<br> by
+                                TABEA NIXDORFF and GERARDO MADERA</li>
+                                <li>SILENT LUNCH by the WT FOOD POETICS CLUB</li>
+                                <li>“GHOSTBOXING FROM THE ATTIC”<br> broadcast by GERARDO MADERA and BRYANT WELLS</li>
+
+                            </ul>
+                        </li>
+                        <li class="mobile-nav-link--month"><a href="january.php">January</a>
+                        <ul class="submenu">
+                                <li>ORAL IMAGINARIES, STRATEGIES AND TRUTHS</li>
+                                <li>SONIC MEDITATION “TUMBLING SONG”</li>
+                                <li>SILENT LUNCH by the WT FOOD POETICS CLUB</li>
+                                <li>“MY MOTHER’S TONGUE” visual score by YUNIE CHAE</li>
+
+                            </ul>
+                        </li>
+                        <li class="mobile-nav-link--month"><a href="february.php">February</a></li>
+                        <li class="mobile-nav-link--month"><a href="march.php">March</a></li>
+                        <li class="mobile-nav-link--month"><a href="april.php">April</a></li>
+                        <li class="mobile-nav-link--month"><a href="may.php">May</a></li>
+                        <li class="mobile-nav-link--month"><a href="june.php">June</a></li>
+                    </ul>
         </header>
 
         <main class="content--container jan">

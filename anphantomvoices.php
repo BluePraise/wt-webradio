@@ -167,7 +167,7 @@
             </ol>
         </div>
 
-        <div class="content--txt content--left">
+        <div class="content--txt content--right">
             <h3 class="title">A Series of Events</h3>
             <p>“An Phantom Voices” is a programming platform, initiated by Gerardo Madera and Tabea Nixdorff, active from December 2019 through June 2020 at the Werkplaats Typografie in Arnhem, the Netherlands. A series of events take place every first Monday (demarcated by Arnhem’s monthly sirens) through Friday of the month. All is broadcasted on Phantom Radio, the radio plattform of Werkplaats Typografie.</p>
             <p>Each month is supplemented by a reader organized by topic, addressing different uses, strategies and implications of orality. The readers are a collection of texts, meant to be  non-canonical—to be cross(mis, counter, close)-read. Topically and referentially, the readers are points of departure, materials or resources for participants’ own research.</p>
