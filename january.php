@@ -43,12 +43,12 @@
                 <div class="play-toggle amplitude-play-pause">
                     <img id="play" class="icon-play" src="icon-play.svg" alt="play icon">
                     <img id="pause" class="icon-pause" src="icon-pause.svg" alt="play icon">
-                    <audio id="main-audio" autoplay preload>
+                    <audio id="main-audio" autoplay preload loop>
                         <source src="/audio/jan/january-phantomvoices-sonicmeditation.mp3" type="audio/mpeg">
                     </audio>
                 </div>
                 <div class="play--title">
-                    <div class="ticker-wrap">
+                    <div class="ticker-wrap ticker-wrap--active">
                     <div class="ticker">SONIC MEDITATION “TUMBLING SONG”</div>
                     </div>
                 </div>
@@ -150,13 +150,13 @@
             <div class="content--right">
                 <ul class="audio-menu">
                     <li>
-                        <a class="amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-a">ORAL IMAGINARIES, STRATEGIES AND TRUTHS</a>
+                        <a class="amplitude-play-pause amplitude-repeat-song" data-amplitude-song-index="0" data-panel="entry-a">ORAL IMAGINARIES, STRATEGIES AND TRUTHS</a>
                     </li>
-                    <li><a class="amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-b">SONIC MEDITATION “TUMBLING SONG”</a></li><!--  [Audio: january-phantomvoices-sonicmeditation.mp3]-->
+                    <li><a class="amplitude-play-pause amplitude-repeat-song" data-amplitude-song-index="1" data-panel="entry-b">SONIC MEDITATION “TUMBLING SONG”</a></li><!--  [Audio: january-phantomvoices-sonicmeditation.mp3]-->
 
-                    <li><a class="amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-c">SILENT LUNCH by the WT FOOD POETICS CLUB</a></li><!-- [Audio: january-phantomvoices-silentlunch.mp3] -->
+                    <li><a class="amplitude-play-pause amplitude-repeat-song" data-amplitude-song-index="2" data-panel="entry-c">SILENT LUNCH by the WT FOOD POETICS CLUB</a></li><!-- [Audio: january-phantomvoices-silentlunch.mp3] -->
 
-                    <li><a class="amplitude-play-pause" data-amplitude-song-index="3" data-panel="entry-d">“MY MOTHER’S TONGUE” visual score by YUNIE CHAE</a></li>
+                    <li><a class="amplitude-play-pause amplitude-repeat-song" data-amplitude-song-index="3" data-panel="entry-d">“MY MOTHER’S TONGUE” visual score by YUNIE CHAE</a></li>
                 </ul>
             </div>
 

@@ -9,17 +9,17 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: white; 
+  background: white;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: white; 
+  background: white;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: black; 
+  background: black;
 }
 </style>
 
@@ -43,12 +43,12 @@
                 <div class="play-toggle amplitude-play-pause">
                     <img id="play" class="icon-play" src="icon-play.svg" alt="play icon">
                     <img id="pause" class="icon-pause" src="icon-pause.svg" alt="play icon">
-                    <audio id="main-audio" autoplay preload>
+                    <audio id="main-audio" autoplay preload loop>
                         <source src="/audio/mar/march-phantomvoices-sonicmeditation.mp3" type="audio/mpeg">
                     </audio>
                 </div>
                 <div class="play--title">
-                    <div class="ticker-wrap">
+                    <div class="ticker-wrap ticker-wrap--active">
                     <div class="ticker">SONIC MEDITATION “BREATHE IN BREATHE OUT / MENTAL IMAGE”</div>
                     </div>
                 </div>
@@ -131,11 +131,11 @@
                         <a class="amplitude-play-pause" data-amplitude-song-index="0" data-panel="entry-a">THE THING WITH TRANSMITTING IS
                         (BLABLA)</a>
                     </li>
-                        <li><a class="amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-b">SONIC MEDITATION “BREATHE IN BREATHE OUT / <br>MENTAL IMAGE”</a></li>
-                        <li><a class="amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-c">STRAW PHONATION by the WT FOOD POETICS CLUB</a></li>
-                        <li><a class="amplitude-play-pause" data-amplitude-song-index="3" data-panel="entry-d">“TREMBLING EARTH” sonic contribution <br>by JANNETE MARK</a></li>
-                        <li><a class="amplitude-play-pause" data-panel="entry-e">“ATTITUDE #1” visual score by TJOBO KHO</a></li>
-                        <li><a class="amplitude-play-pause" data-amplitude-song-index="4"
+                        <li><a class="amplitude-play-pause amplitude-repeat-song" data-amplitude-song-index="1" data-panel="entry-b">SONIC MEDITATION “BREATHE IN BREATHE OUT / <br>MENTAL IMAGE”</a></li>
+                        <li><a class="amplitude-play-pause amplitude-repeat-song" data-amplitude-song-index="2" data-panel="entry-c">STRAW PHONATION by the WT FOOD POETICS CLUB</a></li>
+                        <li><a class="amplitude-play-pause amplitude-repeat-song" data-amplitude-song-index="3" data-panel="entry-d">“TREMBLING EARTH” sonic contribution <br>by JANNETE MARK</a></li>
+                        <li><a class="amplitude-play-pause amplitude-repeat-song" data-panel="entry-e">“ATTITUDE #1” visual score by TJOBO KHO</a></li>
+                        <li><a class="amplitude-play-pause amplitude-repeat-song" data-amplitude-song-index="4"
                         data-panel="entry-f">INTERMEZZO</a></li>
                     </ul>
         </div>

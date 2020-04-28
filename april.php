@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html>
-    
+
 <style>
 /* width */
 ::-webkit-scrollbar {
@@ -10,17 +10,17 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: white; 
+  background: white;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: white; 
+  background: white;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: black; 
+  background: black;
 }
 </style>
 
@@ -44,12 +44,12 @@
                 <div class="play-toggle amplitude-play-pause">
                     <img id="play" class="icon-play" src="icon-play.svg" alt="play icon">
                     <img id="pause" class="icon-pause" src="icon-pause.svg" alt="play icon">
-                    <!-- <audio id="main-audio" autoplay preload>
+                    <!-- <audio id="main-audio" autoplay preload loop>
                         <source src="/audio/apr/april-phantomvoices-sonicmeditation.mp3" type="audio/mpeg">
                     </audio> -->
                 </div>
                 <div class="play--title">
-                    <div class="ticker-wrap">
+                    <div class="ticker-wrap ticker-wrap--active">
                         <div class="ticker">SONIC MEDITATIONS (SINGING WITH THE SIRENS)</div>
                     </div>
                 </div>
@@ -81,14 +81,20 @@
     <main class="content--container apr">
         <div class="counter"></div>
 
-        <!-- <div class="content--left content--txt">
+        <!--
+            DEAR TABEA AND HANNAH,
+            When you start filling this page, don't forget to take out the counter element one line above. "counter"
+            Also, the paths to the url in the json need to be copied exactly because I've encountered some problems myself. And lastly, in the topbar--left, don't forget to uncomment the audio tag. :)
+            Bestest of best regards,
+            Maggie
+        <div class="content--left content--txt">
 
         </div>
         <div class="content--right">
             <ul class="audio-menu">
-                <li><a>MARGINS AS THE SILENT SILENCED CENTER</a></li>
+                <li><a class="amplitude-play-pause amplitude-repeat-song" data-amplitude-song-index="0">MARGINS AS THE SILENT SILENCED CENTER</a></li>
 
-                <li><a>SONIC MEDITATIONS (SINGING WITH THE SIRENS)</a></li>
+                <li><aclass="amplitude-play-pause amplitude-repeat-song" data-amplitude-song-index="1">SONIC MEDITATIONS (SINGING WITH THE SIRENS)</a></li>
 
                 <li>
                     <span>TITLE, Visual Score by MINA MUSTERFRAU</span>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    
+
 <style>
 /* width */
 ::-webkit-scrollbar {
@@ -9,17 +9,17 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: white; 
+  background: white;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: white; 
+  background: white;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: black; 
+  background: black;
 }
 </style>
 
@@ -43,12 +43,12 @@
                 <div class="play-toggle amplitude-play-pause">
                     <img id="play" class="icon-play" src="icon-play.svg" alt="play icon">
                     <img id="pause" class="icon-pause" src="icon-pause.svg" alt="play icon">
-                    <!-- <audio id="main-audio" autoplay preload>
+                    <!-- <audio id="main-audio" autoplay preload loop>
                         <source src="/audio/may/may-phantomvoices-sonicmeditation.mp3" type="audio/mpeg">
                     </audio> -->
                 </div>
                 <div class="play--title">
-                    <div class="ticker-wrap">
+                    <div class="ticker-wrap ticker-wrap--active">
                     <div class="ticker">SONIC MEDITATIONS (SINGING WITH THE SIRENS)</div>
                     </div>
                 </div>

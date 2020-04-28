@@ -36,27 +36,30 @@ function draw() {
 }
 
     Amplitude.init({
+            "bindings": {
+                32: 'play_pause'
+            },
 
             "songs": [
                 {
                     // data-amplitude-song-index="0"
                     "name": "THE THING WITH TRANSMITTING IS (BLABLA)",
-                    "url": "/audio/mar/march-phantomvoices-sonicmeditation.mp3"
+                    "url": "audio/mar/march-phantomvoices-sonicmeditation.mp3"
                 },
                 {
                     // data-amplitude-song-index="1"
                     "name": "SONIC MEDITATION “BREATHE IN BREATHE OUT / MENTAL IMAGE (09:06 mins.)”",
-                    "url": "/audio/mar/march-phantomvoices-sonicmeditation.mp3"
+                    "url": "audio/mar/march-phantomvoices-sonicmeditation.mp3"
                 },
                 {
                     // data-amplitude-song-index="2"
                     "name": "STRAW PHONATION by the WT FOOD POETICS CLUB (00:50 mins.)",
-                    "url": "/audio/mar/march-phantomvoices-silentlunch-straws.mp3"
+                    "url": "audio/mar/march-phantomvoices-silentlunch-straws.mp3"
                 },
                 {
                     // data-amplitude-song-index="3"
                     "name": "“TREMBLING EARTH” sonic contribution by JANNETE MARK (18:50 mins.)",
-                    "url": "/audio/mar/march-phantomvoices-jannete-mark.mp3"
+                    "url": "audio/mar/march-phantomvoices-jannete-mark.mp3"
                 },
                 {
                     // data-amplitude-song-index="4"
@@ -66,7 +69,7 @@ function draw() {
                 {
                     // data-amplitude-song-index="5"
                     "name": "INTERMEZZO (54:06 mins.)",
-                    "url": "/audio/mar/march-phantomvoices-intermezzo.mp3" // AUDIO FOLLOWS
+                    "url": "audio/mar/march-phantomvoices-intermezzo.mp3" // AUDIO FOLLOWS
                 }
             ],
             "autoplay": true

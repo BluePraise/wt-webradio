@@ -680,6 +680,7 @@ img.icon-pause {
     }
     .colophon__text {
         width: auto;
+        padding: 0 10px;
     }
     .noscroll {
         overflow: hidden;

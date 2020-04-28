@@ -44,12 +44,12 @@
                 <div class="play-toggle amplitude-play-pause">
                     <img id="play" class="icon-play" src="icon-play.svg" alt="play icon">
                     <img id="pause" class="icon-pause" src="icon-pause.svg" alt="play icon">
-                    <audio id="main-audio" autoplay preload>
+                    <audio id="main-audio" autoplay preload loop>
                         <source src="/audio/dec/december-phantomvoices-sonicmeditation.mp3" type="audio/mpeg">
                     </audio>
                 </div>
                 <div class="play--title">
-                    <div class="ticker-wrap">
+                    <div class="ticker-wrap ticker-wrap--active">
                     <div class="ticker">SONIC MEDITATION “TEACH YOURSELF TO FLY”</div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                 </div>
                 <ul class="mobile-nav-list hide-xs">
                     <li class="mobile-nav-link--month"><a href="december.php">December</a>
-                        <ul class="submenu">
+                        <ul class="submenu js-toggle hide-xs">
                             <li>MARGINS AS THE SILENT SILENCED CENTER</li>
                             <li>SONIC MEDITATION “TEACH YOURSELF TO FLY”</li>
                             <li>“AN PHANTOM VOICES” introductory broadcast<br> by
@@ -93,7 +93,7 @@
                         </ul>
                     </li>
                     <li class="mobile-nav-link--month"><a href="january.php">January</a>
-                    <ul class="submenu">
+                    <ul class="submenu hide-xs">
                             <li>ORAL IMAGINARIES, STRATEGIES AND TRUTHS</li>
                             <li>SONIC MEDITATION “TUMBLING SONG”</li>
                             <li>SILENT LUNCH by the WT FOOD POETICS CLUB</li>
@@ -145,16 +145,16 @@
             <div class="content--right">
                 <ul class="audio-menu">
                     <li>
-                        <a class="play-pause" data-panel="entry-a" data-amplitude-song-index="0">MARGINS AS THE SILENT SILENCED CENTER</a>
+                        <a class="amplitude-play-pause amplitude-repeat-song" data-panel="entry-a" data-amplitude-song-index="0">MARGINS AS THE SILENT SILENCED CENTER</a>
                     </li>
-                        <li><a class="amplitude-play-pause" data-amplitude-song-index="1" data-panel="entry-b">SONIC MEDITATION “TEACH YOURSELF TO FLY”</a>
+                        <li><a class="amplitude-play-pause amplitude-repeat-song" data-amplitude-song-index="1" data-panel="entry-b">SONIC MEDITATION “TEACH YOURSELF TO FLY”</a>
                     </li>
-                        <li><a class="amplitude-play-pause" data-amplitude-song-index="2" data-panel="entry-c">“AN PHANTOM VOICES” introductory broadcast<br> by
+                        <li><a class="amplitude-play-pause amplitude-repeat-song" data-amplitude-song-index="2" data-panel="entry-c">“AN PHANTOM VOICES” introductory broadcast<br> by
                         TABEA NIXDORFF and GERARDO MADERA</a>
                     </li>
-                        <li><a class="amplitude-play-pause" data-amplitude-song-index="3" data-panel="entry-d">SILENT LUNCH by the WT FOOD POETICS CLUB</a>
+                        <li><a class="amplitude-play-pause amplitude-repeat-song" data-amplitude-song-index="3" data-panel="entry-d">SILENT LUNCH by the WT FOOD POETICS CLUB</a>
                     </li>
-                        <li><a class="amplitude-play-pause" data-amplitude-song-index="4" data-panel="entry-e">“GHOSTBOXING FROM THE ATTIC”<br> broadcast by GERARDO MADERA and BRYANT WELLS</a>
+                        <li><a class="amplitude-play-pause amplitude-repeat-song" data-amplitude-song-index="4" data-panel="entry-e">“GHOSTBOXING FROM THE ATTIC”<br> broadcast by GERARDO MADERA and BRYANT WELLS</a>
                     </li>
                     </ul>
                 </div>

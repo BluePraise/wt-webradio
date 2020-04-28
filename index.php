@@ -48,7 +48,7 @@
                     </audio>
                 </div>
                 <div class="play--title">
-                    <div class="ticker-wrap">
+                    <div class="ticker-wrap ticker-wrap--active">
                     <div class="ticker">SONIC MEDITATION “SEX CHANGE / EAR LY”</div>
                     </div>
                 </div>

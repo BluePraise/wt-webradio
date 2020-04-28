@@ -63,12 +63,12 @@ $(document).ready(function() {
             {
                 // data-amplitude-song-index="3"
                 "name": "“REFLECTIONS ON HER VOICE” visual score by HANNAH SAKAI (2:40 mins.)",
-                "url": "/audio/feb/february-phantomvoices-hannah-sakai.mp3"
+                "url": "audio/feb/february-phantomvoices-hannah-sakai.mp3"
             },
             {
                 // data-amplitude-song-index="4"
                 "name": "INTERMEZZO (15:59 mins.)",
-                "url": "/audio/feb/february-phantomvoices-intermezzo.mp3"
+                "url": "audio/feb/february-phantomvoices-intermezzo.mp3"
             }
         ],
             "autoplay": true

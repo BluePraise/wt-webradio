@@ -45,11 +45,11 @@
                     <img id="pause" class="icon-pause" src="icon-pause.svg" alt="play icon">
 
                 </div>
-                <audio id="main-audio" autoplay preload>
+                <audio id="main-audio" autoplay preload loop>
                     <source src="https://projects.magalielinda.me/anphantomvoices/audio/dec/december-phantomvoices-intro.mp3" type="audio/mpeg">
                 </audio>
                 <div class="play--title">
-                    <div class="ticker-wrap">
+                    <div class="ticker-wrap ticker-wrap--active">
                     <div class="ticker">“AN PHANTOM VOICES” by TABEA NIXDORFF and GERARDO MADERA</div>
                     </div>
                 </div>

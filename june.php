@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    
+
 <style>
 /* width */
 ::-webkit-scrollbar {
@@ -9,20 +9,20 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: white; 
+  background: white;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: white; 
+  background: white;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: black; 
+  background: black;
 }
 </style>
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -43,12 +43,12 @@
                 <div class="play-toggle amplitude-play-pause">
                     <img id="play" class="icon-play" src="icon-play.svg" alt="play icon">
                     <img id="pause" class="icon-pause" src="icon-pause.svg" alt="play icon">
-                    <!-- <audio id="main-audio" autoplay preload>
+                    <!-- <audio id="main-audio" autoplay preload loop>
                         <source src="/audio/jun/june-phantomvoices-sonicmeditation.mp3" type="audio/mpeg">
                     </audio> -->
                 </div>
                 <div class="play--title">
-                    <div class="ticker-wrap">
+                    <div class="ticker-wrap ticker-wrap--active">
                     <div class="ticker">SONIC MEDITATIONS (SINGING WITH THE SIRENS)</div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                 <div class="content--right">
                     <ul class="audio-menu">
                         <li>
-                            <a>MARGINS AS THE SILENT SILENCED CENTER</a>
+                            <a class="amplitude-play-pause amplitude-repeat-song">MARGINS AS THE SILENT SILENCED CENTER</a>
                         </li>
                         <li><a>SONIC MEDITATIONS (SINGING WITH THE SIRENS)</a></li>
 

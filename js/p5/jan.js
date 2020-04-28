@@ -44,17 +44,17 @@ $(document).ready(function() {
             {
                 // data-amplitude-song-index="0"
                 "name": "ORAL IMAGINARIES, STRATEGIES AND TRUTHS",
-                "url": "/audio/jan/january-phantomvoices-sonicmeditation.mp3"
+                "url": "audio/jan/january-phantomvoices-sonicmeditation.mp3"
             },
             {
                 // data-amplitude-song-index="1"
                 "name": "SONIC MEDITATION “TUMBLING SONG (3:28 mins.)",
-                "url": "/audio/jan/january-phantomvoices-sonicmeditation.mp3"
+                "url": "audio/jan/january-phantomvoices-sonicmeditation.mp3"
             },
             {
                 // data-amplitude-song-index="2"
                 "name": "SILENT LUNCH by the WT FOOD POETICS CLUB (16:11 mins.)",
-                "url": "/audio/jan/january-phantomvoices-silentlunch.mp3"
+                "url": "audio/jan/january-phantomvoices-silentlunch.mp3"
             },
             {
                 // data-amplitude-song-index="3"

@@ -99,6 +99,25 @@ $(document).ready(function() {
         }
     });
 
+    // MOBILE SUBMENU TOGGLE
+
+    // Whe user clicks on month in mobile menu, toggle the submenu.
+    $('.mobile-nav-link--month').on( "click", function(e)  {
+        var $submenu = $(this).find('.submenu');
+
+        if ($submenu.hasClass('hide-xs')) {
+            $submenu.removeClass('hide-xs')
+            $submenu.show();
+            $submenu.addClass('open-xs');
+            $('body').addClass('noscroll');
+        }
+        else {
+            $(".mobile-nav-list").addClass('hide-xs');
+            $submenu.removeClass('open-xs');
+            $('body').removeClass('noscroll');
+        }
+
+    });
     // AUDIO PLAYER
     // set click event to this audio element.
     $(".play-toggle").on("click", function() {
@@ -117,13 +136,13 @@ $(document).ready(function() {
 
         // if play show pause button
     	if ($(".amplitude-play-pause").hasClass('amplitude-playing')) {
-            console.log("hello maggie");
 
         	$(".icon-play").hide();
         	$(".icon-pause").show();
             $webaudio.play();
             $webaudio.loop = true;
             if ($menutoggleactivated) {
+                console.log(this);
                 $webaudio.pause();
                 $webaudio.loop = false;
                 $menutoggleactivated.play();
