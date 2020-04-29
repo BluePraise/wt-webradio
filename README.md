@@ -31,6 +31,7 @@ To add a new audio entry in left content, all you need to do is add a `<li>` wit
 ```
 
 `data-panel="entry-a"` => is used to toggle the content and description. Plus it is needed for mobile.
+
 `data-amplitude-song-info="name"` => imports the name from the .js file. If you choose to put the name/title in the `<a>` manually that's possible, but please take out `data-amplitude-song-info="name"` (`<a class="amplitude-play-pause amplitude-repeat-song" data-amplitude-song-index="0">THE “FIG.” OF WOMAN AS THE WHITE NOISE OF HISTORY</a>`)
 
 `data-amplitude-song-index="0"` this is the index number of the file. Counting starts with 0. So the first audio session always has an index of 0.
