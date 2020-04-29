@@ -23,10 +23,12 @@ To add a new audio entry in left content, all you need to do is add a `<li>` wit
 
 #### An example:
 
-`<li data-panel="entry-a">
+```
+<li data-panel="entry-a">
     <a class="amplitude-play-pause amplitude-repeat-song" data-amplitude-song-info="name" data-amplitude-song-index="0"></a>
     <div class="song_descr"></div>
-</li>`
+</li>
+```
 
 `data-panel="entry-a"` => is used to toggle the content and description. Plus it is needed for mobile.
 `data-amplitude-song-info="name"` => imports the name from the .js file. If you choose to put the name/title in the `<a>` manually that's possible, but please take out `data-amplitude-song-info="name"` (`<a class="amplitude-play-pause amplitude-repeat-song" data-amplitude-song-index="0">THE “FIG.” OF WOMAN AS THE WHITE NOISE OF HISTORY</a>`)
