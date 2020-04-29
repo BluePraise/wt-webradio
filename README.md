@@ -15,9 +15,23 @@ In the img folder please put images. Then take the name of the image and replace
 in the "/js" folder you can change the path or file name in march.js.
 
 ### Audio direction
-Because I could not get the autoplay to work with [amplitude.js](https://521dimensions.com/), I have chosen to use the web api audio for the autoplay. The rest is still used by amplitude.js. This means that the audio that is used for autoplay, needs to be implemented with an ```<audio>``` tag. You can find an example in the january.php file in the right content column. For the An Phantom Voices page I've implemented it near the ```<div class="topbar">``` area.
+The audio of an phantom voices resides in the /audio folder. It is organised in months. In the folder js/p5 you can find a js file with the month. In there you can add audio and a name. The audio needs a path and the name is needed for the switches ticker.
 
-For the implementation of the other audio, you can keep on using the /js monthly file. Please keep in mind that the pathnames are a bit buggy. I suggest using the full URL. For example "http://phantomradio.werkplaatstypografie.org/anphantomvoices/mar/audiofile.mp3".
+In the html file > .topbar you can place the path of audio file and also the name.
+
+To add a new audio entry in left content, all you need to do is add a `<li>` with the data attributes. You can see examples in the other html files.
+
+#### An example:
+
+`<li data-panel="entry-a">
+    <a class="amplitude-play-pause amplitude-repeat-song" data-amplitude-song-info="name" data-amplitude-song-index="0"></a>
+    <div class="song_descr"></div>
+</li>`
+
+`data-panel="entry-a"` => is used to toggle the content and description. Plus it is needed for mobile.
+`data-amplitude-song-info="name"` => imports the name from the .js file. If you choose to put the name/title in the `<a>` manually that's possible, but please take out `data-amplitude-song-info="name"` (`<a class="amplitude-play-pause amplitude-repeat-song" data-amplitude-song-index="0">THE “FIG.” OF WOMAN AS THE WHITE NOISE OF HISTORY</a>`)
+
+`data-amplitude-song-index="0"` this is the index number of the file. Counting starts with 0. So the first audio session always has an index of 0.
 
 ### Removing the counter.
 In the pages "april.php", "may.php" and "june.php", I've commented the code that is used to create the two columns.

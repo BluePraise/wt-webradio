@@ -391,35 +391,28 @@ video {
 /* AUDIO PLAYER */
 
 .topbar {
-    font-size: 14px;
+    margin: 20px 0;
+    justify-content: center;
+    align-items: center;
     letter-spacing: 0.3px;
+    font-size: 14px;
 }
 
 .topbar--left {
     display: inline-flex;
     padding-right: 20px;
-
+    align-items: center;
 }
 
 .topbar--right .counter {
-    padding: 10px;
-    padding-bottom: 20px;
-    border: 0px ;
-    margin-bottom: 10px;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.3px;
-    min-height: 45px;
     text-align: center;
 }
 
 .play--title {
     font-weight: 400;
-    padding: 10px;
-    padding-bottom: 20px;
-    padding-right:40px;
-    border: 0px ;
-    margin-bottom: 10px;
     font-size: 14px;
     letter-spacing: 0.3px;
     flex-grow: 0.5;
@@ -430,9 +423,8 @@ video {
 
 .play-pause-special,
 .play-toggle {
-    width: 40px;
     margin-right: 20px;
-
+    /*margin-left: 56px;*/
 }
 .play-pause-special:hover,
 .play-toggle:hover {
@@ -447,8 +439,9 @@ video {
     display: none;
 }
 
+img.icon-play
 img.icon-pause {
-    height: 45px;
+    width: 20px;
 }
 
 .panel {
@@ -594,8 +587,19 @@ img.icon-pause {
         height: 60px;
         padding: 10px;
     }
+    .topbar--left {
+        padding-right: 0;
+    }
     .topbar--right {
         display: none;
+    }
+    .play-pause-special,
+    .play-toggle {
+        margin-right: 15px;
+        margin-left: 0;
+    }
+    img.icon-play,
+    img.icon-pause {
     }
     .topbar--left,
     .content--left,
@@ -645,13 +649,6 @@ img.icon-pause {
 
     li.mobile-nav-link--month a {
         display: block;
-        margin-bottom: 10px;
-    }
-    ul.submenu {
-        margin: 0 10px;
-        padding: 0 10px;
-    }
-    ul.submenu > li {
         margin-bottom: 10px;
     }
 

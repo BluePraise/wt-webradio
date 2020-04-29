@@ -186,8 +186,9 @@ $(document).ready(function() {
             $(this).addClass('clicked');
             // remove the classnames on the other links
             $('.clicked').not(this).removeClass('clicked');
-            var data = $(this).data("panel");
+            var data = $(this).parent().data("panel");
             var leftpanel = $('.content--left').find('[data-panel="' + data + '"]');
+            console.log(data);
             var anypanel = $('.content--left').find('.panel.show');
 
             leftpanel.addClass('show');
