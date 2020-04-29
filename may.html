@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>An Phantom Voices</title>
+    <meta name="author" content="Werkplaats Typgrafie Arnhem">
+    <link href="https://fonts.googleapis.com/css?family=Caudex:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+    <script src="js/amplitude.js"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="topbar">
+            <div class="topbar--left">
+                <div class="play-toggle amplitude-play-pause">
+                    <img id="play" class="icon-play" src="icon-play.svg" alt="play icon">
+                    <img id="pause" class="icon-pause" src="icon-pause.svg" alt="play icon">
+                    <!-- <audio id="main-audio" autoplay preload loop>
+                        <source src="/audio/may/may-phantomvoices-sonicmeditation.mp3" type="audio/mpeg">
+                    </audio> -->
+                </div>
+                <div class="play--title">
+                    <div class="ticker-wrap ticker-wrap--active">
+                    <div class="ticker">SONIC MEDITATIONS (SINGING WITH THE SIRENS)</div>
+                    </div>
+                </div>
+            </div>
+            <div class="topbar--right">
+                <div class="counter"></div>
+            </div>
+        </div>
+
+
+
+<div id="p5js-may" class="canvas-container"></div>
+<div class="full-height">
+    <header class="mast-head">
+        <nav class="main-nav">
+            <ul>
+                <li><a class="main-title" href="anphantomvoices.html">An Phantom Voices</a></li>
+                <li><a href="december.html">December</a></li>
+                <li><a href="january.html">January</a></li>
+                <li><a href="february.html">February</a></li>
+                <li><a href="march.html">March</a></li>
+                <li><a href="april.html">April</a></li>
+                <li><a class="active" href="may.html">May</a></li>
+                <li><a href="june.html">June</a></li>
+            </ul>
+        </nav>
+        <nav class="mobile-nav">
+            <div class="mobile-nav-top">
+                <a class="active main-title" href="anphantomvoices.html">An Phantom Voices</a>
+                <a class="active menu-icon" href="#">Menu</a>
+            </div>
+            <ul class="mobile-nav-list hide-xs">
+                <li class="mobile-nav-link--month active"><a href="december.html">December</a></li>
+                <li class="mobile-nav-link--month"><a href="january.html">January</a></li>
+                <li class="mobile-nav-link--month"><a href="february.html">February</a></li>
+                <li class="mobile-nav-link--month"><a href="march.html">March</a></li>
+                <li class="mobile-nav-link--month"><a href="april.html">April</a></li>
+                <li class="mobile-nav-link--month"><a href="may.html">May</a></li>
+                <li class="mobile-nav-link--month"><a href="june.html">June</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content--container may">
+        <div class="counter"></div>
+
+        <!-- <div class="content--left content--txt hide-xs">
+
+        </div>
+        <div class="content--right">
+            <ul class="audio-menu">
+                    <li data-panel="entry-a">
+                        <a class="amplitude-play-pause amplitude-repeat-song" data-amplitude-song-info="name" data-amplitude-song-index="0"></a>
+                        <div class="song_descr"></div>
+                    </li>
+            </ul>
+        </div> -->
+
+    </main>
+
+    <footer class="content--footer">
+    <div class="colophon">
+        <a href="#" class="colophon__link">COLOPHON</a>
+        <div class="colophon__text">
+            <p>"An Phantom Voices" is a project by Gerardo Madera and Tabea Nixdorff, developed as a series of events at Werkplaats Typografie to be broadcasted on Phantom Radio, the radio plattform of Werkplaats Typografie, including contributions by participants of Year 20 and 21.
+            Events take place every first week of the month, beginning with the sirens on Mondays in Arnhem, the Netherlands.</p>
+            <p>
+            Concept, Introductory Texts, Copy Editing: Gerardo Madera, Tabea Nixdorff
+            <br>
+            Website Design: Hannah Sakai
+            <br>
+            Webdevelopment: Magalie Chetrit
+            <br>
+            Images: New York Public Library Picture Collection, from the folders
+            <br>
+            “Sound”, “Recording”, “Hearing” and “Listening”
+            </p>
+            <p>
+            Thanks to Anniek Brattinga, Loes Claessens, Danny van den Dungen,
+            Angie Keefer, Paul Elliman for the conversations and most of
+            all to the contributors: Yunie Chae, Hannah Sakai, Marcus Wachter,
+            Jannete Mark, Tjobo Kho, Nicha Keeratiphanthawong, Darío Dezfuli, Alex Tanazefti, Tanat
+            Teeradakorn, Frédérique Gagnon, Emily Turner, Nina Schouten, Egle Petraskaite, Miron Galic, Callum Dean, Michelle Lin, Michiel Terpelle.
+            </p><br>
+            <div class="hosted_by"><a target="_blank" href="https://radio.werkplaatstypografie.org">HOSTED by PHANTOM RADIO</a></div>
+        </div>
+    </div>
+</footer>
+
+
+</div>
+
+</div> <!-- .end of wrapper -->
+
+    <script> window.countDownDate = new Date("May 04, 2020 12:00").getTime(); </script>
+    <script src="script.js"></script>
+    s<script src="js/p5/may.js"></script>
+</body>
+
+</html>

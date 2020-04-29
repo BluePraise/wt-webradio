@@ -376,7 +376,7 @@ video {
 }
 
 .content--container .content--right ul li button.accordion--toggle,
-.content--container .content--right ul li span,
+/*.content--container .content--right ul li span,*/
 .content--container .content--right ul li a {
     font-family: inherit;
     font-size: 18px;
@@ -456,7 +456,7 @@ img.icon-pause {
 }
 
 .footnote {
-    font-size: 11px;
+    font-size: 11px !important;
     vertical-align: text-top;
     margin-left: 2px;
 }
@@ -572,7 +572,11 @@ img.icon-pause {
     font-weight: bold;
 }
 
-.index-php .copyright {
+.index-php .copyright, .song_descr {
+    display: none;
+}
+
+.show-xs {
     display: none;
 }
 
@@ -598,6 +602,7 @@ img.icon-pause {
     .content--right {
         width: 100%;
     }
+
     .main-nav {
         display: none;
     }
@@ -617,6 +622,10 @@ img.icon-pause {
     }
     .hide-xs {
         display: none;
+    }
+    .show-xs,
+    .song_descr {
+        display: block;
     }
     ul.mobile-nav-list {
         position: fixed;
@@ -655,9 +664,29 @@ img.icon-pause {
     .content--container__basic {
         height: 70vh;
     }
-    /*.index-php .content--container {
-        display: flex;
-    }*/
+    .content--container {
+        margin: 0 10px;
+    }
+    ol.footnotes {
+        padding-left: 23px;
+    }
+    ol.footnotes li {
+        margin-bottom: 0;
+    }
+    ol.footnotes li,
+    .content--container .content--right ol.footnotes li a {
+        text-align: left !important;
+    }
+    .content--container .content--right ol.footnotes li a.hover-link {
+        display: inline-block;
+        width: auto;
+        font-size: 14px;
+        padding: 7px 0;
+    }
+    .content--container .content--right ol.footnotes li a.hover-link:hover {
+        bottom: 35px;
+        left: 20px;
+    }
     .content--txt {
         height: auto;
         overflow: hidden;

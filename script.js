@@ -1,5 +1,32 @@
 
 $(document).ready(function() {
+    Amplitude.setDebug( true );
+
+    var $leftcontent = $('.content--left');
+    var $rightcontent = $('.content--right');
+    var $right_li = $rightcontent.find('li');
+
+    // if lefr content has class hide-xs
+    // copy all data in left content to right content
+    if ($leftcontent.hasClass('hide-xs')) {
+        var $panel = $('.panel');
+
+        $panel.each(function() {
+            var source = $(this).attr('data-panel')
+            var html = $(this).html()
+            $right_li.each(function() {
+                var target = $(this).attr('data-panel')
+                //console.log(source, target)
+                if (source === target) {
+                    $this =$(this);
+                    targetEl = $this.find('.song_descr');
+                    targetEl.append(html);
+                }
+            })
+        })
+    }
+
+
 
     $("body").fadeIn(5500);
 
@@ -99,25 +126,6 @@ $(document).ready(function() {
         }
     });
 
-    // MOBILE SUBMENU TOGGLE
-
-    // Whe user clicks on month in mobile menu, toggle the submenu.
-    $('.mobile-nav-link--month').on( "click", function(e)  {
-        var $submenu = $(this).find('.submenu');
-
-        if ($submenu.hasClass('hide-xs')) {
-            $submenu.removeClass('hide-xs')
-            $submenu.show();
-            $submenu.addClass('open-xs');
-            $('body').addClass('noscroll');
-        }
-        else {
-            $(".mobile-nav-list").addClass('hide-xs');
-            $submenu.removeClass('open-xs');
-            $('body').removeClass('noscroll');
-        }
-
-    });
     // AUDIO PLAYER
     // set click event to this audio element.
     $(".play-toggle").on("click", function() {
@@ -164,10 +172,10 @@ $(document).ready(function() {
         .find("a")
         .click(function() {
             $webaudio = document.getElementById('main-audio');
-            $activeSong = Amplitude.getActiveIndex()
-            $metadata = Amplitude.getSongAtIndex( $activeSong )
+            $activeSong = Amplitude.getActiveIndex();
+            $metadata = Amplitude.getSongAtIndex( $activeSong );
 
-            console.log($metadata);
+            // console.log($activeSong);
             // set ticker text to clicked menu item
             // $(".ticker").text($(this).text());
             $(".ticker").text($metadata.name);
@@ -179,7 +187,7 @@ $(document).ready(function() {
             // remove the classnames on the other links
             $('.clicked').not(this).removeClass('clicked');
             var data = $(this).data("panel");
-            var leftpanel = $('.content--left').find('[data-panel="' + data + '"]')
+            var leftpanel = $('.content--left').find('[data-panel="' + data + '"]');
             var anypanel = $('.content--left').find('.panel.show');
 
             leftpanel.addClass('show');
