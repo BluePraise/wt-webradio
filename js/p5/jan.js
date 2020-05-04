@@ -48,17 +48,17 @@ $(document).ready(function() {
             },
             {
                 // data-amplitude-song-index="1"
-                "name": "SONIC MEDITATION “TUMBLING SONG (3:28 mins.)",
+                "name": "SONIC MEDITATION “TUMBLING SONG” [3:28 mins.]",
                 "url": "audio/jan/january-phantomvoices-sonicmeditation.mp3"
             },
             {
                 // data-amplitude-song-index="2"
-                "name": "SILENT LUNCH by the WT FOOD POETICS CLUB (16:11 mins.)",
+                "name": "SILENT LUNCH by the WT FOOD POETICS CLUB [16:11 mins.]",
                 "url": "audio/jan/january-phantomvoices-silentlunch.mp3"
             },
             {
                 // data-amplitude-song-index="3"
-                "name": "“MY MOTHER’S TONGUE” visual score by YUNIE CHAE (audio soon)",
+                "name": "“MY MOTHER’S TONGUE” visual score by YUNIE CHAE [audio soon]",
                 "url": ""
             }
         ],
